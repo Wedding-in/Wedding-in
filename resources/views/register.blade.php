@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;700&display=swap">
+    <link rel="stylesheet" href="{{ asset('css/Font.css') }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <title>Register</title>
     <style>
         body {
-            font-family: 'Source Serif 4', serif;
             background-color: #FFFEF9;
         }
         .btn {
@@ -21,8 +20,8 @@
         .form-control {
             border-radius: 15px;
         }
-        .title {
-            font-weight: 800;
+        .title h1{
+            font-family: SourceSerif4-Bold;
         }
         .password-toggle {
             position: relative;
