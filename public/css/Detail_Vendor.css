@@ -29,11 +29,23 @@ body {
     font-family: SourceSerif4-Medium;
 }
 
-.price_text h6 {
+h6 {
     margin-bottom: 0px;
+    font-family: SourceSerif4-Regular;
 }
 
 .Carousel_image {
     height: 170px;
     /* background-color: aquamarine; */
+}
+
+h4,
+h5 {
+    font-family: SourceSerif4-Bold;
+}
+
+.overflow-ellipsis {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }

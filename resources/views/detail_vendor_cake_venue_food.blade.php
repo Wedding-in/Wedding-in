@@ -8,6 +8,9 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    {{-- Bootstrap icons --}}
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
     {{-- My CSS --}}
     <link rel="stylesheet" href="../../css/Detail_Vendor.css">
     <link rel="stylesheet" href="../../css/Font.css">
@@ -63,10 +66,63 @@
             </button>
         </div>
 
-        <h4 class="container mt-4" style="font-family: SourceSerif4-Bold">EC Cakery</h4>
         <div class="container">
-            <h6 style="font-family: SourceSerif4-Regular">Location</h6>
+            <div class="d-flex flex-row justify-content-between">
+                <h4 class="mt-4">EC Cakery</h4>
+                <div class="rate mt-4">
+                    <i class="bi bi-star-fill" style="color: #FCB2A9"></i>
+                    <span class="text-black" style="color: #C13C2C; font-family: SourceSerif4-Light">4.6</span>
+                </div>
+            </div>
+            <div class="d-flex flex-row gap-1">
+                <i class="bi-geo-alt-fill"></i>
+                {{-- <h6 class="mt-1" style="font-family: SourceSerif4-Medium">Jl. Raya Babakan Madang No.25, Citaringgul, Kec. Babakan Madang, Kabupaten Bogor, Jawa Barat 16810</h6> --}}
+                <h6 class="mt-1" style="font-family: SourceSerif4-SemiBold">Location</h6>
+            </div>
+            <h6 class="mt-1">Jl. Raya Babakan Madang No.25, Citaringgul, Kec. Babakan Madang, Kabupaten Bogor, Jawa Barat 16810</h6>
+            <div class=""><hr style="height:2px;border-width:0;color:black;background-color:black"></div>
+
+            <h6 class="mt-1" style="font-family: SourceSerif4-SemiBold">About</h6>
+            <h6 class="container mt-1">
+                EC Cakery adalah toko cake yang mengkhususkan diri dalam kue dan kue kering kustom. Dikenal karena desainnya yang indah dan rasa yang lezat, EC Cakery menawarkan berbagai macam kue panggang, mulai dari kue pernikahan dan ulang tahun hingga cupcake dan kue kering. Setiap item dibuat dengan bahan berkualitas tinggi dan dipersonalisasi untuk memenuhi preferensi unik setiap pelanggan, menjadikannya tujuan utama bagi mereka yang mencari kue yang indah dan lezat untuk berbagai acara.
+            </h6>
+
+            <h4 class="mt-4">Product</h4>
+            <div class="row row-cols-2 mt-2">
+                <div class="col">
+                    <div class="card" style="width: 100%; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);">
+                        <img src="https://images.weddingku.com/images/upload/articles/images/wc61vihutovr121920191209.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">4 Tiered Wedding Cake</h5>
+                            <p class="overflow-ellipsis">
+                                Cake Size : 20,30,40,50m
+                                Includes:
+                                - 10 cake suapan
+                                - 4 family cake-
+                                - 15 mingle cake
+                                - ceremonial knife
+                                - 1x virtual meeting
+                                - digital sketch
+                            </p>
+
+                            <a style="font-size: 13px; text-decoration: none; color: #C13C2C" href="">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+
+                </div>
+                <div class="col">
+
+                </div>
+                <div class="col">
+
+                </div>
+              </div>
         </div>
+
+        <br><br>
     </div>
     {{-- </div> --}}
 
