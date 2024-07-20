@@ -25,6 +25,7 @@ section {
 .title {
     font-size: 3rem;
     margin: 2rem 0rem;
+    margin-top: -1rem;
 }
 
 .accordion-item button {
