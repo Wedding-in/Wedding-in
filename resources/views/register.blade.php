@@ -11,6 +11,7 @@
     <style>
         body {
             background-color: #FFFEF9;
+            font-family: SourceSerif4-Regular;
         }
         .btn {
             background-color: #FCB2A9;
@@ -20,7 +21,7 @@
         .form-control {
             border-radius: 15px;
         }
-        .title h1{
+        .title{
             font-family: SourceSerif4-Bold;
         }
         .password-toggle {
@@ -35,6 +36,7 @@
         }
         .login-link {
             color: #FCB2A9;
+            font-family: SourceSerif4-SemiBold;
         }
         .img-top img {
             object-fit: cover;

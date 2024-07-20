@@ -7,7 +7,7 @@
   <title>Home</title>
   <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
   <link rel="stylesheet" href="{{ asset('css/Font.css') }}">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;700&display=swap">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
@@ -18,7 +18,7 @@
 
   <style>
     body {
-      font-family: 'Source Serif 4', serif;
+      font-family: SourceSerif4-Regular;
       background-color: #FFFEF9;
     }
 
@@ -55,7 +55,7 @@
     }
 
     h2 {
-      font-weight: 600;
+        font-family: SourceSerif4-SemiBold;
     }
     .content-items a{
       text-decoration: none;
@@ -120,7 +120,7 @@
         </a>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+    {{-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
       data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
@@ -129,7 +129,7 @@
       data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
-    </button>
+    </button> --}}
   </div>
   <h2 class="text mx-4">
     Our Top Venue Vendor
@@ -275,7 +275,6 @@
     </a>
   </div>
 </body>
-<script src="../js/bootstrap.min.js"></script>
 <script>
   $(document).ready(function () {
     $('.select2').select2({
