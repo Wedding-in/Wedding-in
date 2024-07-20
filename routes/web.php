@@ -9,3 +9,7 @@ Route::get('/', function () {
 Route::get('/inspiration', function () {
     return view('inspiration');
 });
+
+Route::get('/inspiration2', function(){
+    return view('inspiration2');
+});
