@@ -64,14 +64,18 @@
     .select2 span{
       font-size: 20px;
     }
+    .logo{
+        background-color: white;
+        border-radius: 30px;
+    }
   </style>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg mb-3">
+  <nav class="navbar navbar-expand-lg mb-4">
     <div class="container-fluid">
       <a class="navbar-brand col-1" href="#">
-        <img src="../asset/Logo_PNG.png" alt="Chat" width="45" height="45">
+        <img class="logo" src="/Image/Logo_PNG.png" alt="Chat" width="45" height="45">
       </a>
       <div class="justify-content-center text-align-center col-3">
         <div class="d-flex">
@@ -91,10 +95,10 @@
     </div>
   </nav>
 
-  <h2 class="text mx-4">
+  <h2 class="text mx-4 mb-4">
     Our promo
   </h2>
-  <div id="carouselExampleIndicators" class="carousel slide mx-4 mb-3">
+  <div id="carouselExampleIndicators" class="carousel slide mx-4 mb-4">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
         aria-current="true" aria-label="Slide 1"></button>
@@ -131,10 +135,10 @@
       <span class="visually-hidden">Next</span>
     </button> --}}
   </div>
-  <h2 class="text mx-4">
+  <h2 class="text mx-4 mb-4">
     Our Top Venue Vendor
   </h2>
-  <div class="d-flex mx-4 content-items mb-3">
+  <div class="d-flex mx-4 content-items mb-4">
     <a href="">
       <div class="card custom-card" style="width: 10rem; margin-right: 1rem;">
         <img src="https://dbijapkm3o6fj.cloudfront.net/resources/34550,1004,1,6,4,0,600,450/-4601-/20230607144102/bright-airy-and-breathtaking-wedding-venue-at-swiss-belresort-dago-heritage-bandung.jpeg" class="card-img-top custom-img" alt="...">
@@ -179,10 +183,10 @@
     </a>
   </div>
 
-  <h2 class="text mx-4">
+  <h2 class="text mx-4 mb-4">
     Our Top Wedding Cake Vendor
   </h2>
-  <div class="d-flex mx-4 content-items mb-3">
+  <div class="d-flex mx-4 content-items mb-4">
     <a href="">
       <div class="card custom-card" style="width: 10rem; margin-right: 1rem;">
         <img src="https://i.pinimg.com/564x/1d/9d/f3/1d9df31e9a4a40450195493aa8a4a551.jpg" class="card-img-top custom-img" alt="...">
@@ -227,10 +231,10 @@
     </a>
   </div>
 
-  <h2 class="text mx-4">
+  <h2 class="text mx-4 mb-4">
     Our Top Food Catering Vendor
   </h2>
-  <div class="d-flex mx-4 content-items mb-3">
+  <div class="d-flex mx-4 content-items mb-4">
     <a href="">
       <div class="card custom-card" style="width: 10rem; margin-right: 1rem;">
         <img src="https://weddingmarket.com/storage/images/artikelideacontent/new/3591abf08c5a9ed3df4cfd512531c035769527dc.webp" class="card-img-top custom-img" alt="...">
