@@ -10,6 +10,7 @@
 
     {{-- My CSS --}}
     <link rel="stylesheet" href="../../css/Detail_Vendor.css">
+    <link rel="stylesheet" href="../../css/Font.css">
 
     <title>Detail Vendor</title>
 </head>
@@ -25,8 +26,9 @@
             <img src="/Image/Detail_Vendor1/Cake1.jpg" alt="" style="height: 100%; width: 100%; border-radius: 18px">
         </div>
         <div class="container_price">
-            <div class="ms-2">Rp. 10,000 - 100,000</div>
+
         </div>
+        <div class="price_text ms-2">Rp. 10,000 - 100,000</div>
     </div>
 
 
