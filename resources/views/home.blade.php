@@ -282,6 +282,7 @@
       </div>
     </a>
   </div>
+  @include('components.navbar')
 </body>
 <script>
   $(document).ready(function () {
