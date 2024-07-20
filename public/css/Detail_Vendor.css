@@ -1,0 +1,17 @@
+.container_price {
+    background-color: red;
+    position: absolute;
+    text-align: start;
+    bottom: 0px;
+    left: 0.75rem;
+    width: 93.8145%;
+    height: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Carousel_image {
+    height: 170px;
+    background-color: aquamarine;
+}
