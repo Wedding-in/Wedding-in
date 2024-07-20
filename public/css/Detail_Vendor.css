@@ -62,3 +62,8 @@ h5 {
     display: block; /* Mengatur agar gambar menjadi elemen blok */
     margin: auto;
 }
+
+.card:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+}
