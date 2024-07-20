@@ -6,6 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Inspiration</title>
     <link rel="stylesheet" href="{{ asset('css/navbar.css') }}">
+
+    <style>
+        .navigation:hover {
+            transform: scale(1.02);
+            transition: 0.3s;
+        }
+    </style>
 </head>
 <body>
     <a href="" style="text-decoration: none; color: black">
@@ -17,5 +24,6 @@
             </div>
         </div>
     </a>
+
 </body>
 </html>
