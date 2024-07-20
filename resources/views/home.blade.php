@@ -46,8 +46,12 @@
     }
 
     .navbar {
-      background-color: #FCB2A9;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        background-color: #FCB2A9;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
     }
 
     .card {
@@ -146,8 +150,8 @@
           <span class="card-title">RTB</span>
           <div class="card-text d-flex">
             <p>
-              <i class="bi bi-star-fill"></i>
-              <span class="ps-2">4.7</span>
+                <i class="bi bi-star-fill" style="color: #FCB2A9"></i>
+                <span class="ps-2">4.7</span>
             </p>
           </div>
         </div>
@@ -160,7 +164,7 @@
           <span class="card-title">RTB</span>
           <div class="card-text d-flex">
             <p>
-              <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill" style="color: #FCB2A9"></i>
               <span class="ps-2">4.7</span>
             </p>
           </div>
@@ -174,7 +178,7 @@
           <span class="card-title">RTB</span>
           <div class="card-text d-flex">
             <p>
-              <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill" style="color: #FCB2A9"></i>
               <span class="ps-2">4.7</span>
             </p>
           </div>
@@ -194,7 +198,7 @@
           <span class="card-title">RTB</span>
           <div class="card-text d-flex">
             <p>
-              <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill" style="color: #FCB2A9"></i>
               <span class="ps-2">4.7</span>
             </p>
           </div>
@@ -208,7 +212,7 @@
           <span class="card-title">RTB</span>
           <div class="card-text d-flex">
             <p>
-              <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill" style="color: #FCB2A9"></i>
               <span class="ps-2">4.7</span>
             </p>
           </div>
@@ -222,7 +226,7 @@
           <span class="card-title">RTB</span>
           <div class="card-text d-flex">
             <p>
-              <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill" style="color: #FCB2A9"></i>
               <span class="ps-2">4.7</span>
             </p>
           </div>
@@ -242,7 +246,7 @@
           <span class="card-title">RTB</span>
           <div class="card-text d-flex">
             <p>
-              <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill" style="color: #FCB2A9"></i>
               <span class="ps-2">4.7</span>
             </p>
           </div>
@@ -256,7 +260,7 @@
           <span class="card-title">RTB</span>
           <div class="card-text d-flex">
             <p>
-              <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill" style="color: #FCB2A9"></i>
               <span class="ps-2">4.7</span>
             </p>
           </div>
@@ -270,7 +274,7 @@
           <span class="card-title">RTB</span>
           <div class="card-text d-flex">
             <p>
-              <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill" style="color: #FCB2A9"></i>
               <span class="ps-2">4.7</span>
             </p>
           </div>
