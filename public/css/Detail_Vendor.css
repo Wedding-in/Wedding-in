@@ -34,6 +34,10 @@ h6 {
     font-family: SourceSerif4-Regular;
 }
 
+.icon-inner {
+    margin-top: 15%;
+}
+
 .Carousel_image {
     height: 170px;
     /* background-color: aquamarine; */
@@ -48,4 +52,13 @@ h5 {
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+}
+
+.gambar_akun_review {
+    width: 45px; /* Menyesuaikan ukuran lebar gambar */
+    height: 45px; /* Menyesuaikan ukuran tinggi gambar */
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+    object-fit: cover; /* Memastikan gambar tetap terlihat proporsional dalam bentuk bulat */
+    display: block; /* Mengatur agar gambar menjadi elemen blok */
+    margin: auto;
 }

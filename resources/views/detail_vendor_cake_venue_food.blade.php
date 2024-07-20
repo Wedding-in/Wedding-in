@@ -20,7 +20,8 @@
 <body>
     <div class="container">
         <div class="container panah" style="height: 55px; display: flex; flex-direction: column; justify-content: center">
-            <img src="/Image/Detail_Vendor1/LeftArrow.svg" style="height: 70%; width: 5%" alt="">
+            {{-- <img src="/Image/Detail_Vendor1/LeftArrow.svg" style="height: 70%; width: 5%" alt=""> --}}
+            <ion-icon name="arrow-back-outline" style="font-size: 26px" alt=""></ion-icon>
         </div>
     {{--
         <div class="container" style="position: relative;">
@@ -80,19 +81,30 @@
                 <h6 class="mt-1" style="font-family: SourceSerif4-SemiBold">Location</h6>
             </div>
             <h6 class="mt-1">Jl. Raya Babakan Madang No.25, Citaringgul, Kec. Babakan Madang, Kabupaten Bogor, Jawa Barat 16810</h6>
-            <div class=""><hr style="height:2px;border-width:0;color:black;background-color:black"></div>
+            <hr style="height:2px;border-width:0;color:#C13C2C;background-color:#C13C2C">
 
             <h6 class="mt-1" style="font-family: SourceSerif4-SemiBold">About</h6>
             <h6 class="container mt-1">
                 EC Cakery adalah toko cake yang mengkhususkan diri dalam kue dan kue kering kustom. Dikenal karena desainnya yang indah dan rasa yang lezat, EC Cakery menawarkan berbagai macam kue panggang, mulai dari kue pernikahan dan ulang tahun hingga cupcake dan kue kering. Setiap item dibuat dengan bahan berkualitas tinggi dan dipersonalisasi untuk memenuhi preferensi unik setiap pelanggan, menjadikannya tujuan utama bagi mereka yang mencari kue yang indah dan lezat untuk berbagai acara.
             </h6>
 
-            <h4 class="mt-4">Product</h4>
-            <div class="row row-cols-2 mt-2">
-                <div class="col">
+            <a href="" style="text-decoration: none; color: black">
+                <div class="d-flex flex-row justify-content-between">
+                    <h4 class="mt-4">Product</h4>
+                    <div class="" style="margin-top: 8.5%">
+                        <span class="text-black" style="color: #C13C2C; font-family: SourceSerif4-Regular">View all</span>
+                        <ion-icon name="arrow-forward-outline" style="color: #C13C2C; font-size: 18px;"></ion-icon>
+                    </div>
+                </div>
+            </a>
+            {{-- <h4 class="mt-4">Product</h4> --}}
+            <div class="row row-cols-2 mt-1">
+                <div class="col mt-2">
                     <div class="card" style="width: 100%; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);">
-                        <img src="https://images.weddingku.com/images/upload/articles/images/wc61vihutovr121920191209.jpg"
-                            class="card-img-top" alt="...">
+                        <div style="height: 180px">
+                            <img src="/Image/Detail_Vendor1/Product1.jpeg"
+                                class="card-img-top" style="width: 100%; height: 100%;" alt="...">
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">4 Tiered Wedding Cake</h5>
                             <p class="overflow-ellipsis">
@@ -110,23 +122,151 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col mt-2">
+                    <div class="card" style="width: 100%; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);">
+                        <div style="height: 180px">
+                            <img src="/Image/Detail_Vendor1/Product2.jpeg"
+                                class="card-img-top" style="width: 100%; height: 100%;" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">4 Tiered Wedding Cake</h5>
+                            <p class="overflow-ellipsis">
+                                Cake Size : 20,30,40,50m
+                                Includes:
+                                - 10 cake suapan
+                                - 4 family cake-
+                                - 15 mingle cake
+                                - ceremonial knife
+                                - 1x virtual meeting
+                                - digital sketch
+                            </p>
 
+                            <a style="font-size: 13px; text-decoration: none; color: #C13C2C" href="">Read more</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col">
+                <div class="col mt-2">
+                    <div class="card" style="width: 100%; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);">
+                        <div style="height: 180px">
+                            <img src="/Image/Detail_Vendor1/Product3.jpeg"
+                                class="card-img-top" style="width: 100%; height: 100%;" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">4 Tiered Wedding Cake</h5>
+                            <p class="overflow-ellipsis">
+                                Cake Size : 20,30,40,50m
+                                Includes:
+                                - 10 cake suapan
+                                - 4 family cake-
+                                - 15 mingle cake
+                                - ceremonial knife
+                                - 1x virtual meeting
+                                - digital sketch
+                            </p>
 
+                            <a style="font-size: 13px; text-decoration: none; color: #C13C2C" href="">Read more</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col">
+                <div class="col mt-2">
+                    <div class="card" style="width: 100%; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);">
+                        <div style="height: 180px">
+                            <img src="/Image/Detail_Vendor1/Product4.jpeg"
+                                class="card-img-top" style="width: 100%; height: 100%;" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">4 Tiered Wedding Cake</h5>
+                            <p class="overflow-ellipsis">
+                                Cake Size : 20,30,40,50m
+                                Includes:
+                                - 10 cake suapan
+                                - 4 family cake-
+                                - 15 mingle cake
+                                - ceremonial knife
+                                - 1x virtual meeting
+                                - digital sketch
+                            </p>
 
+                            <a style="font-size: 13px; text-decoration: none; color: #C13C2C" href="">Read more</a>
+                        </div>
+                    </div>
                 </div>
               </div>
-        </div>
+            </div>
+
+            <div class="container">
+                <h4 class="mt-4">Review</h4>
+                <div class="review-card">
+                    <hr style="height:2px;border-width:0;color:#C13C2C;background-color:#C13C2C">
+                    <div class="row">
+                        <div class="col-2">
+                            <img class="gambar_akun_review" src="/Image/Detail_Vendor1/Akun1.jpg" alt="">
+                        </div>
+                        <div class="col-10">
+                            <h6 style="font-family: SourceSerif4-SemiBold">Franki kece badai</h6>
+                            <div class="d-flex flex-row">
+                                <i class="bi bi-star-fill" style="color: #FCB2A9; font-size: 14px"></i>
+                                <i class="bi bi-star-fill" style="color: #FCB2A9; font-size: 14px"></i>
+                                <i class="bi bi-star-fill" style="color: #FCB2A9; font-size: 14px"></i>
+                                <i class="bi bi-star-fill" style="color: #FCB2A9; font-size: 14px"></i>
+                            </div>
+                            <h6>Kue dari EC Cakery benar-benar luar biasa! Desainnya sangat cantik dan detail, sementara rasanya luar biasa lezat dengan tekstur yang sempurna. Setiap gigitannya adalah perpaduan sempurna antara rasa manis dan kelembutan. Saya sangat merekomendasikan kue ini untuk setiap acara khusus!</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <hr style="height:2px;border-width:0;color:#C13C2C;background-color:#C13C2C">
+                    <div class="row">
+                        <div class="col-2">
+                            <img class="gambar_akun_review" src="/Image/Detail_Vendor1/Akun2.jpg" alt="">
+                        </div>
+                        <div class="col-10">
+                            <h6 style="font-family: SourceSerif4-SemiBold">Om alex 22 tahun</h6>
+                            <div class="d-flex flex-row">
+                                <i class="bi bi-star-fill" style="color: #FCB2A9; font-size: 14px"></i>
+                                <i class="bi bi-star-fill" style="color: #FCB2A9; font-size: 14px"></i>
+                                <i class="bi bi-star-fill" style="color: #FCB2A9; font-size: 14px"></i>
+                                <i class="bi bi-star-fill" style="color: #FCB2A9; font-size: 14px"></i>
+                                <i class="bi bi-star-fill" style="color: #FCB2A9; font-size: 14px"></i>
+                            </div>
+                            <h6>Setiap lapisan kue bener bener punya rasa yang kaya dan harmonis, jadi susah berhenti makann</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card mb-5">
+                    <hr style="height:2px;border-width:0;color:#C13C2C;background-color:#C13C2C">
+                    <div class="row">
+                        <div class="col-2">
+                            <img class="gambar_akun_review" src="/Image/Detail_Vendor1/Akun3.jpeg" alt="">
+                        </div>
+                        <div class="col-10">
+                            <h6 style="font-family: SourceSerif4-SemiBold">Epannnn Audi</h6>
+                            <div class="d-flex flex-row">
+                                <i class="bi bi-star-fill" style="color: #FCB2A9; font-size: 14px"></i>
+                                <i class="bi bi-star-fill" style="color: #FCB2A9; font-size: 14px"></i>
+                                <i class="bi bi-star-fill" style="color: #FCB2A9; font-size: 14px"></i>
+                                <i class="bi bi-star-fill" style="color: #FCB2A9; font-size: 14px"></i>
+                                <i class="bi bi-star-fill" style="color: #FCB2A9; font-size: 14px"></i>
+                            </div>
+                            <h6>Tekstur kuenya lembut dan moist, dengan rasa yang seimbang dan tidak terlalu manis. Dekorasinya sangat artistik, menunjukkan dedikasi dan keterampilan tinggi dari pembuat kuenya.</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
 
         <br><br>
     </div>
     {{-- </div> --}}
 
+    @include('components.nav_make_appointment')
+
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 </body>
 </html>
