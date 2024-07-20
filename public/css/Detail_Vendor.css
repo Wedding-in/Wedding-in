@@ -63,8 +63,39 @@ h5 {
     margin: auto;
 }
 
-.card:hover {
+.card:hover,
+.gallery:hover {
     transform: scale(1.02);
     transition: 0.3s;
 }
 
+.panah_kanan_view_all {
+    font-size: 25px;
+}
+
+.view_all_product span {
+    font-family: SourceSerif4-Regular;
+}
+
+.view_all_product a {
+    color: #c13c2c;
+    text-decoration: none;
+}
+
+.view_all_product a:hover,
+.Read_more:hover {
+    color: #fcb2a9;
+    transition: 0.3s;
+}
+
+.Read_more {
+    font-size: 13px;
+    text-decoration: none;
+    color: #c13c2c;
+}
+
+.gallery {
+    border: 2px solid #fffef9;
+    height: 100px;
+    padding: 0px;
+}

@@ -15,46 +15,36 @@
     <link rel="stylesheet" href="../../css/Detail_Vendor.css">
     <link rel="stylesheet" href="../../css/Font.css">
 
-    <title>Detail Vendor</title>
+    <title>Detail Vendor Food</title>
 </head>
 <body>
     <div class="container">
         <div class="container panah" style="height: 55px; display: flex; flex-direction: column; justify-content: center">
-            {{-- <img src="/Image/Detail_Vendor1/LeftArrow.svg" style="height: 70%; width: 5%" alt=""> --}}
-            <ion-icon name="arrow-back-outline" style="font-size: 26px" alt=""></ion-icon>
+            <i class="bi bi-arrow-left-short" style="font-size: 40px; margin-left: -3%"></i>
         </div>
-    {{--
-        <div class="container" style="position: relative;">
-            <div class="Carousel_image" >
-                <img src="/Image/Detail_Vendor1/Cake2.jpg" alt="" style="height: 100%; width: 100%; border-radius: 18px">
-            </div>
-            <div class="container_price"></div>
-            <div class="price_text ms-3"><h6>Rp. 10,000 - 100,000</h6></div>
-        </div> --}}
 
-        {{-- <div class="container" style="position: relative;"> --}}
         <div id="carouselExampleControls" class="container carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="Carousel_image" >
-                        <img src="/Image/Detail_Vendor1/Cake2.jpg" class="d-block w-100" alt="" style="height: 100%; width: 100%; border-radius: 18px">
+                        <img src="/Image/Detail_Vendor_Food/Food1.jpeg" class="d-block w-100" alt="" style="height: 100%; width: 100%; border-radius: 18px">
                     </div>
                     <div class="container_price"></div>
-                    <div class="price_text ms-3"><h6>Rp. 10,000 - 100,000</h6></div>
+                    <div class="price_text ms-3"><h6>Rp. 150,000 - 500,000</h6></div>
                 </div>
                 <div class="carousel-item">
                     <div class="Carousel_image" >
-                        <img src="/Image/Detail_Vendor1/Cake1.jpg" class="d-block w-100" alt="" style="height: 100%; width: 100%; border-radius: 18px">
+                        <img src="/Image/Detail_Vendor_Food/Food2.jpeg" class="d-block w-100" alt="" style="height: 100%; width: 100%; border-radius: 18px">
                     </div>
                     <div class="container_price"></div>
-                    <div class="price_text ms-3"><h6>Rp. 10,000 - 100,000</h6></div>
+                    <div class="price_text ms-3"><h6>Rp. 150,000 - 500,000</h6></div>
                 </div>
                 <div class="carousel-item">
                     <div class="Carousel_image" >
-                        <img src="/Image/Detail_Vendor1/Cake3.jpg" class="d-block w-100" alt="" style="height: 100%; width: 100%; border-radius: 18px">
+                        <img src="/Image/Detail_Vendor_Food/Food3.jpeg" class="d-block w-100" alt="" style="height: 100%; width: 100%; border-radius: 18px">
                     </div>
                     <div class="container_price"></div>
-                    <div class="price_text ms-3"><h6>Rp. 10,000 - 100,000</h6></div>
+                    <div class="price_text ms-3"><h6>Rp. 150,000 - 500,000</h6></div>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -69,125 +59,99 @@
 
         <div class="container">
             <div class="d-flex flex-row justify-content-between">
-                <h4 class="mt-4">EC Cakery</h4>
+                {{-- <h4 class="mt-4">EC Cakery</h4> --}}
+                <h4 class="mt-4" style="width: 70%">Garuda Mutiara Katering</h4>
                 <div class="rate mt-4">
                     <i class="bi bi-star-fill" style="color: #FCB2A9"></i>
-                    <span class="text-black" style="color: #C13C2C; font-family: SourceSerif4-Light">4.6</span>
+                    <span class="text-black" style="color: #C13C2C; font-family: SourceSerif4-Light">4.8</span>
                 </div>
             </div>
             <div class="d-flex flex-row gap-1">
                 <i class="bi-geo-alt-fill"></i>
-                {{-- <h6 class="mt-1" style="font-family: SourceSerif4-Medium">Jl. Raya Babakan Madang No.25, Citaringgul, Kec. Babakan Madang, Kabupaten Bogor, Jawa Barat 16810</h6> --}}
-                <h6 class="mt-1" style="font-family: SourceSerif4-SemiBold">Location</h6>
+                <h6 class="mt-1" style="font-family: SourceSerif4-Medium">Jl. Kalibata Timur Raya No.57 14, RT.14/RW.1, Pejaten Timur, Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12510</h6>
+                {{-- <h6 class="mt-1" style="font-family: SourceSerif4-SemiBold">Location</h6> --}}
             </div>
-            <h6 class="mt-1">Jl. Raya Babakan Madang No.25, Citaringgul, Kec. Babakan Madang, Kabupaten Bogor, Jawa Barat 16810</h6>
+            {{-- <h6 class="mt-1">Jl. Raya Babakan Madang No.25, Citaringgul, Kec. Babakan Madang, Kabupaten Bogor, Jawa Barat 16810</h6> --}}
             <hr style="height:2px;border-width:0;color:#C13C2C;background-color:#C13C2C">
 
             <h6 class="mt-1" style="font-family: SourceSerif4-SemiBold">About</h6>
             <h6 class="container mt-1">
-                EC Cakery adalah toko cake yang mengkhususkan diri dalam kue dan kue kering kustom. Dikenal karena desainnya yang indah dan rasa yang lezat, EC Cakery menawarkan berbagai macam kue panggang, mulai dari kue pernikahan dan ulang tahun hingga cupcake dan kue kering. Setiap item dibuat dengan bahan berkualitas tinggi dan dipersonalisasi untuk memenuhi preferensi unik setiap pelanggan, menjadikannya tujuan utama bagi mereka yang mencari kue yang indah dan lezat untuk berbagai acara.
+                Mutiara Garuda Catering adalah penyedia layanan makanan premium yang mengutamakan kebersihan, kerapihan, serta kepuasan client. Kami menyediakan berbagai pilihan menu, mulai dari masakan tradisional Indonesia hingga masakan internasional, yang dapat disesuaikan dengan selera dan kebutuhan acara Anda.
             </h6>
 
-            <a href="" style="text-decoration: none; color: black">
-                <div class="d-flex flex-row justify-content-between">
-                    <h4 class="mt-4">Product</h4>
-                    <div class="" style="margin-top: 8.5%">
-                        <span class="text-black" style="color: #C13C2C; font-family: SourceSerif4-Regular">View all</span>
-                        <ion-icon name="arrow-forward-outline" style="color: #C13C2C; font-size: 18px;"></ion-icon>
+            <div class="d-flex flex-row justify-content-between">
+                <h4 class="mt-4">Product</h4>
+
+                    <div class="view_all_product" style="margin-top: 6%">
+                        <a href="/View_All_Food_Product" class="d-flex flex-row align-items-center gap-1">
+                            <span class="text-black" >View all</span>
+                            <i class="panah_kanan_view_all bi bi-arrow-right-short"></i>
+                        </a>
                     </div>
-                </div>
-            </a>
-            {{-- <h4 class="mt-4">Product</h4> --}}
+            </div>
+
             <div class="row row-cols-2 mt-1">
                 <div class="col mt-2">
                     <div class="card" style="width: 100%; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);">
                         <div style="height: 180px">
-                            <img src="/Image/Detail_Vendor1/Product1.jpeg"
+                            <img src="/Image/Detail_Vendor_Food/Food1.jpeg"
                                 class="card-img-top" style="width: 100%; height: 100%;" alt="...">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">4 Tiered Wedding Cake</h5>
+                            <h5 class="card-title">American Buffet</h5>
                             <p class="overflow-ellipsis">
-                                Cake Size : 20,30,40,50m
-                                Includes:
-                                - 10 cake suapan
-                                - 4 family cake-
-                                - 15 mingle cake
-                                - ceremonial knife
-                                - 1x virtual meeting
-                                - digital sketch
+                                Memperkenalkan Prasmanan khas Amerika kami. Kaya rasa dan menu, pasti Anda akan ketagihan lagi
                             </p>
 
-                            <a style="font-size: 13px; text-decoration: none; color: #C13C2C" href="">Read more</a>
+                            <a class="Read_more" href="">Read more</a>
                         </div>
                     </div>
                 </div>
                 <div class="col mt-2">
                     <div class="card" style="width: 100%; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);">
                         <div style="height: 180px">
-                            <img src="/Image/Detail_Vendor1/Product2.jpeg"
+                            <img src="/Image/Detail_Vendor_Food/Food2.jpeg"
                                 class="card-img-top" style="width: 100%; height: 100%;" alt="...">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">4 Tiered Wedding Cake</h5>
+                            <h5 class="card-title">Indonesian Buffet</h5>
                             <p class="overflow-ellipsis">
-                                Cake Size : 20,30,40,50m
-                                Includes:
-                                - 10 cake suapan
-                                - 4 family cake-
-                                - 15 mingle cake
-                                - ceremonial knife
-                                - 1x virtual meeting
-                                - digital sketch
+                                Memperkenalkan Prasmanan khas Indonesia kami. Kaya rasa dan menu, pasti Anda akan ketagihan lagi
                             </p>
 
-                            <a style="font-size: 13px; text-decoration: none; color: #C13C2C" href="">Read more</a>
+                            <a class="Read_more" href="">Read more</a>
                         </div>
                     </div>
                 </div>
                 <div class="col mt-2">
                     <div class="card" style="width: 100%; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);">
                         <div style="height: 180px">
-                            <img src="/Image/Detail_Vendor1/Product3.jpeg"
+                            <img src="/Image/Detail_Vendor_Food/Food3.jpeg"
                                 class="card-img-top" style="width: 100%; height: 100%;" alt="...">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">4 Tiered Wedding Cake</h5>
+                            <h5 class="card-title">Japanesse Buffet</h5>
                             <p class="overflow-ellipsis">
-                                Cake Size : 20,30,40,50m
-                                Includes:
-                                - 10 cake suapan
-                                - 4 family cake-
-                                - 15 mingle cake
-                                - ceremonial knife
-                                - 1x virtual meeting
-                                - digital sketch
+                                Memperkenalkan Prasmanan khas Jepang kami. Kaya rasa dan menu, pasti Anda akan ketagihan lagi
                             </p>
 
-                            <a style="font-size: 13px; text-decoration: none; color: #C13C2C" href="">Read more</a>
+                            <a class="Read_more" href="">Read more</a>
                         </div>
                     </div>
                 </div>
                 <div class="col mt-2">
                     <div class="card" style="width: 100%; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);">
                         <div style="height: 180px">
-                            <img src="/Image/Detail_Vendor1/Product4.jpeg"
+                            <img src="/Image/Detail_Vendor_Food/Food4.jpeg"
                                 class="card-img-top" style="width: 100%; height: 100%;" alt="...">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">4 Tiered Wedding Cake</h5>
+                            <h5 class="card-title">Italian Buffet</h5>
                             <p class="overflow-ellipsis">
-                                Cake Size : 20,30,40,50m
-                                Includes:
-                                - 10 cake suapan
-                                - 4 family cake-
-                                - 15 mingle cake
-                                - ceremonial knife
-                                - 1x virtual meeting
-                                - digital sketch
+                                Memperkenalkan Prasmanan khas Italia kami. Kaya rasa dan menu, pasti Anda akan ketagihan lagi
                             </p>
 
-                            <a style="font-size: 13px; text-decoration: none; color: #C13C2C" href="">Read more</a>
+                            <a class="Read_more" href="">Read more</a>
                         </div>
                     </div>
                 </div>
@@ -200,17 +164,17 @@
                     <hr style="height:2px;border-width:0;color:#C13C2C;background-color:#C13C2C">
                     <div class="row">
                         <div class="col-2">
-                            <img class="gambar_akun_review" src="/Image/Detail_Vendor1/Akun1.jpg" alt="">
+                            <img class="gambar_akun_review" src="/Image/Detail_Vendor_Food/Akun1.jpeg" alt="">
                         </div>
                         <div class="col-10">
-                            <h6 style="font-family: SourceSerif4-SemiBold">Franki kece badai</h6>
+                            <h6 style="font-family: SourceSerif4-SemiBold">Felixson</h6>
                             <div class="d-flex flex-row">
                                 <i class="bi bi-star-fill" style="color: #FCB2A9; font-size: 14px"></i>
                                 <i class="bi bi-star-fill" style="color: #FCB2A9; font-size: 14px"></i>
                                 <i class="bi bi-star-fill" style="color: #FCB2A9; font-size: 14px"></i>
                                 <i class="bi bi-star-fill" style="color: #FCB2A9; font-size: 14px"></i>
                             </div>
-                            <h6>Kue dari EC Cakery benar-benar luar biasa! Desainnya sangat cantik dan detail, sementara rasanya luar biasa lezat dengan tekstur yang sempurna. Setiap gigitannya adalah perpaduan sempurna antara rasa manis dan kelembutan. Saya sangat merekomendasikan kue ini untuk setiap acara khusus!</h6>
+                            <h6>Kami sangat puas dengan layanan dari Garuda Mutiara Catering. Mereka tidak hanya menyediakan makanan yang enak, tetapi juga memastikan semuanya disajikan dengan sangat rapi dan bersih</h6>
                         </div>
                     </div>
                 </div>
@@ -218,10 +182,10 @@
                     <hr style="height:2px;border-width:0;color:#C13C2C;background-color:#C13C2C">
                     <div class="row">
                         <div class="col-2">
-                            <img class="gambar_akun_review" src="/Image/Detail_Vendor1/Akun2.jpg" alt="">
+                            <img class="gambar_akun_review" src="/Image/Detail_Vendor_Food/Akun2.jpeg" alt="">
                         </div>
                         <div class="col-10">
-                            <h6 style="font-family: SourceSerif4-SemiBold">Om alex 22 tahun</h6>
+                            <h6 style="font-family: SourceSerif4-SemiBold">Krisendi</h6>
                             <div class="d-flex flex-row">
                                 <i class="bi bi-star-fill" style="color: #FCB2A9; font-size: 14px"></i>
                                 <i class="bi bi-star-fill" style="color: #FCB2A9; font-size: 14px"></i>
@@ -229,7 +193,7 @@
                                 <i class="bi bi-star-fill" style="color: #FCB2A9; font-size: 14px"></i>
                                 <i class="bi bi-star-fill" style="color: #FCB2A9; font-size: 14px"></i>
                             </div>
-                            <h6>Setiap lapisan kue bener bener punya rasa yang kaya dan harmonis, jadi susah berhenti makann</h6>
+                            <h6>Layanan catering dari Garuda Mutiara benar-benar top-notch! Setiap hidangan memiliki cita rasa yang istimewa dan tim mereka sangat responsif serta ramah</h6>
                         </div>
                     </div>
                 </div>
@@ -237,10 +201,10 @@
                     <hr style="height:2px;border-width:0;color:#C13C2C;background-color:#C13C2C">
                     <div class="row">
                         <div class="col-2">
-                            <img class="gambar_akun_review" src="/Image/Detail_Vendor1/Akun3.jpeg" alt="">
+                            <img class="gambar_akun_review" src="/Image/Detail_Vendor_Food/Akun3.jpeg" alt="">
                         </div>
                         <div class="col-10">
-                            <h6 style="font-family: SourceSerif4-SemiBold">Epannnn Audi</h6>
+                            <h6 style="font-family: SourceSerif4-SemiBold">Darlene</h6>
                             <div class="d-flex flex-row">
                                 <i class="bi bi-star-fill" style="color: #FCB2A9; font-size: 14px"></i>
                                 <i class="bi bi-star-fill" style="color: #FCB2A9; font-size: 14px"></i>
@@ -248,7 +212,7 @@
                                 <i class="bi bi-star-fill" style="color: #FCB2A9; font-size: 14px"></i>
                                 <i class="bi bi-star-fill" style="color: #FCB2A9; font-size: 14px"></i>
                             </div>
-                            <h6>Tekstur kuenya lembut dan moist, dengan rasa yang seimbang dan tidak terlalu manis. Dekorasinya sangat artistik, menunjukkan dedikasi dan keterampilan tinggi dari pembuat kuenya.</h6>
+                            <h6>Garuda Mutiara Catering benar-benar luar biasa! Hidangannya lezat, penyajiannya elegan, dan seluruh tim sangat profesional. Semua tamu kami sangat terkesan.</h6>
                         </div>
                     </div>
                 </div>
