@@ -5,15 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Inspiration</title>
+    <link rel="stylesheet" href="{{ asset('css/inspiration2.css') }}">
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <ion-icon name="arrow-back-outline"></ion-icon>
+            <a href="/inspiration">
+                <ion-icon name="arrow-back-outline" class="icon"></ion-icon>
+            </a>
             <p>Inspiration</p>
         </div>
         <div class="isi">
-
+            <div class="card card_large" style="background-image: url('../img/5.jpeg'); background-size: cover;">
+                <div class="bookmark">
+                    <button id="btn">
+                        <ion-icon name="bookmark-outline" class="icon"></ion-icon>
+                    </button>
+                </div>
+            </div>
         </div>
     </div>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
