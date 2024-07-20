@@ -18,7 +18,6 @@
 
   <style>
     body {
-      font-family: SourceSerif4-Regular;
       background-color: #FFFEF9;
     }
 
@@ -31,7 +30,8 @@
     .select2-container--default .select2-selection--single .select2-selection__rendered {
       white-space: normal;
       text-overflow: clip;
-      overflow: visible;
+      /* overflow: visible; */
+      font-family: 'SourceSerif4-Regular';
     }
 
     .card-img-top {
@@ -57,7 +57,12 @@
     .card {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     }
-
+    .card-title {
+        font-family: SourceSerif4-Regular;
+    }
+    .star {
+        font-family: SourceSerif4-Regular;
+    }
     h2 {
         font-family: SourceSerif4-SemiBold;
     }
@@ -66,12 +71,48 @@
       color: black;
     }
     .select2 span{
-      font-size: 20px;
+      font-size: 22px;
     }
     .logo{
         background-color: white;
         border-radius: 30px;
     }
+    .icon-size {
+      font-size: 20px;
+    }
+    .option {
+        font-family: SourceSerif4-Regular;
+    }
+    .select2-container .select2-selection--single {
+        font-family: SourceSerif4-Regular;
+    }
+
+    .select2-container .select2-results__option {
+        font-family: SourceSerif4-Regular;
+    }
+
+    .select2-container--default .select2-selection--single .select2-selection__arrow {
+        display: none;
+    }
+
+    .select2-container--default .select2-selection--single {
+        position: relative;
+    }
+
+
+    .select2-container--default .select2-selection--single::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: 8px; /* Posisi horizontal dari segitiga */
+        border-width: 6px; /* Ukuran segitiga */
+        border-style: solid;
+        border-color: #000 transparent transparent transparent;
+        width: 0;
+        height: 0;
+    }
+
+
   </style>
 </head>
 
@@ -79,23 +120,23 @@
   <nav class="navbar navbar-expand-lg mb-4">
     <div class="container-fluid">
       <a class="navbar-brand col-1" href="#">
-        <img class="logo" src="/Image/Logo_PNG.png" alt="Chat" width="45" height="45">
+        <img class="logo" src="/Image/Logo_PNG.png" alt="Chat" width="35" height="35">
       </a>
       <div class="justify-content-center text-align-center col-3">
         <div class="d-flex">
-          <i class="bi bi-geo-alt"></i>
+          <i class="icon-size bi bi-geo-alt"></i>
           <select class="nav-link select2" style="width: 150px;">
             <option><span>Region</span></option>
             <option value="action">Serang</option>
-            <option value="action">Bandung</option>
+            <option value="action">Depok</option>
             <option value="action">Jambi</option>
             <option value="action">Bogor</option>
           </select>
         </div>
       </div>
       <div class="col-1">
-        <i class="bi bi-chat-fill"></i>
-      </div>
+        <i class="icon-size bi bi-chat-dots-fill"></i>
+    </div>
     </div>
   </nav>
 
@@ -128,16 +169,6 @@
         </a>
       </div>
     </div>
-    {{-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-      data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-      data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button> --}}
   </div>
   <h2 class="text mx-4 mb-4">
     Our Top Venue Vendor
@@ -148,10 +179,10 @@
         <img src="https://dbijapkm3o6fj.cloudfront.net/resources/34550,1004,1,6,4,0,600,450/-4601-/20230607144102/bright-airy-and-breathtaking-wedding-venue-at-swiss-belresort-dago-heritage-bandung.jpeg" class="card-img-top custom-img" alt="...">
         <div class="card-body d-flex justify-content-between">
           <span class="card-title">RTB</span>
-          <div class="card-text d-flex">
+          <div class="card-text">
             <p>
                 <i class="bi bi-star-fill" style="color: #FCB2A9"></i>
-                <span class="ps-2">4.7</span>
+                <span class="star ps-2">4.7</span>
             </p>
           </div>
         </div>
@@ -162,10 +193,10 @@
         <img src="https://media-api.xogrp.com/images/2c80fca0-cd62-4404-8bab-7152674314c1~rs_768.h" class="card-img-top custom-img" alt="...">
         <div class="card-body d-flex justify-content-between">
           <span class="card-title">RTB</span>
-          <div class="card-text d-flex">
+          <div class="card-text">
             <p>
                 <i class="bi bi-star-fill" style="color: #FCB2A9"></i>
-              <span class="ps-2">4.7</span>
+              <span class="star ps-2">4.7</span>
             </p>
           </div>
         </div>
@@ -176,10 +207,10 @@
         <img src="https://nibble-images.b-cdn.net/nibble/original_images/wedding-venue-bogor-5.jpg" class="card-img-top custom-img" alt="...">
         <div class="card-body d-flex justify-content-between">
           <span class="card-title">RTB</span>
-          <div class="card-text d-flex">
+          <div class="card-text">
             <p>
                 <i class="bi bi-star-fill" style="color: #FCB2A9"></i>
-              <span class="ps-2">4.7</span>
+              <span class="star ps-2">4.7</span>
             </p>
           </div>
         </div>
@@ -196,10 +227,10 @@
         <img src="https://i.pinimg.com/564x/1d/9d/f3/1d9df31e9a4a40450195493aa8a4a551.jpg" class="card-img-top custom-img" alt="...">
         <div class="card-body d-flex justify-content-between">
           <span class="card-title">RTB</span>
-          <div class="card-text d-flex">
+          <div class="card-text">
             <p>
                 <i class="bi bi-star-fill" style="color: #FCB2A9"></i>
-              <span class="ps-2">4.7</span>
+              <span class="star ps-2">4.7</span>
             </p>
           </div>
         </div>
@@ -210,10 +241,10 @@
         <img src="https://pernikahan.or.id/wp-content/uploads/2023/03/kue-pernikahan-buttercream.jpg" class="card-img-top custom-img" alt="...">
         <div class="card-body d-flex justify-content-between">
           <span class="card-title">RTB</span>
-          <div class="card-text d-flex">
+          <div class="card-text">
             <p>
                 <i class="bi bi-star-fill" style="color: #FCB2A9"></i>
-              <span class="ps-2">4.7</span>
+              <span class="star ps-2">4.7</span>
             </p>
           </div>
         </div>
@@ -224,10 +255,10 @@
         <img src="https://i.pinimg.com/564x/c4/45/57/c4455712fafa76f6b776bedd51f24414.jpg" class="card-img-top custom-img" alt="...">
         <div class="card-body d-flex justify-content-between">
           <span class="card-title">RTB</span>
-          <div class="card-text d-flex">
+          <div class="card-text">
             <p>
                 <i class="bi bi-star-fill" style="color: #FCB2A9"></i>
-              <span class="ps-2">4.7</span>
+              <span class="star ps-2">4.7</span>
             </p>
           </div>
         </div>
@@ -244,10 +275,10 @@
         <img src="https://weddingmarket.com/storage/images/artikelideacontent/new/3591abf08c5a9ed3df4cfd512531c035769527dc.webp" class="card-img-top custom-img" alt="...">
         <div class="card-body d-flex justify-content-between">
           <span class="card-title">RTB</span>
-          <div class="card-text d-flex">
+          <div class="card-text">
             <p>
                 <i class="bi bi-star-fill" style="color: #FCB2A9"></i>
-              <span class="ps-2">4.7</span>
+              <span class="star ps-2">4.7</span>
             </p>
           </div>
         </div>
@@ -258,10 +289,10 @@
         <img src="https://weddingmarket.com/storage/images/artikelideacontent/new/2dfdc7a628d6b72c4cb4d06c2d290fa98252f1d6.webp" class="card-img-top custom-img" alt="...">
         <div class="card-body d-flex justify-content-between">
           <span class="card-title">RTB</span>
-          <div class="card-text d-flex">
+          <div class="card-text">
             <p>
                 <i class="bi bi-star-fill" style="color: #FCB2A9"></i>
-              <span class="ps-2">4.7</span>
+              <span class="star ps-2">4.7</span>
             </p>
           </div>
         </div>
@@ -272,10 +303,10 @@
         <img src="https://undanganpro.wordpress.com/wp-content/uploads/2012/04/mc1.jpg" class="card-img-top custom-img" alt="...">
         <div class="card-body d-flex justify-content-between">
           <span class="card-title">RTB</span>
-          <div class="card-text d-flex">
+          <div class="card-text">
             <p>
                 <i class="bi bi-star-fill" style="color: #FCB2A9"></i>
-              <span class="ps-2">4.7</span>
+              <span class="star ps-2">4.7</span>
             </p>
           </div>
         </div>
