@@ -21,7 +21,7 @@
 </head>
 <body>
     {{-- HEADER --}}
-    <div class="container">
+    <div class="header container">
         <div class="row">
             <div class="col-3">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">

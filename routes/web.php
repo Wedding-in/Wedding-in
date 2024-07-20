@@ -10,3 +10,6 @@ Route::get('/chat', function () {
     return view('chat');
 });
 
+Route::get('/faq', function () {
+    return view('faq');
+});
