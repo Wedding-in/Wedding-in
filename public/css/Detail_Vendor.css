@@ -1,12 +1,15 @@
 .container_price {
-    background-color: black;
-    opacity: 20%;
+    background-color: white;
+    opacity: 25%;
     position: absolute;
     text-align: start;
     bottom: 0px;
     left: 0.75rem;
     width: 93.8145%;
     height: 22%;
+    /* border-radius: 18px; */
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
 }
 .price_text {
     opacity: 100%;
@@ -21,7 +24,11 @@
     font-family: SourceSerif4-SemiBold;
 }
 
+.price_text h6 {
+    margin-bottom: 0px;
+}
+
 .Carousel_image {
     height: 170px;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }

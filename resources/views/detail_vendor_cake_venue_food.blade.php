@@ -16,7 +16,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="panah bg-primary" style="height: 50px; display: flex; flex-direction: column; justify-content: center">
+        <div class="panah" style="height: 50px; display: flex; flex-direction: column; justify-content: center">
             <img src="/Image/Detail_Vendor1/LeftArrow.svg" style="height: 70%; width: 5%" alt="">
         </div>
     </div>
@@ -25,10 +25,8 @@
         <div class="Carousel_image" >
             <img src="/Image/Detail_Vendor1/Cake1.jpg" alt="" style="height: 100%; width: 100%; border-radius: 18px">
         </div>
-        <div class="container_price">
-
-        </div>
-        <div class="price_text ms-2">Rp. 10,000 - 100,000</div>
+        <div class="container_price"></div>
+        <div class="price_text ms-2"><h6>Rp. 10,000 - 100,000</h6></div>
     </div>
 
 
