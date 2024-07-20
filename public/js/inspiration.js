@@ -8,7 +8,6 @@ const close = document.querySelector(".close");
 
 // btn.addEventListener('click', openModal);
 close.addEventListener('click', closeModal);
-modal.addEventListener('click', closeModal);
 
 function openModal(e){
     e.preventDefault();
