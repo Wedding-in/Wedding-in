@@ -6,6 +6,16 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// Route::prefix('bookmarks')->group(function () {
+//     Route::get('/vendor', function () {
+//         return view('vendor');
+//     });
+// });
+
+Route::get('/bookmarks', function () {
+    return view('bookmarks');
+});
+
 Route::get('/home', function () {
     return view('home');
 });
