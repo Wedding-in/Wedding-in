@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
@@ -22,18 +23,16 @@
 <body>
     <section id="faq">
         <div class="container">
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
-            </svg>
+            <i class="bi bi-arrow-left-short"></i>
         </div>
 
         <h2 class="title">FAQs</h2>
 
-        <div class="container">
+        <div class="container-fluid">
             <div class="accordion accordion-flush" id="accordionFlushExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    <button class="accordion-button collapsed gap-3" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                       Apa itu Wedding-in?
                     </button>
                   </h2>
@@ -43,7 +42,7 @@
                 </div>
                 <div class="accordion-item">
                   <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    <button class="accordion-button collapsed gap-3" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                       Bagaimana saya menggunakan aplikasi Wedding-in?
                     </button>
                   </h2>
@@ -53,7 +52,7 @@
                 </div>
                 <div class="accordion-item">
                   <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    <button class="accordion-button collapsed gap-3" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                       Apakah Wedding-in gratis digunakan?
                     </button>
                   </h2>
@@ -63,7 +62,7 @@
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                      <button class="accordion-button collapsed gap-3" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
                         Bagaimana cara menemukan vendor pernikahan di Wedding-in?
                       </button>
                     </h2>
@@ -73,7 +72,7 @@
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                      <button class="accordion-button collapsed gap-3" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
                         Apakah vendor yang terdaftar di Wedding-in terpercaya?
                       </button>
                     </h2>
