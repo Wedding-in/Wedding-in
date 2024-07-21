@@ -1,4 +1,4 @@
-const modal = document.querySelector('.modal');
+const modal = document.querySelector('.modals');
 // const btn = document.getElementById("btn");
 const buttons = document.querySelectorAll("#btn");
 buttons.forEach(button => {

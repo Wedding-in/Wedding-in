@@ -8,60 +8,60 @@
     <link rel="stylesheet" href="{{ asset('css/navbar.css') }}">
 </head>
 <body>
-    <div class="navigation">
+    <div class="navi">
         <ul>
-            <li class="list active">
+            <li class="lists active">
                 <a href="#">
-                <span class="icon">
+                <span class="icons">
                     <ion-icon name="home-outline"></ion-icon>
                 </span>
-                <span class="text">Home</span>
+                <span class="texts">Home</span>
                 </a>
             </li>
-            <li class="list">
+            <li class="lists">
                 <a href="#">
-                <span class="icon">
+                <span class="icons">
                     <ion-icon name="search-outline"></ion-icon>
                 </span>
-                <span class="text">Inspiration</span>
+                <span class="texts">Inspiration</span>
                 </a>
             </li>
-            <li class="list">
+            <li class="lists">
                 <a href="#">
-                <span class="icon">
+                <span class="icons">
                     <ion-icon name="storefront-outline"></ion-icon>
                 </span>
-                <span class="text">Vendor</span>
+                <span class="texts">Vendor</span>
                 </a>
             </li>
-            <li class="list">
+            <li class="lists">
                 <a href="#">
-                <span class="icon">
+                <span class="icons">
                     <ion-icon name="bookmark-outline"></ion-icon>
                 </span>
-                <span class="text">Bookmark</span>
+                <span class="texts">Bookmark</span>
                 </a>
             </li>
-            <li class="list">
+            <li class="lists">
                 <a href="#">
-                <span class="icon">
+                <span class="icons">
                     <ion-icon name="person-outline"></ion-icon>
                 </span>
-                <span class="text">Profile</span>
+                <span class="texts">Profile</span>
                 </a>
             </li>
-            <div class="indicator"></div>
+            <div class="indi"></div>
         </ul>
       </div>
 
       <script>
-        const list = document.querySelectorAll('.list');
+        const lists = document.querySelectorAll('.lists');
         function activelink(){
-            list.forEach((item) =>
+            lists.forEach((item) =>
             item.classList.remove('active'));
             this.classList.add('active');
         }
-        list.forEach((item) =>
+        lists.forEach((item) =>
         item.addEventListener('click', activelink));
         </script>
 

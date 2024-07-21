@@ -40,18 +40,18 @@ body{
 .bookmark{
     position: relative;
     top: 10px;
-    left: 88%;
+    left: 87%;
     background-color: #FCB2A9;
-    width: 30px;
+    width: 40px;
     border-radius: 50%;
     height: fit-content;
 }
 
-.icon{
+.bookmark i{
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
     color: white;
-    margin-left: 3%;
+    margin-left: 33%;
 }
 
 #btn{
@@ -81,18 +81,17 @@ body{
 .header p {
     font-size: 1.5em;
     color: black;
-    margin-top: 15px;
+    margin-top: 20px;
     /* width: 50%; */
     /* align-items: center; */
     /* justify-content: center; */
     display: flex;
-    margin-right: 140px;
+    margin-right: 125px;
 }
 
-.header .icon{
-    font-size: 2em;
+.header i{
+    font-size: 50px;
     color: black;
-    margin-top: 15px;
 }
 
 .isi{
@@ -103,7 +102,7 @@ body{
 }
 
 /* modal */
-.modal{
+.modals{
     display: none;
     position: fixed;
     z-index: 1;
@@ -115,7 +114,7 @@ body{
     overflow: auto;
 }
 
-.modal-header{
+.modal-headers{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -124,7 +123,7 @@ body{
     /* background-color: #FCB2A9; */
 }
 
-.modal-content{
+.modal-contents{
     background-color: #fefefe;
     margin: 15% auto;
     padding: 20px;
@@ -148,18 +147,18 @@ body{
     color: black;
 }
 
-.modal-body{
+.modal-bodys{
     display: flex;
     flex-direction: row;
     padding: 5px;
     margin-top: 15px;
 }
-.modal-body img{
+.modal-bodys img{
     width: 33.3%;
     height: 100px;
 }
 
-.modal-body p{
+.modal-bodys p{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -169,7 +168,7 @@ body{
     width: 33.3%;
 }
 
-.modal-body .icon{
+.modal-bodys .icon{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -180,7 +179,7 @@ body{
     width: 33.3%;
 }
 
-.modal-footer{
+.modal-footers{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -191,7 +190,7 @@ body{
     height: 50px;
 }
 
-.modal-footer .icon{
+.modal-footers .icon{
     width: 33.3%;
     display: flex;
     align-items: center;
@@ -200,6 +199,7 @@ body{
     color: black;
 }
 
-.modal-footer p{
+.modal-footers p{
     width: 66.9%;
+    margin-top: 3%;
 }

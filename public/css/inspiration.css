@@ -53,18 +53,18 @@
 .bookmark{
     position: relative;
     top: 10px;
-    left: 85%;
+    left: 80%;
     background-color: #FCB2A9;
-    width: 20px;
+    width: 30px;
     border-radius: 50%;
     height: fit-content;
 }
 
-.bookmark .icon{
+.bookmark i{
     text-align: center;
     font-size: 1.2em;
     color: white;
-    margin-left: 10%;
+    margin-left: 25%;
     /* background-color: #FCB2A9; */
 }
 
@@ -73,7 +73,7 @@
     border: none;
 }
 
-.modal{
+.modals{
     display: none;
     position: fixed;
     z-index: 1;
@@ -84,7 +84,7 @@
     overflow: auto;
 }
 
-.modal-header{
+.modal-headers{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,7 +93,7 @@
     /* background-color: #FCB2A9; */
 }
 
-.modal-content{
+.modal-contents{
     background-color: #fefefe;
     margin: 15% auto;
     padding: 20px;
@@ -117,19 +117,19 @@
     color: black;
 }
 
-.modal-body{
+.modal-bodys{
     display: flex;
     flex-direction: row;
     padding: 5px;
     margin-top: 15px;
 }
-.modal-body img{
+.modal-bodys img{
     width: 33.3%;
     height: 100px;
     background-size: cover;
 }
 
-.modal-body p{
+.modal-bodys p{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -139,7 +139,7 @@
     width: 33.3%;
 }
 
-.modal-body .icon{
+.modal-bodys .icon{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -150,7 +150,7 @@
     width: 33.3%;
 }
 
-.modal-footer{
+.modal-footers{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,7 +161,7 @@
     height: 50px;
 }
 
-.modal-footer .icon{
+.modal-footers .icon{
     width: 33.3%;
     display: flex;
     align-items: center;
@@ -170,8 +170,9 @@
     color: black;
 }
 
-.modal-footer p{
+.modal-footers p{
     width: 66.9%;
+    margin-top: 3%;
 }
 
 .card a{

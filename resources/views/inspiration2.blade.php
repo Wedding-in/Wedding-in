@@ -6,12 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Inspiration</title>
     <link rel="stylesheet" href="{{ asset('css/inspiration2.css') }}">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    {{-- Bootstrap icons --}}
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <div class="header">
             <a href="/inspiration">
-                <ion-icon name="arrow-back-outline" class="icon"></ion-icon>
+                <i class="bi bi-arrow-left-short"></i>
             </a>
             <p>Inspiration</p>
         </div>
@@ -19,7 +24,7 @@
             <div class="card card_large" style="background-image: url('../img/5.jpeg'); background-size: cover;">
                 <div class="bookmark">
                     <button id="btn">
-                        <ion-icon name="bookmark-outline" class="icon"></ion-icon>
+                        <i class="bi bi-bookmark"></i>
                     </button>
                 </div>
             </div>
@@ -27,22 +32,22 @@
     </div>
 
      {{-- modal pop up --}}
-     <div class="modal">
-        <div class="modal-content">
-            <div class="modal-header">
+     <div class="modals">
+        <div class="modal-contents">
+            <div class="modal-headers">
                 <span class="close">-----------------</span>
             </div>
-            <div class="modal-body">
+            <div class="modal-bodys">
                 <img src="{{ asset('img/1.jpeg') }}" alt="">
                 <p>Folder Name</p>
                 <ion-icon name="add-circle-outline" class="icon"></ion-icon>
             </div>
-            <div class="modal-body">
+            <div class="modal-bodys">
                 <img src="{{ asset('img/1.jpeg') }}" alt="">
                 <p>Folder Name</p>
                 <ion-icon name="add-circle-outline" class="icon"></ion-icon>
             </div>
-            <div class="modal-footer">
+            <div class="modal-footers">
                 <ion-icon name="add-circle-outline" class="icon"></ion-icon>
                 <p>Add new Folder</p>
             </div>
