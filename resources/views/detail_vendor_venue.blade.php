@@ -20,7 +20,7 @@
 <body>
     <div class="container">
         <div class="container panah" style="height: 55px; display: flex; flex-direction: column; justify-content: center">
-            <i class="bi bi-arrow-left-short" style="font-size: 50px; margin-left: -3%"></i>
+            <a style="color: black" href="/vendor"><i class="bi bi-arrow-left-short" style="font-size: 50px; margin-left: -3%"></i></a>
         </div>
 
         <div id="carouselExampleControls" class="container carousel slide" data-bs-ride="carousel">

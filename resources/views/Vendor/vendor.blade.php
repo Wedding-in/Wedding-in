@@ -34,7 +34,7 @@
             /* border: solid black !important; */
             /* background-color: #6e6366;  */
             border-radius: 0.25rem;
-            background-color: #654b4852; 
+            background-color: #654b4852;
         }
         .nav-item-tabs li span{
             color: white;
@@ -129,12 +129,12 @@
             </ul>
         </div>
     </div>
-    
+
     <div class="tab-content d-flex " id="pills-tabContent" style="margin-bottom: 15vh ;border: solid transparent">
         <div class="tab-pane fade show active" id="pills-venue" role="tabpanel" aria-labelledby="pills-venue-tab" style=" width: 100%">
             <div class="container-fluid w-100" >
                 <div class="flex-column d-flex items-tabs">
-                    <a href="#" class="text-decoration-none my-2" style="color: black;  width: 100%;">
+                    <a href="/Detail_Vendor_Venue" class="text-decoration-none my-2" style="color: black;  width: 100%;">
                         <div class="col-md-4">
                             <div class="card border-0" style="width: 100%; border-radius: 0.25rem;overflow: hidden;">
                                 <img src="https://images.weddingku.com/images/upload/articles/images/wcs1vih77pv6121920191209.jpg"
@@ -242,7 +242,7 @@
         <div class="tab-pane fade" id="pills-cake" role="tabpanel" aria-labelledby="pills-cake-tab">
             <div class="container">
                 <div class="row flex-column d-flex items-tabs">
-                    <a href="#" class="text-decoration-none my-2" style="color: black;  width: 100%;">
+                    <a href="/Detail_Vendor_Cake" class="text-decoration-none my-2" style="color: black;  width: 100%;">
                         <div class="col-md-4" >
                             <div class="card border-0" style="width: 100%; border-radius: 0.25rem;overflow: hidden; ">
                                 <img src="https://alexandra.bridestory.com/image/upload/dpr_1.0,f_webp,fl_progressive,q_60,c_fill,g_faces,w_560,h_280/assets/upload-PhyOumJmW.webp"
@@ -368,7 +368,7 @@
         <div class="tab-pane fade" id="pills-catering" role="tabpanel" aria-labelledby="pills-catering-tab">
             <div class="container">
                 <div class="row flex-column d-flex items-tabs">
-                    <a href="#" class="text-decoration-none my-2" style="color: black;  width: 100%;">
+                    <a href="/Detail_Vendor_Food" class="text-decoration-none my-2" style="color: black;  width: 100%;">
                         <div class="col-md-4">
                             <div class="card border-0" style="width: 100%; border-radius: 0.25rem;overflow: hidden;">
                                 <img src="https://www.lalamove.com/hubfs/catering%20lunch%20box%20%284%29.jpg"
@@ -494,7 +494,7 @@
         <div class="tab-pane fade" id="pills-wo" role="tabpanel" aria-labelledby="pills-wo-tab">
             <div class="container">
                 <div class="row flex-column d-flex items-tabs">
-                    <a href="#" class="text-decoration-none my-2" style="color: black;  width: 100%;">
+                    <a href="/Detail_Vendor_WO" class="text-decoration-none my-2" style="color: black;  width: 100%;">
                         <div class="col-md-4">
                             <div class="card border-0" style="width: 100%; border-radius: 0.25rem;overflow: hidden;">
                                 <img src="https://alexandra.bridestory.com/image/upload/dpr_1.0,f_webp,fl_progressive,q_60,c_fill,g_faces,w_560,h_280/assets/upload-HNxU_GdhE.webp"
