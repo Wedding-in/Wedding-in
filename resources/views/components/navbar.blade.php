@@ -27,7 +27,7 @@
                 </a>
             </li>
             <li class="lists">
-                <a href="vendor/vendor">
+                <a href="/vendor">
                 <span class="icons">
                     <ion-icon name="storefront-outline"></ion-icon>
                 </span>
@@ -35,7 +35,7 @@
                 </a>
             </li>
             <li class="lists">
-                <a href="#">
+                <a href="/bookmarks">
                 <span class="icons">
                     <ion-icon name="bookmark-outline"></ion-icon>
                 </span>
@@ -43,7 +43,7 @@
                 </a>
             </li>
             <li class="lists">
-                <a href="#">
+                <a href="/profile">
                 <span class="icons">
                     <ion-icon name="person-outline"></ion-icon>
                 </span>
