@@ -1,3 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: block;
+    height: 100%;
+    background: #FFFEF9;
+
+}
 :root{
     --card_width: 180px;
     --card_border_radius: 0.25rem;
@@ -5,6 +16,38 @@
     --card_small: 26;
     --card_medium: 33;
     --card_large: 45;
+}
+
+.container{
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    width: 90%;
+    height: 100%;
+    /* margin-top: 15px; */
+    margin: 15px auto;
+}
+
+.header p {
+    font-size: 1.5em;
+    color: black;
+    margin-top: 15px;
+    /* width: 50%; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    display: flex;
+    margin-right: 155px;
+}
+
+.header .icon{
+    font-size: 2em;
+    color: black;
+    margin-top: 15px;
 }
 
 .pin_container{
@@ -32,28 +75,24 @@
     border-radius: var(--card_border_radius);
 }
 
+.card_medium{
+    grid-row-end: span var(--card_medium);
+}
 .card_small{
     grid-row-end: span var(--card_small);
 }
 
-.card_medium{
-    grid-row-end: span var(--card_medium);
-}
-
-.card_large{
-    grid-row-end: span var(--card_large);
-}
-
 .card img{
     width: 100%;
-    border-radius: 5%;
+    border-radius: 0.25rem;
     height: 100%;
 }
 
 .bookmark{
     position: relative;
     top: 10px;
-    left: 85%;
+    left: 84%;
+    color: #FCB2A9;
     background-color: #FCB2A9;
     width: 20px;
     border-radius: 50%;
@@ -65,7 +104,6 @@
     font-size: 1.2em;
     color: white;
     margin-left: 10%;
-    /* background-color: #FCB2A9; */
 }
 
 #btn{
@@ -73,6 +111,8 @@
     border: none;
 }
 
+
+/* modal */
 .modal{
     display: none;
     position: fixed;
@@ -81,6 +121,7 @@
     align-items: end;
     width: 100%;
     height: 100%;
+    margin-top: 4%;
     overflow: auto;
 }
 
@@ -99,9 +140,10 @@
     padding: 20px;
     height: 60%;
     border: 1px solid #888;
-    border-radius: 10%;
+    border-radius: 0.25rem;
     width: 100%;
     animation: slide ease .5s;
+
 }
 
 @keyframes slide {
@@ -126,7 +168,6 @@
 .modal-body img{
     width: 33.3%;
     height: 100px;
-    background-size: cover;
 }
 
 .modal-body p{
@@ -174,7 +215,3 @@
     width: 66.9%;
 }
 
-.card a{
-    width: 100%;
-    height: 100%;
-}

@@ -10,15 +10,15 @@
 <body>
     @include('components.search')
     <div class="pin_container">
-        {{-- <a href="/inspiration2"> --}}
-            <div class="card card_small" style="background-image: url('../img/1.jpeg'); background-size: cover;">
+        <div class="card card_small" style="background-image: url('../img/1.jpeg'); background-size: cover;">
+            <a href="/inspiration2">
                 <div class="bookmark">
                     <button id="btn">
                         <ion-icon name="bookmark-outline" class="icon"></ion-icon>
                     </button>
                 </div>
+                </a>
             </div>
-        {{-- </a> --}}
         <div class="card card_medium" style="background-image: url('../img/2.jpeg'); background-size: cover;">
             <div class="bookmark">
                 <button id="btn">
@@ -84,12 +84,12 @@
                 <span class="close">-----------------</span>
             </div>
             <div class="modal-body">
-                <img src="{{ asset('img/1.jpeg') }}" alt="">
+                <img src="{{ asset('img/11.jpg') }}" alt="">
                 <p>Folder Name</p>
                 <ion-icon name="add-circle-outline" class="icon"></ion-icon>
             </div>
             <div class="modal-body">
-                <img src="{{ asset('img/1.jpeg') }}" alt="">
+                <img src="{{ asset('img/11.jpg') }}" alt="">
                 <p>Folder Name</p>
                 <ion-icon name="add-circle-outline" class="icon"></ion-icon>
             </div>

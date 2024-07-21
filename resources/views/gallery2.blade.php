@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Inspiration</title>
-    <link rel="stylesheet" href="{{ asset('css/inspiration2.css') }}">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="{{ asset('css/gallery2.css') }}">
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <a href="/inspiration">
+            <a href="/gallery">
                 <ion-icon name="arrow-back-outline" class="icon"></ion-icon>
             </a>
-            <p>Inspiration</p>
+            <p>Gallery</p>
         </div>
         <div class="isi">
             <div class="card card_large" style="background-image: url('../img/5.jpeg'); background-size: cover;">
