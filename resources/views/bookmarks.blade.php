@@ -49,7 +49,7 @@
             <div class="tab-pane fade show active" id="tab1">
                 <div class="container-fluid p-0 pt-3">
                     <div class="upper_content">
-                        <span class="">Edit</span>
+                        <span class="" style="font-family: 'SourceSerif4', serif; font-size: 1rem;">Edit</span>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="content m-0 d-flex align-items-center">
                                 <input type="checkbox" id="choose" name="choose" onclick="checkAll()"></input>
@@ -67,9 +67,9 @@
                                         background-color: #000;
                                     }
                                 </style>
-                                <label class="ps-2" for="choose">Choose all</label>
+                                <label class="ps-2" for="choose" style="font-family: 'SourceSerif4', serif; font-size: 1rem;">Choose all</label>
                             </div>
-                            <span class="text-danger">Delete</span>
+                            <span class="text-danger" style="font-family: 'SourceSerif4', serif; font-size: 1rem;">Delete</span>
                         </div>
                     </div>
                     <div class="content pt-3">
@@ -161,8 +161,6 @@
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </div>
