@@ -87,3 +87,10 @@ Route::get('/chat', function () {
 Route::get('/faq', function () {
     return view('faq');
 });
+
+Route::get('/profile', function () {
+    return view('Profile/profile');
+});
+Route::get('/detailprofile', function () {
+    return view('Profile/detailprofile');
+});
