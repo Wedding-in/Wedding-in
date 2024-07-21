@@ -21,6 +21,7 @@
       background-color: #FFFEF9;
       height: 100%;
       margin: 0;
+      padding-bottom: 90px
     }
 
     .select2-container--default .select2-selection--single {
