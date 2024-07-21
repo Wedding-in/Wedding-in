@@ -19,7 +19,7 @@
             font-weight: 600;
         }
         .form-control {
-            border-radius: 15px;
+            border-radius: 0.25rem;
         }
         .title {
             font-family: SourceSerif4-Bold;

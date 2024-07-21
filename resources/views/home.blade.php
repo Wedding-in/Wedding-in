@@ -19,6 +19,8 @@
   <style>
     body {
       background-color: #FFFEF9;
+      height: 100%;
+      margin: 0;
     }
 
     .select2-container--default .select2-selection--single {
@@ -128,7 +130,7 @@
         <img class="logo" src="/Image/Logo_PNG.png" alt="Chat" width="45" height="45">
       </a>
       <div class="dropdown d-flex justify-content-center text-align-center col-4">
-          <i class="icon-size bi bi-geo-alt"></i>
+          <i class="icon-size bi bi-geo-alt" style="color: white"></i>
           <select class="nav-link select2">
             <option class="text-align-center"><span>Region</span></option>
             <option value="action">Serang</option>
@@ -138,7 +140,7 @@
           </select>
       </div>
       <div class="col-1">
-        <i class="icon-size bi bi-chat-dots-fill"></i>
+        <i class="icon-size bi bi-chat-dots-fill" style="color: white"></i>
     </div>
     </div>
   </nav>
@@ -302,7 +304,7 @@
       </div>
     </a>
     <a href="">
-      <div class="card custom-card" style="width: 10rem; margin-right: 1rem;">
+      <div class="card custom-card mb-4" style="width: 10rem; margin-right: 1rem;">
         <img src="https://undanganpro.wordpress.com/wp-content/uploads/2012/04/mc1.jpg" class="card-img-top custom-img" alt="...">
         <div class="card-body d-flex justify-content-between">
           <span class="card-title">RTB</span>
