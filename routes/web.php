@@ -65,3 +65,11 @@ Route::get("/viewall", function(){
 Route::get('/vendor', function () {
     return view('Vendor/vendor');
 });
+
+Route::get('/chat', function () {
+    return view('chat');
+});
+
+Route::get('/faq', function () {
+    return view('faq');
+});
