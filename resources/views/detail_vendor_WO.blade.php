@@ -20,28 +20,28 @@
 <body>
     <div class="container">
         <div class="container panah" style="height: 55px; display: flex; flex-direction: column; justify-content: center">
-            <i class="bi bi-arrow-left-short" style="font-size: 40px; margin-left: -3%"></i>
+            <i class="bi bi-arrow-left-short" style="font-size: 50px; margin-left: -3%"></i>
         </div>
 
         <div id="carouselExampleControls" class="container carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="Carousel_image" >
-                        <img src="/Image/Detail_Vendor_WO/WO1.jpeg" class="d-block w-100" alt="" style="height: 100%; width: 100%; border-radius: 18px">
+                        <img src="/Image/Detail_Vendor_WO/WO1.jpeg" class="d-block w-100" alt="" style="height: 100%; width: 100%; border-radius: 10px">
                     </div>
                     <div class="container_price"></div>
                     <div class="price_text ms-3"><h6>Rp. 900,000 - 5,000,000</h6></div>
                 </div>
                 <div class="carousel-item">
                     <div class="Carousel_image" >
-                        <img src="/Image/Detail_Vendor_WO/WO2.jpeg" class="d-block w-100" alt="" style="height: 100%; width: 100%; border-radius: 18px">
+                        <img src="/Image/Detail_Vendor_WO/WO2.jpeg" class="d-block w-100" alt="" style="height: 100%; width: 100%; border-radius: 10px">
                     </div>
                     <div class="container_price"></div>
                     <div class="price_text ms-3"><h6>Rp. 900,000 - 5,000,000</h6></div>
                 </div>
                 <div class="carousel-item">
                     <div class="Carousel_image" >
-                        <img src="/Image/Detail_Vendor_WO/WO3.jpeg" class="d-block w-100" alt="" style="height: 100%; width: 100%; border-radius: 18px">
+                        <img src="/Image/Detail_Vendor_WO/WO3.jpeg" class="d-block w-100" alt="" style="height: 100%; width: 100%; border-radius: 10px">
                     </div>
                     <div class="container_price"></div>
                     <div class="price_text ms-3"><h6>Rp. 900,000 - 5,000,000</h6></div>
@@ -136,6 +136,7 @@
                                 <i class="bi bi-star-fill" style="color: #FCB2A9; font-size: 14px"></i>
                                 <i class="bi bi-star-fill" style="color: #FCB2A9; font-size: 14px"></i>
                                 <i class="bi bi-star-fill" style="color: #FCB2A9; font-size: 14px"></i>
+                                <i class="bi bi-star-fill" style="color: #fcb3a962; font-size: 14px"></i>
                             </div>
                             <h6>Acara pernikahan kami sukses besar berkat bantuan WO ini. Mereka kreatif, responsif, dan sangat berdedikasi. Saya sangat merekomendasikan mereka</h6>
                         </div>

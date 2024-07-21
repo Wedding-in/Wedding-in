@@ -20,36 +20,36 @@
 <body>
     <div class="container">
         <div class="container panah" style="height: 55px; display: flex; flex-direction: column; justify-content: center">
-            <i class="bi bi-arrow-left-short" style="font-size: 40px; margin-left: -3%"></i>
+            <i class="bi bi-arrow-left-short" style="font-size: 50px; margin-left: -3%"></i>
         </div>
 
         <div id="carouselExampleControls" class="container carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="Carousel_image" >
-                        <img src="/Image/Detail_Vendor_Cake/Product1.jpeg" class="d-block w-100" alt="" style="height: 100%; width: 100%; border-radius: 18px">
+                        <img src="/Image/Detail_Vendor_Cake/Product1.jpeg" class="d-block w-100" alt="" style="height: 100%; width: 100%; border-radius: 10px">
                     </div>
                     <div class="container_price"></div>
                     <div class="price_text ms-3"><h6>Rp. 300,000 - 600,000</h6></div>
                 </div>
                 <div class="carousel-item">
                     <div class="Carousel_image" >
-                        <img src="/Image/Detail_Vendor_Cake/Product4.jpeg" class="d-block w-100" alt="" style="height: 100%; width: 100%; border-radius: 18px">
+                        <img src="/Image/Detail_Vendor_Cake/Product4.jpeg" class="d-block w-100" alt="" style="height: 100%; width: 100%; border-radius: 10px">
                     </div>
                     <div class="container_price"></div>
                     <div class="price_text ms-3"><h6>Rp. 300,000 - 600,000</h6></div>
                 </div>
                 <div class="carousel-item">
                     <div class="Carousel_image" >
-                        <img src="/Image/Detail_Vendor_Cake/Product7.jpeg" class="d-block w-100" alt="" style="height: 100%; width: 100%; border-radius: 18px">
+                        <img src="/Image/Detail_Vendor_Cake/Product7.jpeg" class="d-block w-100" alt="" style="height: 100%; width: 100%; border-radius: 10px">
                     </div>
                     <div class="container_price"></div>
                     <div class="price_text ms-3"><h6>Rp. 300,000 - 600,000</h6></div>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
+                <span class="carousel-control-prev-icon" style="color: white" aria-hidden="true"></span>
+                <span class="visually-hidden" >Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -201,6 +201,7 @@
                                 <i class="bi bi-star-fill" style="color: #FCB2A9; font-size: 14px"></i>
                                 <i class="bi bi-star-fill" style="color: #FCB2A9; font-size: 14px"></i>
                                 <i class="bi bi-star-fill" style="color: #FCB2A9; font-size: 14px"></i>
+                                <i class="bi bi-star-fill" style="color: #fcb3a962; font-size: 14px"></i>
                             </div>
                             <h6>Kue dari EC Cakery benar-benar luar biasa! Desainnya sangat cantik dan detail, sementara rasanya luar biasa lezat dengan tekstur yang sempurna. Setiap gigitannya adalah perpaduan sempurna antara rasa manis dan kelembutan. Saya sangat merekomendasikan kue ini untuk setiap acara khusus!</h6>
                         </div>

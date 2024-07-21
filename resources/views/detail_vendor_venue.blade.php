@@ -20,28 +20,28 @@
 <body>
     <div class="container">
         <div class="container panah" style="height: 55px; display: flex; flex-direction: column; justify-content: center">
-            <i class="bi bi-arrow-left-short" style="font-size: 40px; margin-left: -3%"></i>
+            <i class="bi bi-arrow-left-short" style="font-size: 50px; margin-left: -3%"></i>
         </div>
 
         <div id="carouselExampleControls" class="container carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="Carousel_image" >
-                        <img src="/Image/Detail_Vendor_Venue/Venue1.jpeg" class="d-block w-100" alt="" style="height: 100%; width: 100%; border-radius: 18px">
+                        <img src="/Image/Detail_Vendor_Venue/Venue1.jpeg" class="d-block w-100" alt="" style="height: 100%; width: 100%; border-radius: 10px">
                     </div>
                     <div class="container_price"></div>
                     <div class="price_text ms-3"><h6>Rp. 100,000,000 - 700,000,000</h6></div>
                 </div>
                 <div class="carousel-item">
                     <div class="Carousel_image" >
-                        <img src="/Image/Detail_Vendor_Venue/Venue2.jpeg" class="d-block w-100" alt="" style="height: 100%; width: 100%; border-radius: 18px">
+                        <img src="/Image/Detail_Vendor_Venue/Venue2.jpeg" class="d-block w-100" alt="" style="height: 100%; width: 100%; border-radius: 10px">
                     </div>
                     <div class="container_price"></div>
                     <div class="price_text ms-3"><h6>Rp. 100,000,000 - 700,000,000</h6></div>
                 </div>
                 <div class="carousel-item">
                     <div class="Carousel_image" >
-                        <img src="/Image/Detail_Vendor_Venue/Venue3.jpeg" class="d-block w-100" alt="" style="height: 100%; width: 100%; border-radius: 18px">
+                        <img src="/Image/Detail_Vendor_Venue/Venue3.jpeg" class="d-block w-100" alt="" style="height: 100%; width: 100%; border-radius: 10px">
                     </div>
                     <div class="container_price"></div>
                     <div class="price_text ms-3"><h6>Rp. 100,000,000 - 700,000,000</h6></div>
