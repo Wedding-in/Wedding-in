@@ -14,6 +14,10 @@ h6 {
     /* font-size: 10px; */
 }
 
+i {
+    font-size: 50px;
+}
+
 .header {
     position: sticky;
     z-index: 1;
@@ -31,13 +35,18 @@ h6 {
 
 .btn {
     padding-left: 6%;
+    /* margin-right: -450px; */
 }
 
 .col-3 button {
     text-align: center;
-    margin-left: 5px;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-left: 3.5vh;
     background-color: #fcb2a9;
     color: black;
+    padding-top: 10% !important;
+    padding-left: 1vh;
     right: 5px;
 }
 
@@ -46,9 +55,17 @@ h6 {
     background-color: #fcb2a9;
 }
 
+hr {
+    margin-left: -50px;
+}
+
+.chat {
+    background-color: #fffef9 !important;
+}
+
 .col-4 {
     width: auto;
-    margin-left: -15%;
+    margin-left: -13%;
     margin-top: 1.5%;
     /* background-color: red; */
 }
@@ -98,6 +115,14 @@ img {
 
 .type .col {
     /* background-color: red; */
+}
+
+.vendor .row .col {
+    padding-top: 1%;
+}
+
+.user .row {
+    padding-top: 2%;
 }
 
 
