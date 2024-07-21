@@ -1,0 +1,24 @@
+@font-face {
+    font-family: SourceSerif4-Bold;
+    src: url(../Font/SourceSerif4-Bold.ttf);
+}
+
+@font-face {
+    font-family: SourceSerif4-Light;
+    src: url(../Font/SourceSerif4-Light.ttf);
+}
+
+@font-face {
+    font-family: SourceSerif4-Medium;
+    src: url(../Font/SourceSerif4-Medium.ttf);
+}
+
+@font-face {
+    font-family: SourceSerif4-Regular;
+    src: url(../Font/SourceSerif4-Regular.ttf);
+}
+
+@font-face {
+    font-family: SourceSerif4-SemiBold;
+    src: url(../Font/SourceSerif4-SemiBold.ttf);
+}
