@@ -15,8 +15,8 @@
     </style>
 </head>
 <body>
-    <a href="" style="text-decoration: none; color: black">
-        <div class="navigation">
+    <a href="/chat" style="text-decoration: none; color: black">
+        <div class="navi">
             <div class="d-flex flex-row justify-content-center align-items-center gap-3"
             style="width: 80%; height: 60%; background-color: #FBB1A8; border-radius: 0.25rem">
                 <i class="bi bi-chat-dots-fill" style="color: white"></i>
@@ -24,6 +24,5 @@
             </div>
         </div>
     </a>
-
 </body>
 </html>

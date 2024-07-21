@@ -15,7 +15,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <a href="/gallery">
+            <a href="/Detail_Vendor_WO">
                 <i class="bi bi-arrow-left-short"></i>
             </a>
             <p>Gallery</p>
@@ -52,11 +52,13 @@
                 </div>
             </div>
             <div class="card card_small" style="background-image: url('../img/5.jpeg'); background-size: cover;">
-                <div class="bookmark">
-                    <button id="btn">
-                        <i class="bi bi-bookmark"></i>
-                    </button>
-                </div>
+                <a href="/gallery2">
+                    <div class="bookmark">
+                        <button id="btn">
+                            <i class="bi bi-bookmark"></i>
+                        </button>
+                    </div>
+                </a>
             </div>
             <div class="card card_small" style="background-image: url('../img/6.jpeg'); background-size: cover;">
                 <div class="bookmark">

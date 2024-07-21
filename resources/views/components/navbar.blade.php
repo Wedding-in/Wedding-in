@@ -11,7 +11,7 @@
     <div class="navi">
         <ul>
             <li class="lists active">
-                <a href="#">
+                <a href="/home">
                 <span class="icons">
                     <ion-icon name="home-outline"></ion-icon>
                 </span>
@@ -19,7 +19,7 @@
                 </a>
             </li>
             <li class="lists">
-                <a href="#">
+                <a href="/inspiration">
                 <span class="icons">
                     <ion-icon name="search-outline"></ion-icon>
                 </span>
@@ -27,7 +27,7 @@
                 </a>
             </li>
             <li class="lists">
-                <a href="#">
+                <a href="vendor/vendor">
                 <span class="icons">
                     <ion-icon name="storefront-outline"></ion-icon>
                 </span>

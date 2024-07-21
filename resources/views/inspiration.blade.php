@@ -47,11 +47,13 @@
             </div>
         </div>
         <div class="card card_large" style="background-image: url('../img/5.jpeg'); background-size: cover;">
-            <div class="bookmark">
-                <button id="btn">
-                    <i class="bi bi-bookmark"></i>
-                </button>
-            </div>
+            <a href="/inspiration2">
+                <div class="bookmark">
+                    <button id="btn">
+                        <i class="bi bi-bookmark"></i>
+                    </button>
+                </div>
+            </a>
         </div>
         <div class="card card_small" style="background-image: url('../img/6.jpeg'); background-size: cover;">
             <div class="bookmark">

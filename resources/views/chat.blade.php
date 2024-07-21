@@ -25,7 +25,7 @@
     <div class="header container">
         <div class="row">
             <div class="col-3">
-                <i class="bi bi-arrow-left-short"></i>
+                <a style="color: black" href="/Detail_Vendor_Cake"><i class="bi bi-arrow-left-short"></i></a>
             </div>
             <div class="col-4">
                 <h2>Vendor's Name</h2>
@@ -33,7 +33,7 @@
             </div>
 
             <div class="btn col-3" style="width: 36%">
-                <button type="button" class="btn"><h6>Appointment</h6></button>
+                <button type="button" class="btn" style="color: white"><h6>Appointment</h6></button>
             </div>
         </div>
         <hr style="width: 115%">

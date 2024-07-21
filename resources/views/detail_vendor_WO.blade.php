@@ -90,7 +90,7 @@
                 <h4 class="mt-4">Gallery</h4>
 
                     <div class="view_all_product" style="margin-top: 6%">
-                        <a href="" class="d-flex flex-row align-items-center gap-1">
+                        <a href="/gallery" class="d-flex flex-row align-items-center gap-1">
                             <span class="text-black" >View all</span>
                             <i class="panah_kanan_view_all bi bi-arrow-right-short"></i>
                         </a>
