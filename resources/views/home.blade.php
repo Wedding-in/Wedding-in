@@ -53,6 +53,12 @@
         top: 0;
         z-index: 1000;
     }
+    .dropdown {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* border: 1px solid black; */
+    }
 
     .card {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -71,14 +77,14 @@
       color: black;
     }
     .select2 span{
-      font-size: 22px;
+      font-size: 25px;
     }
     .logo{
         background-color: white;
         border-radius: 30px;
     }
     .icon-size {
-      font-size: 20px;
+      font-size: 38px;
     }
     .option {
         font-family: SourceSerif4-Regular;
@@ -112,7 +118,6 @@
         height: 0;
     }
 
-
   </style>
 </head>
 
@@ -120,19 +125,17 @@
   <nav class="navbar navbar-expand-lg mb-4">
     <div class="container-fluid">
       <a class="navbar-brand col-1" href="#">
-        <img class="logo" src="/Image/Logo_PNG.png" alt="Chat" width="35" height="35">
+        <img class="logo" src="/Image/Logo_PNG.png" alt="Chat" width="45" height="45">
       </a>
-      <div class="justify-content-center text-align-center col-3">
-        <div class="d-flex">
+      <div class="dropdown d-flex justify-content-center text-align-center col-4">
           <i class="icon-size bi bi-geo-alt"></i>
-          <select class="nav-link select2" style="width: 150px;">
-            <option><span>Region</span></option>
+          <select class="nav-link select2">
+            <option class="text-align-center"><span>Region</span></option>
             <option value="action">Serang</option>
             <option value="action">Depok</option>
             <option value="action">Jambi</option>
             <option value="action">Bogor</option>
           </select>
-        </div>
       </div>
       <div class="col-1">
         <i class="icon-size bi bi-chat-dots-fill"></i>
