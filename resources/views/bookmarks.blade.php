@@ -11,64 +11,74 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    {{-- Font CSS --}}
+    <link rel="stylesheet" href="../../css/Font.css">
+
 </head>
 
 <body style="background-color: #FFFEF9">
 
     <style>
         .nav-link.active {
-            /* background-color: #AFD5BE; */
             text-color: white;
+            /* text-decoration: underline; */
+            border-radius: 0.25rem;
             transform: scale(1.04);
-            i {
-                color: white;
-            }
         }
+        .nav-item-tabs li{
+            /* border: solid black !important; */
+            /* background-color: #6e6366;  */
+            border-radius: 0.25rem;
+            background-color: #654b4852;
+        }
+        .nav-item-tabs li span{
+            color: white;
+        }
+        .nav-link.active{
+            background-color: #FCB2A9 !important;
 
+        }
         .nav-link span {
-            color: black
+            color: white
         }
-
-        .nav-link i {
-            color: black
-        }
-
         .nav-link.nav-link.active span {
             color: white;
         }
 
         .nav-link:hover {
-            transform: scale(1.04);
+            /* transform: scale(1.04); */
             transition: 0.3s;
         }
 
         .items-tabs a:hover {
-            transform: scale(1.02);
+            /* transform: scale(1.02); */
             transition: 0.3s;
         }
+
     </style>
 
     <div class="container-fluid">
         <div class="coloring pt-3 pb-1" >
             <h3 class="text-bolder text-center"
-                style="font-family: 'SourceSerif4', serif; font-size: 1.5rem; font-weight: bold;">Bookmarks</h3>
+                style="font-family: SourceSerif4-Bold; font-size: 1rem;">Bookmarks</h3>
         </div>
         <h2 class="text-semibold pt-3 pb-1"
-            style="font-family: 'SourceSerif4', serif; font-size: 1.5rem; font-weight: 600;">Categories</h2>
+            style="font-family: SourceSerif4-SemiBold; font-size: 1.5rem;">Categories</h2>
         <ul class="nav nav-tabs row mb-1" style="border: none">
             <li class="nav-item col-6" >
                 <a class="nav-link active d-flex align-items-center m-0 p-1" data-bs-toggle="tab" href="#tab1"
-                    style="border: 1px solid black; background-color: #FCB2A9; border-radius: 0.25rem;">
+                    style=" background-color: #654b4852; border-radius: 0.25rem;">
                     <div class=" col-12 p-2 d-flex justify-content-center">
-                        <span class="text-bold" style="text-align: center;">Vendor</span>
+                        <span class="text-bold" style="text-align: center; font-family: SourceSerif4-SemiBold;">Vendor</span>
                     </div>
                 </a>
             </li>
             <li class="nav-item col-6">
                 <a class="nav-link d-flex align-items-center m-0 p-1" data-bs-toggle="tab" href="#tab2"
-                    style="border: 1px solid black; background-color: #FCB2A9; border-radius: 0.25rem;">
+                    style=" background-color: #654b4852; border-radius: 0.25rem;">
                     <div class="col-12 p-2 d-flex justify-content-center">
-                        <span class="text-bold" style="text-align: center;">Inspiration</span>
+                        <span class="text-bold" style="text-align: center; font-family: SourceSerif4-SemiBold;">Inspiration</span>
                     </div>
                 </a>
             </li>
@@ -77,7 +87,7 @@
             <div class="tab-pane fade show active" id="tab1">
                 <div class="container-fluid p-0 pt-2">
                     <div class="upper_content">
-                        <span class="" style="font-family: 'SourceSerif4', serif; font-size: 1rem;">Edit</span>
+                        <span class="" style="font-family: SourceSerif4-Regular; font-size: 1rem;">Edit</span>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="content m-0 d-flex align-items-center">
                                 <input type="checkbox" id="choose" name="choose" onclick="checkAll()"></input>
@@ -95,16 +105,16 @@
                                         background-color: #000;
                                     }
                                 </style>
-                                <label class="ps-2" for="choose" style="font-family: 'SourceSerif4', serif; font-size: 1rem;">Choose all</label>
+                                <label class="ps-2" for="choose" style="font-family: SourceSerif4-Regular; font-size: 1rem;">Choose all</label>
                             </div>
 
-                            <span class="text-danger" style="font-family: 'SourceSerif4', serif; font-size: 1rem; cursor: pointer;" onclick="">Delete</span>
+                            <span class="text-danger" style="font-family: SourceSerif4-Regular; font-size: 1rem; cursor: pointer;" onclick="">Delete</span>
 
                         </div>
                     </div>
-                    <div class="content pt-3">
+                    <div class="content pt-3 " style=" margin-bottom: 15vh">
                         <div class="fill_content card text-dark" style="border-radius: 0.25rem;">
-                            <img src="https://assets.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2022/11/01/2936197536.jpg"
+                            <img src="https://weddingmarket.com/storage/images/artikelidea/653336c74a1f2b9c3b1c778b297935f98f76b024.webp"
                                 class="card-img" alt="..." style="height: 200px">
                             <div class="card-img-overlay m-0 p-0 ">
                                 <div class="content insider d-flex align-items-start flex-column bd-highlight mb-3"
@@ -114,17 +124,70 @@
                                         <div class="rating d-flex align-items-center pe-2 ps-2"
                                             style="border-radius: 0.25rem; background-color: rgba(0, 0, 0, 0.5);">
                                             <i class="text-white bi bi-star-fill pe-1"></i>
-                                            <span style="color: white; font-family: 'SourceSerif4', serif; font-size: 1rem; padding-top: 2px;">4.7</span>
+                                            <span style="color: white; font-family: SourceSerif4-Regular; font-size: 1rem; padding-top: 1px;">4.7</span>
                                         </div>
                                     </div>
                                     <div class="bottom" style="width: 100%; background-color: rgba(0, 0, 0, 0.5); border-radius: 0 0 0.25rem 0.25rem;">
                                         <span class="ps-2 text-light"
-                                            style="font-family: 'SourceSerif4', serif; font-size: 1rem;">Tokidoki
-                                            Bosotto</span>
+                                            style="font-family: SourceSerif4-Regular; font-size: 1rem;">Never Gonna G U P</span>
                                         <div class="location d-flex align-items-center">
                                             <i class="bi-geo-alt-fill pe-1" style="padding-left: 7px; color: white"></i>
                                             <span class="text-light"
-                                                style="font-family: 'SourceSerif4', serif; font-size: 1rem;">Japan</span>
+                                                style="font-family: SourceSerif4-Light; font-size: 1rem;">Sisa Kenangan</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="fill_content card text-dark" style="border-radius: 0.25rem;">
+                            <img src="https://weddingmarket.com/storage/images/artikelidea/653336c74a1f2b9c3b1c778b297935f98f76b024.webp"
+                                class="card-img" alt="..." style="height: 200px">
+                            <div class="card-img-overlay m-0 p-0 ">
+                                <div class="content insider d-flex align-items-start flex-column bd-highlight mb-3"
+                                    style="height: 200px;">
+                                    <div class="topper p-2 mb-auto d-flex justify-content-between" style="width: 100%">
+                                        <input type="checkbox" id="choosing" name="choosing"></input>
+                                        <div class="rating d-flex align-items-center pe-2 ps-2"
+                                            style="border-radius: 0.25rem; background-color: rgba(0, 0, 0, 0.5);">
+                                            <i class="text-white bi bi-star-fill pe-1"></i>
+                                            <span style="color: white; font-family: SourceSerif4-Regular; font-size: 1rem; padding-top: 1px;">4.7</span>
+                                        </div>
+                                    </div>
+                                    <div class="bottom" style="width: 100%; background-color: rgba(0, 0, 0, 0.5); border-radius: 0 0 0.25rem 0.25rem;">
+                                        <span class="ps-2 text-light"
+                                            style="font-family: SourceSerif4-Regular; font-size: 1rem;">Never Gonna G U P</span>
+                                        <div class="location d-flex align-items-center">
+                                            <i class="bi-geo-alt-fill pe-1" style="padding-left: 7px; color: white"></i>
+                                            <span class="text-light"
+                                                style="font-family: SourceSerif4-Light; font-size: 1rem;">Sisa Kenangan</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="fill_content card text-dark" style="border-radius: 0.25rem;">
+                            <img src="https://weddingmarket.com/storage/images/artikelidea/653336c74a1f2b9c3b1c778b297935f98f76b024.webp"
+                                class="card-img" alt="..." style="height: 200px">
+                            <div class="card-img-overlay m-0 p-0 ">
+                                <div class="content insider d-flex align-items-start flex-column bd-highlight mb-3"
+                                    style="height: 200px;">
+                                    <div class="topper p-2 mb-auto d-flex justify-content-between" style="width: 100%">
+                                        <input type="checkbox" id="choosing" name="choosing"></input>
+                                        <div class="rating d-flex align-items-center pe-2 ps-2"
+                                            style="border-radius: 0.25rem; background-color: rgba(0, 0, 0, 0.5);">
+                                            <i class="text-white bi bi-star-fill pe-1"></i>
+                                            <span style="color: white; font-family: SourceSerif4-Regular; font-size: 1rem; padding-top: 1px;">4.7</span>
+                                        </div>
+                                    </div>
+                                    <div class="bottom" style="width: 100%; background-color: rgba(0, 0, 0, 0.5); border-radius: 0 0 0.25rem 0.25rem;">
+                                        <span class="ps-2 text-light"
+                                            style="font-family: SourceSerif4-Regular; font-size: 1rem;">Never Gonna G U P</span>
+                                        <div class="location d-flex align-items-center">
+                                            <i class="bi-geo-alt-fill pe-1" style="padding-left: 7px; color: white"></i>
+                                            <span class="text-light"
+                                                style="font-family: SourceSerif4-Light; font-size: 1rem;">Sisa Kenangan</span>
                                         </div>
                                     </div>
                                 </div>
