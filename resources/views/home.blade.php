@@ -121,6 +121,11 @@
         height: 0;
     }
 
+    .select2-container .select2-results__option--highlighted[aria-selected] {
+        background-color: #f0a1a1; /* Warna latar belakang saat di-hover */
+        color: black;
+    }
+
   </style>
 </head>
 
