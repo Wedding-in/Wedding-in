@@ -21,7 +21,7 @@
       background-color: #FFFEF9;
       height: 100%;
       margin: 0;
-      padding-bottom: 90px
+      padding-bottom: 25%;
     }
 
     .select2-container--default .select2-selection--single {
@@ -38,7 +38,7 @@
     }
 
     .card-img-top {
-      height: 12rem;
+      height: 20%;
     }
 
     .custom-img {
@@ -62,9 +62,12 @@
       justify-content: center;
       /* border: 1px solid black; */
     }
-
     .card {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+    }
+    .cards {
+        overflow: hidden;
     }
     .card-title {
         font-family: SourceSerif4-Regular;
@@ -179,7 +182,7 @@
   <h2 class="text mx-4 mb-4">
     Our Top Venue Vendor
   </h2>
-  <div class="d-flex mx-4 content-items mb-4">
+  <div class="cards d-flex mx-4 content-items mb-4">
     <a href="">
       <div class="card custom-card" style="width: 10rem; margin-right: 1rem;">
         <img src="https://dbijapkm3o6fj.cloudfront.net/resources/34550,1004,1,6,4,0,600,450/-4601-/20230607144102/bright-airy-and-breathtaking-wedding-venue-at-swiss-belresort-dago-heritage-bandung.jpeg" class="card-img-top custom-img" alt="...">
@@ -227,7 +230,7 @@
   <h2 class="text mx-4 mb-4">
     Our Top Wedding Cake Vendor
   </h2>
-  <div class="d-flex mx-4 content-items mb-4">
+  <div class="cards d-flex mx-4 content-items mb-4">
     <a href="">
       <div class="card custom-card" style="width: 10rem; margin-right: 1rem;">
         <img src="https://i.pinimg.com/564x/1d/9d/f3/1d9df31e9a4a40450195493aa8a4a551.jpg" class="card-img-top custom-img" alt="...">
@@ -275,7 +278,7 @@
   <h2 class="text mx-4 mb-4">
     Our Top Food Catering Vendor
   </h2>
-  <div class="d-flex mx-4 content-items mb-4">
+  <div class="cards d-flex mx-4 content-items mb-4">
     <a href="">
       <div class="card custom-card" style="width: 10rem; margin-right: 1rem;">
         <img src="https://weddingmarket.com/storage/images/artikelideacontent/new/3591abf08c5a9ed3df4cfd512531c035769527dc.webp" class="card-img-top custom-img" alt="...">
