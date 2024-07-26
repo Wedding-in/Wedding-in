@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/Font.css') }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <title>Register</title>
+    <title>Login</title>
     <style>
         body {
             background-color: #FFFEF9;
@@ -80,7 +80,7 @@
                 <label for="floatingPassword">Password</label>
                 <i class="fas fa-eye-slash toggle-password"></i>
             </div>
-            <button type="submit" class="btn w-100 mb-5">Login</button>
+            <button type="submit" class="btn w-100 mb-3 mt-3">Login</button>
             <h6 class="text-center mb-4">
                 <span class="login-link">Forgot password?</span>
             </h6>
