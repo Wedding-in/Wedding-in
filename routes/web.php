@@ -14,6 +14,10 @@ Route::get('/login', function () {
     return view('login');
 });
 
+Route::get('/rate', function () {
+    return view('rate');
+});
+
 Route::get('/register', function () {
     return view('register');
 });

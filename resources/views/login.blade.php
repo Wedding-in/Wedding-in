@@ -15,7 +15,7 @@
         }
         .btn {
             background-color: #FCB2A9;
-            border-radius: 15px;
+            border-radius: 0.25rem;
             font-weight: 600;
         }
         .form-control {

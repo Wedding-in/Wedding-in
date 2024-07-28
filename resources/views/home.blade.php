@@ -101,7 +101,7 @@
       padding: 5px; */
     }
     .card-img-top {
-        height: 200px;
+        height: 135px;
         width: 100%;
     }
     .card {
@@ -110,28 +110,36 @@
       margin: 0%;
       /* overflow: hidden; */
     }
+    .card-body {
+      height: 30px;
+    }
     .cards {
         overflow-x: auto;
         margin: 0%;
     }
     .custom-card {
-        width: 30%;
+        width: 32%;
         /* height: 100%; */
     }
     .card-title {
         font-family: SourceSerif4-Regular;
+        font-size: 12px;
     }
     .star {
         font-family: SourceSerif4-Regular;
+        font-size: 12px;
     }
-    h2 {
+    h5 {
         font-family: SourceSerif4-SemiBold;
     }
     .content-items a{
       text-decoration: none;
       color: black;
     }
-
+    .carousel-indicators {
+        /* border: 1px solid black; */
+        /* margin-bottom: -10%; */
+    }
     a {
         text-decoration: none;
       color: black;
@@ -161,9 +169,9 @@
     </div>
   </nav>
 
-  <h2 class="text mx-4 mb-4">
+  <h5 class="text mx-4 mb-4">
     Our promo
-  </h2>
+  </h5>
   <div id="carouselExampleIndicators" class="carousel slide mx-4 mb-4">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -191,30 +199,30 @@
       </div>
     </div>
   </div>
-  <h2 class="text mx-4 mb-4">
+  <h5 class="text mx-4 mb-4">
     Our Top Venue Vendor
-  </h2>
+  </h5>
 
     <div class="cards row d-flex mx-4 content-  tems mb-4 justify-content-between">
-        <div class="card custom-card col-4 p-0">
+        <div class="card custom-card col-4 p-2">
             <a href="">
                 <img src="https://dbijapkm3o6fj.cloudfront.net/resources/34550,1004,1,6,4,0,600,450/-4601-/20230607144102/bright-airy-and-breathtaking-wedding-venue-at-swiss-belresort-dago-heritage-bandung.jpeg" class="card-img-top custom-img" alt="...">
-                <div class="card-body d-flex justify-content-between p-2">
-                <span class="card-title">RTB</span>
-                <div class="card-text">
-                    <p>
-                        <i class="bi bi-star-fill" style="color: #FCB2A9"></i>
-                        <span class="star ps-2">4.7</span>
-                    </p>
-                </div>
+                <div class="card-body d-flex justify-content-between p-0 mt-2">
+                  <span class="card-title mt-1">RTB</span>
+                  <div class="card-text">
+                      <p>
+                          <i class="star-icon bi bi-star-fill" style="color: #FCB2A9"></i>
+                          <span class="star ps-2">4.7</span>
+                      </p>
+                  </div>
                 </div>
             </a>
         </div>
-        <div class="card custom-card col-4 p-0">
+        <div class="card custom-card col-4 p-2">
             <a href="">
                 <img src="https://media-api.xogrp.com/images/2c80fca0-cd62-4404-8bab-7152674314c1~rs_768.h" class="card-img-top custom-img" alt="...">
-                <div class="card-body d-flex justify-content-between p-2">
-                <span class="card-title">RTB</span>
+                <div class="card-body d-flex justify-content-between p-0 mt-2">
+                <span class="card-title mt-1">RTB</span>
                 <div class="card-text">
                     <p>
                         <i class="bi bi-star-fill" style="color: #FCB2A9"></i>
@@ -224,11 +232,11 @@
                 </div>
             </a>
         </div>
-        <div class="card custom-card col-4 p-0">
+        <div class="card custom-card col-4 p-2">
             <a href="">
                 <img src="https://nibble-images.b-cdn.net/nibble/original_images/wedding-venue-bogor-5.jpg" class="card-img-top custom-img" alt="...">
-                <div class="card-body d-flex justify-content-between p-2">
-                <span class="card-title">RTB</span>
+                <div class="card-body d-flex justify-content-between p-0 mt-2">
+                <span class="card-title mt-1">RTB</span>
                 <div class="card-text">
                     <p>
                         <i class="bi bi-star-fill" style="color: #FCB2A9"></i>
@@ -241,15 +249,15 @@
   </div>
 
 
-  <h2 class="text mx-4 mb-4">
+  <h5 class="text mx-4 mb-4">
     Our Top Wedding Cake Vendor
-  </h2>
+  </h5>
   <div class="cards row d-flex mx-4 content-  tems mb-4 justify-content-between">
-    <div class="card custom-card col-4 p-0">
+    <div class="card custom-card col-4 p-2">
         <a href="">
             <img src="https://i.pinimg.com/564x/1d/9d/f3/1d9df31e9a4a40450195493aa8a4a551.jpg" class="card-img-top custom-img" alt="...">
-            <div class="card-body d-flex justify-content-between p-2">
-            <span class="card-title">RTB</span>
+            <div class="card-body d-flex justify-content-between p-0 mt-2">
+            <span class="card-title mt-1">RTB</span>
             <div class="card-text">
                 <p>
                     <i class="bi bi-star-fill" style="color: #FCB2A9"></i>
@@ -259,11 +267,11 @@
             </div>
         </a>
     </div>
-    <div class="card custom-card col-4 p-0">
+    <div class="card custom-card col-4 p-2">
         <a href="">
             <img src="https://pernikahan.or.id/wp-content/uploads/2023/03/kue-pernikahan-buttercream.jpg" class="card-img-top custom-img" alt="...">
-            <div class="card-body d-flex justify-content-between p-2">
-            <span class="card-title">RTB</span>
+            <div class="card-body d-flex justify-content-between p-0 mt-2">
+            <span class="card-title mt-1">RTB</span>
             <div class="card-text">
                 <p>
                     <i class="bi bi-star-fill" style="color: #FCB2A9"></i>
@@ -273,11 +281,11 @@
             </div>
         </a>
     </div>
-    <div class="card custom-card col-4 p-0">
+    <div class="card custom-card col-4 p-2">
         <a href="">
             <img src="https://i.pinimg.com/564x/c4/45/57/c4455712fafa76f6b776bedd51f24414.jpg" class="card-img-top custom-img" alt="...">
-            <div class="card-body d-flex justify-content-between p-2">
-            <span class="card-title">RTB</span>
+            <div class="card-body d-flex justify-content-between p-0 mt-2">
+            <span class="card-title mt-1">RTB</span>
             <div class="card-text">
                 <p>
                     <i class="bi bi-star-fill" style="color: #FCB2A9"></i>
@@ -289,15 +297,15 @@
     </div>
 </div>
 
-  <h2 class="text mx-4 mb-4">
+  <h5 class="text mx-4 mb-4">
     Our Top Food Catering Vendor
-  </h2>
+  </h5>
   <div class="cards row d-flex mx-4 content-  tems mb-4 justify-content-between">
-    <div class="card custom-card col-4 p-0">
+    <div class="card custom-card col-4 p-2">
         <a href="">
             <img src="https://weddingmarket.com/storage/images/artikelideacontent/new/3591abf08c5a9ed3df4cfd512531c035769527dc.webp" class="card-img-top custom-img" alt="...">
-            <div class="card-body d-flex justify-content-between p-2">
-            <span class="card-title">RTB</span>
+            <div class="card-body d-flex justify-content-between p-0 mt-2">
+            <span class="card-title mt-1">RTB</span>
             <div class="card-text">
                 <p>
                     <i class="bi bi-star-fill" style="color: #FCB2A9"></i>
@@ -307,11 +315,11 @@
             </div>
         </a>
     </div>
-    <div class="card custom-card col-4 p-0">
+    <div class="card custom-card col-4 p-2">
         <a href="">
             <img src="https://weddingmarket.com/storage/images/artikelideacontent/new/2dfdc7a628d6b72c4cb4d06c2d290fa98252f1d6.webp" class="card-img-top custom-img" alt="...">
-            <div class="card-body d-flex justify-content-between p-2">
-            <span class="card-title">RTB</span>
+            <div class="card-body d-flex justify-content-between p-0 mt-2">
+            <span class="card-title mt-1">RTB</span>
             <div class="card-text">
                 <p>
                     <i class="bi bi-star-fill" style="color: #FCB2A9"></i>
@@ -321,11 +329,11 @@
             </div>
         </a>
     </div>
-    <div class="card custom-card col-4 p-0">
+    <div class="card custom-card col-4 p-2">
         <a href="">
             <img src="https://undanganpro.wordpress.com/wp-content/uploads/2012/04/mc1.jpg" class="card-img-top custom-img" alt="...">
-            <div class="card-body d-flex justify-content-between p-2">
-            <span class="card-title">RTB</span>
+            <div class="card-body d-flex justify-content-between p-0 mt-2">
+            <span class="card-title mt-1">RTB</span>
             <div class="card-text">
                 <p>
                     <i class="bi bi-star-fill" style="color: #FCB2A9"></i>
