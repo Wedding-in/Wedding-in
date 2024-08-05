@@ -37,3 +37,10 @@ Route::get('/inspiration2', function(){
 Route::get('/vendor', function () {
     return view('Vendor/vendor');
 });
+
+Route::get('/profile', function () {
+    return view('Profile/profile');
+});
+Route::get('/detailprofile', function () {
+    return view('Profile/detailprofile');
+});
