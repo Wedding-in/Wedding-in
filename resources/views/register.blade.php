@@ -19,7 +19,7 @@
             font-weight: 600;
         }
         .form-control {
-            border-radius: 15px;
+            border-radius: 0.25rem;
         }
         .title{
             font-family: SourceSerif4-Bold;
@@ -79,7 +79,7 @@
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                 <label class="form-check-label" for="exampleCheck1">I agree with privacy and policy</label>
             </div>
-            <button type="submit" class="btn w-100 mb-3">Register</button>
+            <button type="submit" class="btn w-100 mb-3 mt-3">Register</button>
             <h6 class="text-center">
                 Already have an account? <span class="login-link">Log in</span>
             </h6>

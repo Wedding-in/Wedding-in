@@ -10,13 +10,15 @@
 <body>
     @include('components.search')
     <div class="pin_container">
-        <div class="card card_small" style="background-image: url('../img/1.jpeg'); background-size: cover;">
-            <div class="bookmark">
-                <button id="btn">
-                    <ion-icon name="bookmark-outline" class="icon"></ion-icon>
-                </button>
+        {{-- <a href="/inspiration2"> --}}
+            <div class="card card_small" style="background-image: url('../img/1.jpeg'); background-size: cover;">
+                <div class="bookmark">
+                    <button id="btn">
+                        <ion-icon name="bookmark-outline" class="icon"></ion-icon>
+                    </button>
+                </div>
             </div>
-        </div>
+        {{-- </a> --}}
         <div class="card card_medium" style="background-image: url('../img/2.jpeg'); background-size: cover;">
             <div class="bookmark">
                 <button id="btn">
