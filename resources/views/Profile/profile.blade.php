@@ -87,7 +87,7 @@
             <div class="d-flex align-items-center">
                 <div class="w-50 justify-content-center d-flex " style="position: relative">
                     <img class="border"
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3FtfPb7GxTyx0Es7zr7kUmnsKnTiqmP1sag&s"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3Ftfb7GxTyx0Es7zr7kUmnsKnTiqmP1sag&s"
                         alt="" height="130" width="130" style="border-radius: 50%">
                     {{-- <div class="camera-icon d-flex align-items-center justify-content-center"
                         style="background-color: #FCB2A9; position: absolute; bottom: 0; right: 10px; border-radius: 50%; width: 50px">
