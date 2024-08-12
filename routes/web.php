@@ -37,7 +37,6 @@ Route::get('/inspiration2', function(){
 Route::get('/vendor', function () {
     return view('Vendor/vendor');
 });
-
 Route::get('/profile', function () {
     return view('Profile/profile');
 });
