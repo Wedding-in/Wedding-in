@@ -13,6 +13,12 @@
     {{-- Bootstrap icons --}}
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
+    {{-- select 2 --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/select2-bootstrap-theme/0.1.0-beta.10/select2-bootstrap.min.css">
+
+
     <title>Vendor</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,22 +36,27 @@
             border-radius: 0.25rem;
             transform: scale(1.04);
         }
-        .nav-item-tabs li{
+
+        .nav-item-tabs li {
             /* border: solid black !important; */
             /* background-color: #6e6366;  */
             border-radius: 0.25rem;
-            background-color: #654b4852; 
+            background-color: #654b4852;
         }
-        .nav-item-tabs li span{
+
+        .nav-item-tabs li span {
             color: white;
         }
-        .nav-link.active{
+
+        .nav-link.active {
             background-color: #FCB2A9 !important;
 
         }
+
         .nav-link span {
             color: black
         }
+
         .nav-link.nav-link.active span {
             color: white;
         }
@@ -85,31 +96,277 @@
             src: url(../Font/SourceSerif4-SemiBold.ttf);
         }
 
-        .card-body h5{
+        .card-body h5 {
             font-family: SourceSerif4-SemiBold;
         }
-        .card-body p{
+
+        .card-body p {
             font-family: SourceSerif4-Light;
         }
-        .sub-title h2{
+
+        .sub-title h2 {
             font-family: SourceSerif4-SemiBold;
         }
-        .nav-item-tabs span{
+
+        .nav-item-tabs span {
             font-family: SourceSerif4-regular;
         }
+
+        /* search */
+        .search {
+            width: 50%;
+            /* min-height: 100vh; */
+            /* border: solid blue; */
+            background-color: #FFFEF9;
+            padding: 5%;
+        }
+
+        .search-bar {
+            top: 0;
+            /* width: 100%; */
+            /* max-width: 700px; */
+            /* border: solid blue; */
+            background: rgba(255, 255, 255, 0.2);
+            display: flex;
+            align-items: center;
+            border-radius: 5px;
+            padding: 2.5px 5px;
+            backdrop-filter: blur(4px) saturate(180%);
+            border: #FCB2A9 2px solid;
+        }
+
+        .search-bar input {
+            background: transparent;
+            flex: 1;
+            border: 0;
+            outline: none;
+            padding: 10px 10px;
+            font-size: 18px;
+            color: #cac7ff;
+            width: 100%
+        }
+
+        ::placeholder, .search-bar::placeholder {
+            color: #FCB2A9;
+            font-family:  SourceSerif4-Regular;
+            font-size: 18px;
+        }
+
+        .search-bar button {
+            border: 0;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            /* border: solid green; */
+            background: #FCB2A9;
+            cursor: pointer;
+        }
+
+        .search-bar .icon {
+            font-size: 1.7rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+
+        }
+
+        .line {
+            position: relative;
+            margin-top: 2%;
+        }
+
+        /* end search */
+
+        /* region */
+        .select2-container--default .select2-selection--single {
+            background-color: transparent;
+            border: none;
+            height: auto;
+        }
+
+        .select2-container--default .select2-selection--single .select2-selection__rendered {
+            white-space: normal;
+            text-overflow: clip;
+            /* overflow: visible; */
+            font-family: 'SourceSerif4-Regular';
+        }
+
+        .card-img-top {
+            height: 12rem;
+        }
+
+        .custom-img {
+            height: 15rem;
+            object-fit: cover;
+            border: 2px;
+            padding: 5px;
+        }
+
+        .navbar {
+            background-color: #FCB2A9;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .dropdown {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* border: 1px solid black; */
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .card-title {
+            font-family: SourceSerif4-Regular;
+        }
+
+        .star {
+            font-family: SourceSerif4-Regular;
+        }
+
+        h2 {
+            font-family: SourceSerif4-SemiBold;
+        }
+
+        .content-items a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .select2 span {
+            font-size: 18px;
+        }
+
+        .logo {
+            background-color: white;
+            border-radius: 30px;
+        }
+
+        .icon-size {
+            font-size: 30px;
+        }
+
+        .option {
+            font-family: SourceSerif4-Regular;
+        }
+
+        .select2-container .select2-selection--single {
+            font-family: SourceSerif4-Regular;
+        }
+
+        .selection {
+            color: white;
+        }
+
+        .select2-container .select2-results__option--highlighted[aria-selected] {
+            background-color: #FCB2A9;
+            /* Warna latar belakang saat di-hover */
+            color: black;
+        }
+
+        .select2-container .select2-results__option {
+            font-family: SourceSerif4-Regular;
+        }
+
+        .select2-container--default .select2-selection--single .select2-selection__arrow {
+            display: none;
+        }
+
+        .select2-container--default .select2-selection--single {
+            position: relative;
+        }
+
+
+        .select2-container--default .select2-selection--single::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            /* ngubah right 0 */
+            right: 0;
+            /* Posisi horizontal dari segitiga */
+            border-width: 6px;
+            /* Ukuran segitiga */
+            border-style: solid;
+            border-color: white transparent transparent transparent;
+            width: 0;
+            height: 0;
+        }
+
+        select.nav-link.select2 {
+            color: white;
+            background-color: transparent;
+        }
+
+        .select2-container--default .select2-selection--single {
+            background-color: transparent;
+            color: white;
+            /* border: 1px solid white; */
+        }
+
+        .select2-container--default .select2-selection--single .select2-selection__rendered {
+            color: white;
+        }
+
+        .select2-container--default .select2-results__option--highlighted {
+            background-color: grey;
+            color: white;
+        }
+
+        /* end region */
     </style>
 
 </head>
 
 <body style="background-color: #FFFEF9;">
-    <div class="container-fluid d-flex py-4 px-0 flex-column sub-title" style="border: solid transparent 1px;">
+    {{-- search --}}
+    <div class="container-fluid align-items-center d-flex"style="height: 11vh; background-color: #FCB2A9;">
+        <div class="search p-0 m-0 " style="border-radius: 5px; ">
+            <form action="" class="search-bar p-0 m-0" style="  width: 100%">
+                <input type="text" placeholder="Search" name='q'>
+                <button type="submit" style="margin-right: 5px;">
+                    <span class="icon">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </span>
+                </button>
+            </form>
+        </div>
+        {{-- end search --}}
+
+        {{-- region --}}
+        <div class="region" style=" width: 50%; ">
+            <div class="dropdown d-flex justify-content-center text-align-center" >
+                <i class="icon-size bi bi-geo-alt" style="color: white"></i>
+                {{-- tambahan p-3 m-0 --}}
+                <select class="nav-link select2 border-0 d-flex p-3 m-0" id="region-select"> 
+                    <option class="text-align-center"><span class="Region">Region</span></option>
+                    <option value="serang" style="color: black">Serang</option>
+                    <option value="depok" style="color: black">Jakarta</option>
+                    <option value="jambi" style="color: black">Sentul</option>
+                    <option value="bogor" style="color: black">Bangka</option>
+                </select>
+            </div>
+        </div>
+        {{-- <div class="line">
+            <hr>
+        </div> --}}
+        {{-- end region --}}
+    </div>
+    <div class="container-fluid d-flex py-2 px-0 flex-column sub-title" style="border: solid transparent 1px;">
         <h2 class="ps-4" style="font-weight: 600">Categories</h2>
-        <div class="col-md-3 d-flex justify-content-center align-items-center pt-2" >
-            <ul class="nav nav-pills  flex-row gap-2 nav-item-tabs justify-content-center" id="pills-tab" role="tablist" style=" width: 100%;">
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link active px-4" id="pills-venue-tab" data-bs-toggle="pill"
+        <div class="col-md-3 d-flex justify-content-center align-items-center pt-2 " >
+            <ul class="nav nav-pills  flex-row gap-2 nav-item-tabs justify-content-center" id="pills-tab" role="tablist"
+                style=" width: 100%;">
+                <li class="nav-item p-0" role="presentation">
+                    <button class="nav-link active" id="pills-venue-tab" data-bs-toggle="pill"
                         data-bs-target="#pills-venue" type="button" role="tab" aria-controls="pills-venue"
-                        aria-selected="true" style=";"><span>Venue</span></button>
+                        aria-selected="true" style=""><span>Venue</span></button>
                 </li>
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="pills-cake-tab" data-bs-toggle="pill" data-bs-target="#pills-cake"
@@ -119,7 +376,7 @@
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="pills-catering-tab" data-bs-toggle="pill"
                         data-bs-target="#pills-catering" type="button" role="tab" aria-controls="pills-catering"
-                        aria-selected="false" style=";"><span>Food Catering</span></button>
+                        aria-selected="false" style=";"><span>Catering</span></button>
                 </li>
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="pills-wo-tab" data-bs-toggle="pill" data-bs-target="#pills-wo"
@@ -129,10 +386,11 @@
             </ul>
         </div>
     </div>
-    
+
     <div class="tab-content d-flex " id="pills-tabContent" style="margin-bottom: 15vh ;border: solid transparent">
-        <div class="tab-pane fade show active" id="pills-venue" role="tabpanel" aria-labelledby="pills-venue-tab" style=" width: 100%">
-            <div class="container-fluid w-100" >
+        <div class="tab-pane fade show active" id="pills-venue" role="tabpanel" aria-labelledby="pills-venue-tab"
+            style=" width: 100%">
+            <div class="container-fluid w-100">
                 <div class="flex-column d-flex items-tabs">
                     <a href="#" class="text-decoration-none my-2" style="color: black;  width: 100%;">
                         <div class="col-md-4">
@@ -143,7 +401,8 @@
                                     style=" background-color: rgba(0, 0, 0, 0.5)">
                                     <h5 class="card-title">Vendor's Name</h5>
                                     <p class="card-text">
-                                        <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street, City, Country
+                                        <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street,
+                                        City, Country
                                     </p>
                                 </div>
                                 <div class="rate position-absolute p-1"
@@ -155,7 +414,7 @@
                         </div>
                     </a>
                     <a href="#" class="text-decoration-none my-2" style="color: black;  width: 100%;">
-                        <div class="col-md-4" >
+                        <div class="col-md-4">
                             <div class="card border-0" style="width: 100%; border-radius: 0.25rem;overflow: hidden; ">
                                 <img src="https://images.weddingku.com/images/upload/articles/images/wc61vihutovr121920191209.jpg"
                                     class="card-img-top" alt="..." height="200" style="width: 100%;">
@@ -163,7 +422,8 @@
                                     style=" background-color: rgba(0, 0, 0, 0.5)">
                                     <h5 class="card-title">Vendor's Name</h5>
                                     <p class="card-text">
-                                        <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street, City, Country
+                                        <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street,
+                                        City, Country
                                     </p>
                                 </div>
                                 <div class="rate position-absolute p-1"
@@ -175,7 +435,7 @@
                         </div>
                     </a>
                     <a href="#" class="text-decoration-none my-2" style="color: black;  width: 100%;">
-                        <div class="col-md-4" >
+                        <div class="col-md-4">
                             <div class="card border-0" style="width: 100%; border-radius: 0.25rem;overflow: hidden; ">
                                 <img src="https://images.weddingku.com/images/upload/articles/images/diyk05nba7cx121920191209.jpg"
                                     class="card-img-top" alt="..." height="200" style="width: 100%;">
@@ -183,7 +443,8 @@
                                     style=" background-color: rgba(0, 0, 0, 0.5)">
                                     <h5 class="card-title">Vendor's Name</h5>
                                     <p class="card-text">
-                                        <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street, City, Country
+                                        <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street,
+                                        City, Country
                                     </p>
                                 </div>
                                 <div class="rate position-absolute p-1"
@@ -243,7 +504,7 @@
             <div class="container">
                 <div class="row flex-column d-flex items-tabs">
                     <a href="#" class="text-decoration-none my-2" style="color: black;  width: 100%;">
-                        <div class="col-md-4" >
+                        <div class="col-md-4">
                             <div class="card border-0" style="width: 100%; border-radius: 0.25rem;overflow: hidden; ">
                                 <img src="https://alexandra.bridestory.com/image/upload/dpr_1.0,f_webp,fl_progressive,q_60,c_fill,g_faces,w_560,h_280/assets/upload-PhyOumJmW.webp"
                                     class="card-img-top" alt="..." height="200" style="width: 100%;">
@@ -251,7 +512,8 @@
                                     style=" background-color: rgba(0, 0, 0, 0.5)">
                                     <h5 class="card-title">Vendor's Name</h5>
                                     <p class="card-text">
-                                        <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street, City, Country
+                                        <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street,
+                                        City, Country
                                     </p>
                                 </div>
                                 <div class="rate position-absolute p-1"
@@ -263,15 +525,16 @@
                         </div>
                     </a>
                     <a href="#" class="text-decoration-none my-2" style="color: black;  width: 100%;">
-                        <div class="col-md-4" >
-                            <div class="card border-0"  style="width: 100%; border-radius: 0.25rem;overflow: hidden; ">
+                        <div class="col-md-4">
+                            <div class="card border-0" style="width: 100%; border-radius: 0.25rem;overflow: hidden; ">
                                 <img src="https://alexandra.bridestory.com/image/upload/dpr_1.0,f_webp,fl_progressive,q_60,c_fill,g_faces,w_560,h_280/assets/upload-tJBn6AEX9.webp"
                                     class="card-img-top" alt="..." height="200" style="width: 100%;">
                                 <div class="card-body position-absolute bottom-0 start-0  w-100 text-white overflow-auto"
                                     style=" background-color: rgba(0, 0, 0, 0.5)">
                                     <h5 class="card-title">Vendor's Name</h5>
                                     <p class="card-text">
-                                        <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street, City, Country
+                                        <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street,
+                                        City, Country
                                     </p>
                                 </div>
                                 <div class="rate position-absolute p-1"
@@ -283,15 +546,17 @@
                         </div>
                     </a>
                     <a href="#" class="text-decoration-none my-2" style="color: black;  width: 100%;">
-                        <div class="col-md-4" >
-                            <div class="card border-0" style="width: 100%; border-radius: 0.25rem;overflow: hidden;  ">
+                        <div class="col-md-4">
+                            <div class="card border-0"
+                                style="width: 100%; border-radius: 0.25rem;overflow: hidden;  ">
                                 <img src="https://alexandra.bridestory.com/image/upload/dpr_1.0,f_webp,fl_progressive,q_60,c_fill,g_faces,w_560,h_280/assets/upload-y74iM_v8N.webp"
                                     class="card-img-top" alt="..." height="200" style="width: 100%;">
                                 <div class="card-body position-absolute bottom-0 start-0  w-100 text-white overflow-auto"
                                     style=" background-color: rgba(0, 0, 0, 0.5)">
                                     <h5 class="card-title">Vendor's Name</h5>
                                     <p class="card-text">
-                                        <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street, City, Country
+                                        <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street,
+                                        City, Country
                                     </p>
                                 </div>
                                 <div class="rate position-absolute p-1"
@@ -377,7 +642,8 @@
                                     style=" background-color: rgba(0, 0, 0, 0.5)">
                                     <h5 class="card-title">Vendor's Name</h5>
                                     <p class="card-text">
-                                        <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street, City, Country
+                                        <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street,
+                                        City, Country
                                     </p>
                                 </div>
                                 <div class="rate position-absolute p-1"
@@ -397,7 +663,8 @@
                                     style=" background-color: rgba(0, 0, 0, 0.5)">
                                     <h5 class="card-title">Vendor's Name</h5>
                                     <p class="card-text">
-                                        <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street, City, Country
+                                        <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street,
+                                        City, Country
                                     </p>
                                 </div>
                                 <div class="rate position-absolute p-1"
@@ -417,7 +684,8 @@
                                     style=" background-color: rgba(0, 0, 0, 0.5)">
                                     <h5 class="card-title">Vendor's Name</h5>
                                     <p class="card-text">
-                                        <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street, City, Country
+                                        <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street,
+                                        City, Country
                                     </p>
                                 </div>
                                 <div class="rate position-absolute p-1"
@@ -503,7 +771,8 @@
                                     style=" background-color: rgba(0, 0, 0, 0.5)">
                                     <h5 class="card-title">Vendor's Name</h5>
                                     <p class="card-text">
-                                        <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street, City, Country
+                                        <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street,
+                                        City, Country
                                     </p>
                                 </div>
                                 <div class="rate position-absolute p-1"
@@ -523,7 +792,8 @@
                                     style=" background-color: rgba(0, 0, 0, 0.5)">
                                     <h5 class="card-title">Vendor's Name</h5>
                                     <p class="card-text">
-                                        <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street, City, Country
+                                        <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street,
+                                        City, Country
                                     </p>
                                 </div>
                                 <div class="rate position-absolute p-1"
@@ -543,7 +813,8 @@
                                     style=" background-color: rgba(0, 0, 0, 0.5)">
                                     <h5 class="card-title">Vendor's Name</h5>
                                     <p class="card-text">
-                                        <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street, City, Country
+                                        <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street,
+                                        City, Country
                                     </p>
                                 </div>
                                 <div class="rate position-absolute p-1"
@@ -624,6 +895,13 @@
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+</script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('.select2').select2();
+    });
 </script>
 
 </html>

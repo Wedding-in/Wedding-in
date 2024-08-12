@@ -103,25 +103,27 @@
 
 <body>
 
-    <div class="container-fluid d-flex py-5" style=" height: 10vh">
-        <div class="d-flex justify-content-center align-items-center" style=" width: 20%">
-            <a href="/profile" class="btn ">
-                <i class="bi bi-arrow-left-short " style=" font-size: 50px"></i>
-            </a>
-        </div>
-        <div class="d-flex  align-items-center" style=" width: 80%; padding-left: 14%">
-            <h2 style="font-family:  SourceSerif4-SemiBold;">Edit Profile</h2>
+    <div class="container-fluid d-flex flex-column " style=" height: 10vh;">
+        <div class="d-flex  align-items-center m-0 p-0" style=" height: inherit;">
+            <div class="d-flex justify-content-end align-items-center" style=" width: 20%">
+                <a href="/profile" class="btn">
+                    <i class="bi bi-arrow-left-short" style="font-size: 50px"></i>
+                </a>
+            </div>
+            <div class="d-flex align-items-center justify-content-center" style=" margin-left: 10%">
+                <h2 style="font-family: SourceSerif4-SemiBold;">Edit Profile</h2>
+            </div>
         </div>
     </div>
-    <div class="container-fluid" style=" height: 50vh">
-        <div class="d-flex justify-content-center position-relative" style="align-items: center; height: inherit; ">
+    <div class="container-fluid p-0 m-0" style=" height: 45vh; ">
+        <div class="d-flex justify-content-center position-relative gambar-profile m-0" style=" align-items: center;height: inherit;">
             <div class="border" style="border-radius: 50%">
                 <img src="https://pv1.narvii.com/uploaded_cover/7993/3a6678f22521322b56b1ab034da37e4147f0c26dr1-720-902_raw.jpg"
                     alt="" height="300" width="300" style="border-radius: 50%; border: #FCB2A9 solid 1px">
-            </div>
-            <div class="d-flex align-items-center justify-content-center"
-                style="background-color: #FCB2A9; position: absolute; bottom: 70px; right: 50px; border-radius: 50%; width: 80px">
-                <a href="#" style=" font-size: 40px; color: white; "><i class="bi bi-camera"></i></a>
+                <div class="d-flex align-items-center justify-content-center icon-camera"
+                    style="background-color: #FCB2A9; position: absolute; bottom: 50px; right: 25px; border-radius: 50%; width: 80px">
+                    <a href="#" style=" font-size: 40px; color: white; "><i class="bi bi-camera"></i></a>
+                </div>
             </div>
         </div>
     </div>
