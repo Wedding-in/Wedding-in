@@ -13,3 +13,7 @@ Route::get('/chat', function () {
 Route::get('/faq', function () {
     return view('faq');
 });
+
+Route::get('/appointment', function () {
+    return view('appointment');
+});
