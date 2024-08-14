@@ -11,6 +11,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
@@ -34,8 +35,36 @@
             </div>
         </div>
 
-        <button class="appointment-button">Make Appointment</button>
+        <div class="wrapper">
+            <header style="flex-direction: column">
+                <p class="chosen" style="color: #FCB2A9">August</p>
+                <p class="chosen" style="color: #FCB2A9">Wednesday, 21</p>
+            </header>
+            <header>
+                <p class="current-date"></p>
+                <div class="icons">
+                    <span id="prev" class="material-symbols-outlined">chevron_left</span>
+                    <span id="next" class="material-symbols-outlined">chevron_right</span>
+                </div>
+            </header>
+            <div class="calendar">
+                <ul class="weeks">
+                    <li>su</li>
+                    <li>mo</li>
+                    <li>tu</li>
+                    <li>we</li>
+                    <li>th</li>
+                    <li>fr</li>
+                    <li>sa</li>
+                </ul>
+                <ul class="days">
 
+                </ul>
+            </div>
+        </div>
+
+        <button class="appointment-button">Make Appointment</button>
     </div>
 </body>
+<script src="js/appointment.js" defer></script>
 </html>
