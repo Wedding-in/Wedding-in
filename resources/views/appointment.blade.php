@@ -22,7 +22,7 @@
     <title>CHAT</title>
 </head>
 <body>
-    <div class="chat-container">
+    <div class="chat-container" style="background: #fffff8">
         <div class="header">
             <div class="back-button">
                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#ff5e5e" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
@@ -34,8 +34,7 @@
                 <p class="rate-review">Location</p>
             </div>
         </div>
-
-        <div class="wrapper">
+        <div class="wrapper" style="background: #ffffff">
             <header style="flex-direction: column">
                 <p class="chosen" style="color: #FCB2A9">August</p>
                 <p class="chosen" style="color: #FCB2A9">Wednesday, 21</p>
