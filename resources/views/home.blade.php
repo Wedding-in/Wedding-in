@@ -80,6 +80,11 @@
       color: black;
     }
 
+    a:hover {
+        text-decoration: none;
+        color: black;
+    }
+
     /* region */
     .select2-container--default .select2-selection--single {
             background-color: transparent;
@@ -114,11 +119,6 @@
             font-size: 18px;
         }
 
-        .logo {
-            background-color: white;
-            border-radius: 30px;
-        }
-
         .icon-size {
             font-size: 25px;
         }
@@ -137,7 +137,6 @@
 
         .select2-container .select2-results__option--highlighted[aria-selected] {
             background-color: #FCB2A9;
-            /* Warna latar belakang saat di-hover */
             color: black;
         }
 
@@ -197,12 +196,11 @@
   <nav class="navbar navbar-expand-lg mb-4">
     <div class="container-fluid">
       <a class="navbar-brand col-1" href="#">
-        <img class="logo" src="/Image/Logo_PNG.png" alt="Chat" width="40" height="40">
+        <img class="logo ms-2" src="/Image/Logo.png" alt="Chat" width="45" height="45">
       </a>
       <div class="region" style=" width: 50%; ">
         <div class="dropdown d-flex justify-content-center text-align-center" >
             <i class="icon-size bi bi-geo-alt" style="color: white"></i>
-            {{-- tambahan p-3 m-0 --}}
             <select class="nav-link select2 border-0 d-flex p-3 m-0" id="region-select">
                 <option class="text-align-center"><span class="Region">Region</span></option>
                 <option value="serang" style="color: black">Serang</option>
@@ -238,7 +236,7 @@
       </div>
       <div class="carousel-item">
         <a href="">
-          <img src="https://lazada-blog-upload-id.oss-ap-southeast-5.aliyuncs.com/prod-id/2023/06/lagu-wedding-barat-terbaik.jpg?OSSAccessKeyId=LTAI5tSRtDGoirEbT2eG2GRJ&Expires=1721989577&Signature=1PeyiJuClvQdT9YTbQVvQqOO73s%3D" class="d-block w-100" alt="...">
+          <img src="https://www.theweddingmission.com/wp-content/uploads/2023/06/TorieKev-410-scaled.jpg" class="d-block w-100" alt="...">
         </a>
       </div>
       <div class="carousel-item">
