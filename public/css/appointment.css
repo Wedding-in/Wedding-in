@@ -170,12 +170,12 @@ header .icons span:last-child {
 }
 
 .days li.active::before {
-    background: #ff5e5e;
+    background: #FCB2A9;
 }
 
 .appointment-button {
     padding: 1%;
-    background-color: #ff5e5e;
+    background-color: #FCB2A9;
     color: #fff;
     border: none;
     border-radius: 5px;
