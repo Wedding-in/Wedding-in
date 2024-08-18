@@ -80,7 +80,7 @@
                 <p>Your appointment has been successfully added.
                     You can check your list appointment on Profile menu.
                 </p>
-                <a href="/chatlist">
+                <a href="/chat">
                     <button class="appointment-button" onclick="togglebtnApp()">Close</button>
                 </a>
             </div>

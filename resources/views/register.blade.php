@@ -80,9 +80,10 @@
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                 <label class="form-check-label" for="exampleCheck1">I agree with privacy and policy</label>
             </div>
-            <button type="submit" class="btn w-100 mb-3 mt-3">Register</button>
+            @csrf
+            <button type="submit" class="btn w-100 mb-3 mt-3" id="registerButton">Register</button>
             <h6 class="text-center">
-                Already have an account? <span class="login-link">Log in</span>
+                Already have an account? <a href="/login" style="text-decoration: none;"><span class="login-link">Log in</span></a>
             </h6>
         </form>
     </div>
@@ -97,6 +98,11 @@
                 this.classList.toggle('fa-eye-slash');
                 this.classList.toggle('fa-eye');
             });
+
+        });
+        document.getElementById('registerButton').addEventListener('click', function(event) {
+            event.preventDefault();
+            window.location.href = '/login';
         });
     </script>
 </body>

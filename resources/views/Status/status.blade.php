@@ -142,11 +142,11 @@
                         data-bs-target="#pills-declined" type="button" role="tab" aria-controls="pills-declined"
                         aria-selected="false" style=";"><span>Declined</span></button>
                 </li>
-                
+
             </ul>
         </div>
     </div>
-    
+
     <div class="tab-content d-flex " id="pills-tabContent" style="margin-bottom: 12vh;border: solid transparent">
         <div class="tab-pane fade show active" id="pills-waiting" role="tabpanel" aria-labelledby="pills-waiting-tab"
             style=" width: 100%">
@@ -170,7 +170,7 @@
                                         <p class="card-text p-0 m-0" style=" color:white;  font-size: 15px; ">
                                             <i class="bi bi-clock-fill" style="margin-right: 3px"></i>Waiting
                                         </p>
-                                        
+
                                     </div>
                                 </div>
                                 <div class="rate position-absolute p-1"
@@ -199,7 +199,7 @@
                                         <p class="card-text p-0 m-0" style=" color:white;  font-size: 15px; ">
                                             <i class="bi bi-clock-fill" style="margin-right: 3px"></i>Waiting
                                         </p>
-                                        
+
                                     </div>
                                 </div>
                                 <div class="rate position-absolute p-1"
@@ -228,7 +228,7 @@
                                         <p class="card-text p-0 m-0" style=" color:white;  font-size: 15px; ">
                                             <i class="bi bi-clock-fill" style="margin-right: 3px"></i>Waiting
                                         </p>
-                                        
+
                                     </div>
                                 </div>
                                 <div class="rate position-absolute p-1"
@@ -265,7 +265,7 @@
                                         </p>
                                         <a href="#" style=" color:white; font-size: 10px; padding-top: 5px; height: 4vh;">
                                             <p>
-                                                <i class="bi bi-star text-warning" style="margin-right: 3px"></i>Rate and Review
+                                                <i class="bi bi-star text-warning" style="margin-right: 3px; color: #FCB2A9 !important"></i>Rate and Review
                                             </p>
                                         </a>
                                     </div>
@@ -298,7 +298,7 @@
                                         </p>
                                         <a href="#" style=" color:white; font-size: 10px; padding-top: 5px; height: 4vh;">
                                             <p>
-                                                <i class="bi bi-star text-warning" style="margin-right: 3px"></i>Rate and Review
+                                                <i class="bi bi-star text-warning" style="margin-right: 3px; color: #FCB2A9 !important"></i>Rate and Review
                                             </p>
                                         </a>
                                     </div>
@@ -331,7 +331,7 @@
                                         </p>
                                         <a href="#"  style=" color:white; font-size: 10px; padding-top: 5px; height: 4vh;">
                                             <p>
-                                                <i class="bi bi-star text-warning" style="margin-right: 3px"></i>Rate and Review
+                                                <i class="bi bi-star text-warning" style="margin-right: 3px; color: #FCB2A9 !important"></i>Rate and Review
                                             </p>
                                         </a>
                                     </div>
@@ -344,7 +344,7 @@
                             </div>
                         </div>
                     </a>
-                    
+
                 </div>
             </div>
         </div>
@@ -369,7 +369,7 @@
                                         <p class="card-text p-0 m-0" style=" color:white;  font-size: 15px; ">
                                             <i class="bi bi-x-circle-fill" style="margin-right: 3px"></i>Declined
                                         </p>
-                                        
+
                                     </div>
                                 </div>
                                 <div class="rate position-absolute p-1"
@@ -398,7 +398,7 @@
                                         <p class="card-text p-0 m-0" style=" color:white;  font-size: 15px; ">
                                             <i class="bi bi-x-circle-fill" style="margin-right: 3px"></i>Declined
                                         </p>
-                                        
+
                                     </div>
                                 </div>
                                 <div class="rate position-absolute p-1"
@@ -427,7 +427,7 @@
                                         <p class="card-text p-0 m-0" style=" color:white;  font-size: 15px; ">
                                             <i class="bi bi-x-circle-fill" style="margin-right: 3px"></i>Declined
                                         </p>
-                                        
+
                                     </div>
                                 </div>
                                 <div class="rate position-absolute p-1"

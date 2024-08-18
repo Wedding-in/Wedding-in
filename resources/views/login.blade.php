@@ -81,12 +81,15 @@
                 <label for="floatingPassword">Password</label>
                 <i class="fas fa-eye-slash toggle-password"></i>
             </div>
-            <button type="submit" class="btn w-100 mb-3 mt-3">Login</button>
+
+            @csrf
+            <button type="submit" class="btn w-100 mb-3 mt-3" id="loginButton">Login</button>
+
             <h6 class="text-center mb-4">
                 <span class="login-link">Forgot password?</span>
             </h6>
             <h6 class="text-center">
-                Do not have an account? <span class="login-link">Register</span>
+                Do not have an account? <a href="/register" style="text-decoration:none;"><span class="login-link">Register</span></a>
             </h6>
         </form>
     </div>
@@ -101,6 +104,11 @@
                 this.classList.toggle('fa-eye-slash');
                 this.classList.toggle('fa-eye');
             });
+        });
+
+        document.getElementById('loginButton').addEventListener('click', function(event) {
+            event.preventDefault();
+            window.location.href = '/home';
         });
     </script>
 </body>

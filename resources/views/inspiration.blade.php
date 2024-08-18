@@ -83,6 +83,9 @@
                 </button>
             </div>
         </div>
+        <div class="martop" style="margin-top: 70%">
+            .
+        </div>
     </div>
 
     {{-- modal pop up --}}
@@ -91,13 +94,14 @@
             <div class="modal-headers">
                 <span class="close">-----------------</span>
             </div>
-            <a href="/viewfolder" style="text-decoration: none;">
+            <a href="/viewfolder" style="text-decoration: none; outline: none;">
             <div class="modal-bodys">
-                <img src="{{ asset('img/11.jpg') }}" alt="">
-                <p>Wedding</p>
-                <ion-icon name="add-circle-outline" class="icon"></ion-icon>
-            </div>
-        </a>
+                    <img src="{{ asset('img/11.jpg') }}" alt="">
+                    <p>Wedding</p>
+                    <ion-icon name="add-circle-outline" class="icon"></ion-icon>
+                </div>
+            </a>
+
             <div class="modal-bodys">
                 <img src="{{ asset('img/11.jpg') }}" alt="">
                 <p>Food</p>
