@@ -80,6 +80,11 @@
       color: black;
     }
 
+    a:hover {
+        text-decoration: none;
+        color: black;
+    }
+
     /* region */
     .select2-container--default .select2-selection--single {
             background-color: transparent;
@@ -132,7 +137,6 @@
 
         .select2-container .select2-results__option--highlighted[aria-selected] {
             background-color: #FCB2A9;
-            /* Warna latar belakang saat di-hover */
             color: black;
         }
 
@@ -197,7 +201,6 @@
       <div class="region" style=" width: 50%; ">
         <div class="dropdown d-flex justify-content-center text-align-center" >
             <i class="icon-size bi bi-geo-alt" style="color: white"></i>
-            {{-- tambahan p-3 m-0 --}}
             <select class="nav-link select2 border-0 d-flex p-3 m-0" id="region-select">
                 <option class="text-align-center"><span class="Region">Region</span></option>
                 <option value="serang" style="color: black">Serang</option>
@@ -233,7 +236,7 @@
       </div>
       <div class="carousel-item">
         <a href="">
-          <img src="https://lazada-blog-upload-id.oss-ap-southeast-5.aliyuncs.com/prod-id/2023/06/lagu-wedding-barat-terbaik.jpg?OSSAccessKeyId=LTAI5tSRtDGoirEbT2eG2GRJ&Expires=1721989577&Signature=1PeyiJuClvQdT9YTbQVvQqOO73s%3D" class="d-block w-100" alt="...">
+          <img src="https://www.theweddingmission.com/wp-content/uploads/2023/06/TorieKev-410-scaled.jpg" class="d-block w-100" alt="...">
         </a>
       </div>
       <div class="carousel-item">
