@@ -79,10 +79,10 @@
             font-family: SourceSerif4-SemiBold;
         }
     </style>
-    
+
     {{-- select2 --}}
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
-    
+
 </head>
 
 <body>
@@ -230,13 +230,13 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand col-1" href="#">
-                <img class="logo ms-2" src="/Image/Logo.png" alt="Chat" width="45" height="45">
+                <img class="logo ms-2" src="/Image/Logo_PNG.png" alt="Chat" width="45" height="45">
             </a>
             <div class="region" style=" width: 50%; ">
                 <div class="dropdown d-flex justify-content-center text-align-center" >
                     <i class="icon-size bi bi-geo-alt" style="color: white"></i>
                     {{-- tambahan p-3 m-0 --}}
-                    <select class="nav-link select2 border-0 d-flex p-3 m-0" id="region-select"> 
+                    <select class="nav-link select2 border-0 d-flex p-3 m-0" id="region-select">
                         <option class="text-align-center"><span class="Region">Region</span></option>
                         <option value="serang" style="color: black">Serang</option>
                         <option value="depok" style="color: black">Jakarta</option>
