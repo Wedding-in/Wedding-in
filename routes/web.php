@@ -16,6 +16,10 @@ Route::get('/bookmarks', function () {
     return view('bookmarks');
 });
 
+Route::get('/chatlist', function () {
+    return view('chatlist');
+});
+
 Route::get('/home', function () {
     return view('home');
 });
@@ -106,3 +110,4 @@ Route::get('/viewfolder', function () {
 Route::get('/appointment', function () {
     return view('appointment');
 });
+
