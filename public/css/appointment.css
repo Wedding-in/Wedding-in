@@ -188,3 +188,34 @@ header .icons span:last-child {
     border: none;
     border-radius: 10px;
 }
+
+.chat-container#blur.active {
+    /* filter: blur(5px); */
+    /* background-color: solid blue; */
+    pointer-events: none;
+    z-index: -998;
+}
+
+#popup {
+    position: fixed;
+
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 998;
+    width: 40vh;
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#popup.active {
+    top: 30%;
+    z-index: 999;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}
