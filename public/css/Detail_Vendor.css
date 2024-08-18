@@ -2,6 +2,15 @@ body {
     background-color: #fffef9;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
 .carousel-inner {
     border-radius: 10px;
 }
