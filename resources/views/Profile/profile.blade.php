@@ -246,7 +246,9 @@
                 </div>
             </div>
             <div class="col-1">
+                <a href="/chatlist">
                 <i class="icon-size bi bi-chat-dots-fill" style="color: white"></i>
+            </a>
             </div>
         </div>
     </nav>
@@ -282,7 +284,7 @@
         </div>
         <div class="col-md-2 d-flex justify-content-center align-items-center"
             style="border-bottom:1px solid black;height: 10vh; width: 80%">
-            <a href="#" class=" d-flex justify-content-between"
+            <a href="/faq" class=" d-flex justify-content-between"
                 style=" color: black; width: 100%;text-decoration: none;">
                 <h4>FAQ</h4>
                 <h4> > </h4>
