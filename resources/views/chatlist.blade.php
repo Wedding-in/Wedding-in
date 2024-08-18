@@ -32,8 +32,8 @@
     </style>
 </head>
 <body style="background-color: #FFFEF9">
-    <div class="container-fluid p-0 d-flex justify-content-between align-items-center">
-        <div class="container panah ps-4 d-flex align-items-center" style="height: 55px;">
+    <div class="container-fluid p-0 pt-2 d-flex justify-content-between align-items-center">
+        <div class="container panah ps-3 d-flex align-items-center" style="height: 55px;">
             <a href="/home" style="text-decoration: none;">
             <i class="bi bi-arrow-left-short" style="font-size: 50px; margin-left: -3%; color: black;"></i>
         </a>
@@ -44,8 +44,7 @@
             <i class="bi bi-search" style="font-size: 25px"></i>
         </div>
     </div>
-    <hr>
-
+    <hr class="m-0 mt-2">
     <div class="container mt-4">
         <div class="row">
             <div class="col-md-4">
@@ -92,7 +91,7 @@
                     <div class="chat-details ms-3" style="width: 100%; height: 100%;">
                         <div class="topperchat d-flex justify-content-between align-items-end">
                             <h5 class="chat-name" style="margin-bottom: -0.5%">RaxWeddingin</h5>
-                            <p class="chat-time pe-3">05 Mei 2024</p>
+                            <p class="chat-time pe-3">03 Maret 2024</p>
                         </div>
                         <div class="lowerchat d-flex">
                             <i class="bi bi-check2-all"></i>
@@ -110,7 +109,7 @@
                     <div class="chat-details ms-3" style="width: 100%; height: 100%;">
                         <div class="topperchat d-flex justify-content-between align-items-end">
                             <h5 class="chat-name" style="margin-bottom: -0.5%">RudiWeddingin</h5>
-                            <p class="chat-time pe-3">12 April 2024</p>
+                            <p class="chat-time pe-3">1 Maret 2024</p>
                         </div>
                         <div class="lowerchat d-flex">
                             <p class="chat-message">Rudi: Kalau saya si gpp, masnya?</p>
@@ -119,11 +118,6 @@
                 </div>
             </a>
                 <hr>
-            </div>
-            <div class="col-md-8">
-                <div class="chat-content">
-                    <!-- Chat messages will be displayed here -->
-                </div>
             </div>
         </div>
     </div>
