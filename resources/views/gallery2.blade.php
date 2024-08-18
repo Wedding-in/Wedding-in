@@ -23,7 +23,7 @@
             <p>Gallery</p>
         </div>
         <div class="isi">
-            <div class="card card_large" style="background-image: url('../img/5.jpeg'); background-size: cover;">
+            <div class="card card_large" style="background-image: url('../img/8.jpeg'); background-size: cover;">
                 <div class="bookmark">
                     <button id="btn">
                         <i class="bi bi-bookmark"></i>
