@@ -15,7 +15,7 @@
 <body>
     <div class="search">
         <form action="" class="search-bar">
-            <input type="text" placeholder="search" name='q'>
+            <input type="text" placeholder="search" style="font-family: SourceSerif4-Regular;" name='q'>
             <button type="submit">
                 <span class="icon">
                     <i class="bi bi-search"></i>

@@ -97,19 +97,19 @@
             <a href="/viewfolder" style="text-decoration: none; outline: none;">
             <div class="modal-bodys">
                     <img src="{{ asset('img/11.jpg') }}" alt="">
-                    <p>Wedding</p>
+                    <p style="font-family: SourceSerif4-Regular;">Wedding</p>
                     <ion-icon name="add-circle-outline" class="icon"></ion-icon>
                 </div>
             </a>
 
             <div class="modal-bodys">
                 <img src="{{ asset('img/11.jpg') }}" alt="">
-                <p>Food</p>
+                <p style="font-family: SourceSerif4-Regular;">Food</p>
                 <ion-icon name="add-circle-outline" class="icon"></ion-icon>
             </div>
             <div class="modal-footers">
                 <ion-icon name="add-circle-outline" class="icon"></ion-icon>
-                <p>Add new Folder</p>
+                <p style="font-family: SourceSerif4-Regular;">Add new Folder</p>
             </div>
         </div>
     </div>

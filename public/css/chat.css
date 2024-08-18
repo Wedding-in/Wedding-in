@@ -51,7 +51,7 @@
 
 .appointment-button {
     padding: 1%;
-    background-color: #ff5e5e;
+    background-color: #FCB2A9;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -121,7 +121,7 @@
     width: 13%;
     padding: 2%;
     margin-left: 2%;
-    background-color: #ff5e5e;
+    background-color: #FCB2A9;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -129,5 +129,5 @@
 
 button:hover {
     background-color: #FCB2A9;
-    color: #ff5e5e;
+    color: #FCB2A9;
 }

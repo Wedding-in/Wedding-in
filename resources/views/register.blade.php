@@ -81,6 +81,35 @@
             </div>
             <div class="mb-3 form-check">
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <style>
+                    /* Hide the default checkbox */
+                    input[type="checkbox"] {
+                        appearance: none;
+                        -webkit-appearance: none;
+                        -moz-appearance: none;
+                        width: 20px;
+                        height: 20px;
+                        background-color: #fff;
+                        border: 2px solid #FCB2A9;
+                        cursor: pointer;
+                    }
+
+                    /* Create a pink checkmark */
+                    input[type="checkbox"]:checked {
+                        background-color: #FCB2A9;
+                        border: 2px solid #FCB2A9;
+                    }
+
+                    /* Add a checkmark using :before pseudo-element */
+                    input[type="checkbox"]:checked:before {
+                        content: '✔';
+                        display: block;
+                        color: white;
+                        text-align: center;
+                        font-size: 14px;
+                        line-height: 20px;
+                    }
+                </style>
                 <label class="form-check-label" for="exampleCheck1">I agree with privacy and policy</label>
             </div>
             @csrf

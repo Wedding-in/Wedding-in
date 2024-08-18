@@ -39,7 +39,7 @@
                 <span class="icons">
                     <ion-icon name="bookmark-outline"></ion-icon>
                 </span>
-                <span class="texts">Bookmark</span>
+                <span class="texts">Bookmarks</span>
                 </a>
             </li>
             <li class="lists">

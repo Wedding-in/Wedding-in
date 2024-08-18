@@ -20,7 +20,7 @@
             <a href="/inspiration">
                 <i class="bi bi-arrow-left-short"></i>
             </a>
-            <p>Wedding</p>
+            <p style="font-family: SourceSerif4-Bold;">Wedding</p>
         </div>
         <div class="pin_container">
             <div class="card card_small" data-image-url="{{ asset('img/1.jpeg') }}">

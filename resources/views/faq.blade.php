@@ -23,7 +23,9 @@
 <body>
     <section id="faq">
         <div class="container">
-            <i class="bi bi-arrow-left-short" style="color: black"></i>
+            <a href="/profile">
+            <i class="bi bi-arrow-left-short" style="font-size: 50px; margin-left: -15%; color: black;"></i>
+            </a>
         </div>
 
         <h2 class="title">FAQs</h2>
