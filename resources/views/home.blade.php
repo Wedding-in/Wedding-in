@@ -443,6 +443,7 @@
             </div>
         </a>
     </div>
+</div>
 
   @include('components.navbar')
 </body>
