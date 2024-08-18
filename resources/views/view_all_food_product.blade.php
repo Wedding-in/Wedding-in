@@ -147,8 +147,10 @@
             </div>
         </div>
     </div>
-    <br>
+    <br><br><br><br>
     </div>
+
+    @include('components.nav_make_appointment')
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
