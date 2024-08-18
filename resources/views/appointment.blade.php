@@ -22,7 +22,7 @@
     <title>CHAT</title>
 </head>
 <body>
-    <div class="chat-container" style="background: #fffff8">
+    <div class="chat-container" style="background: #fffff8" id="blur">
         <div class="header">
             <div class="back-button">
                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#ff5e5e" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
@@ -63,8 +63,25 @@
             </div>
         </div>
 
-        <button class="appointment-button">Make appointment</button>
+        <button class="appointment-button" onclick="toggle()">Make appointment</button>
+
+        <div id="popup">
+            <h2>Thank you</h2>
+            <p>Your appointment has been successfully added.
+                You can check your list appointment on Profile menu.
+            </p>
+            <button class="appointment-button" onclick="toggle()">Close</button>
+        </div>
     </div>
 </body>
 <script src="js/appointment.js" defer></script>
+
+<script type="text/javascript">
+    function toggle() {
+        var popup = document.getElementById('popup');
+        popup.classList.toggle('active');
+        var blur = document.getElementById('blur');
+        blur.classList.toggle('active');
+    }
+</script>
 </html>
