@@ -34,7 +34,9 @@
 <body style="background-color: #FFFEF9">
     <div class="container-fluid p-0 d-flex justify-content-between align-items-center">
         <div class="container panah ps-4 d-flex align-items-center" style="height: 55px;">
-            <i class="bi bi-arrow-left-short" style="font-size: 50px; margin-left: -3%"></i>
+            <a href="/home" style="text-decoration: none;">
+            <i class="bi bi-arrow-left-short" style="font-size: 50px; margin-left: -3%; color: black;"></i>
+        </a>
             <h3 class="text-bolder text-center"
                 style="font-family: SourceSerif4-Bold; font-size: 1rem; margin-top: 2.5%;">Chats</h3>
         </div>
@@ -47,6 +49,7 @@
     <div class="container mt-4">
         <div class="row">
             <div class="col-md-4">
+                <a href="/chat" style="text-decoration: none; color: black;">
                 <div class="chat-item d-flex align-items-center mb-3 ps-3" onclick="handleClick(this)">
                     <div class="gambare d-flex p-0 m-0" style="width: 20%; height: auto; aspect-ratio: 1 / 1; overflow: hidden; border-radius: 50%;">
                         <img src="https://www.pranataprinting.com/wp-content/uploads/2019/02/Tips-Sukses-Bisnis-Wedding-Organizer-Pranata-Printing-1170x658.jpg" style="width: 100%; height: 100%; object-fit: cover;">
@@ -62,7 +65,9 @@
                         </div>
                     </div>
                 </div>
+            </a>
                 <hr>
+                <a href="/chat" style="text-decoration: none; color: black;">
                 <div class="chat-item d-flex align-items-center mb-3 ps-3" onclick="handleClick(this)">
                     <div class="gambare d-flex p-0 m-0" style="width: 20%; height: auto; aspect-ratio: 1 / 1; overflow: hidden; border-radius: 50%;">
                         <img src="https://www.pranataprinting.com/wp-content/uploads/2019/02/Tips-Sukses-Bisnis-Wedding-Organizer-Pranata-Printing-1170x658.jpg" style="width: 100%; height: 100%; object-fit: cover;">
@@ -77,7 +82,9 @@
                         </div>
                     </div>
                 </div>
+            </a>
                 <hr>
+                <a href="/chat" style="text-decoration: none; color: black;">
                 <div class="chat-item d-flex align-items-center mb-3 ps-3" onclick="handleClick(this)">
                     <div class="gambare d-flex p-0 m-0" style="width: 20%; height: auto; aspect-ratio: 1 / 1; overflow: hidden; border-radius: 50%;">
                         <img src="https://www.pranataprinting.com/wp-content/uploads/2019/02/Tips-Sukses-Bisnis-Wedding-Organizer-Pranata-Printing-1170x658.jpg" style="width: 100%; height: 100%; object-fit: cover;">
@@ -93,7 +100,9 @@
                         </div>
                     </div>
                 </div>
+            </a>
                 <hr>
+                <a href="/chat" style="text-decoration: none; color: black;">
                 <div class="chat-item d-flex align-items-center mb-3 ps-3" onclick="handleClick(this)">
                     <div class="gambare d-flex p-0 m-0" style="width: 20%; height: auto; aspect-ratio: 1 / 1; overflow: hidden; border-radius: 50%;">
                         <img src="https://www.pranataprinting.com/wp-content/uploads/2019/02/Tips-Sukses-Bisnis-Wedding-Organizer-Pranata-Printing-1170x658.jpg" style="width: 100%; height: 100%; object-fit: cover;">
@@ -108,6 +117,7 @@
                         </div>
                     </div>
                 </div>
+            </a>
                 <hr>
             </div>
             <div class="col-md-8">

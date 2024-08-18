@@ -230,7 +230,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand col-1" href="#">
-                <img class="logo ms-2" src="/Image/Logo_PNG.png" alt="Chat" width="45" height="45">
+                <img class="logo ms-2" src="/Image/Logo.png" alt="Chat" width="45" height="45">
             </a>
             <div class="region" style=" width: 50%; ">
                 <div class="dropdown d-flex justify-content-center text-align-center" >
@@ -338,7 +338,7 @@
     </div>
 
 
-    @include('components.navbar')
+    @include('components.navbar_profile')
 </body>
 {{-- jcquery --}}
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

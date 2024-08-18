@@ -328,7 +328,7 @@
             </div>
         </div>
     </div>
-    @include('components.navbar')
+    @include('components.navbar_bookmark')
     <script>
         function checkAll() {
             var checkboxes = document.getElementsByName('choosing');

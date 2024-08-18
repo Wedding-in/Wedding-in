@@ -118,7 +118,10 @@
         .select2 span {
             font-size: 18px;
         }
-
+        .logo {
+            background-color: white;
+            border-radius: 30px;
+        }
         .icon-size {
             font-size: 25px;
         }
@@ -211,7 +214,9 @@
         </div>
     </div>
       <div class="col-1">
+        <a href="/chatlist">
         <i class="icon-size bi bi-chat-dots-fill" style="color: white"></i>
+    </a>
     </div>
     </div>
   </nav>
@@ -252,7 +257,7 @@
 
     <div class="cards row d-flex mx-4 content-  tems mb-4 justify-content-between">
         <div class="card custom-card col-4 p-2">
-            <a href="">
+            <a href="/Detail_Vendor_Venue">
                 <img src="https://dbijapkm3o6fj.cloudfront.net/resources/34550,1004,1,6,4,0,600,450/-4601-/20230607144102/bright-airy-and-breathtaking-wedding-venue-at-swiss-belresort-dago-heritage-bandung.jpeg" class="card-img-top custom-img" alt="...">
                 <div class="card-body d-flex justify-content-between p-0 mt-2">
                   <span class="card-title mt-1">RTB</span>
@@ -266,7 +271,7 @@
             </a>
         </div>
         <div class="card custom-card col-4 p-2">
-            <a href="">
+            <a href="/Detail_Vendor_Venue">
                 <img src="https://media-api.xogrp.com/images/2c80fca0-cd62-4404-8bab-7152674314c1~rs_768.h" class="card-img-top custom-img" alt="...">
                 <div class="card-body d-flex justify-content-between p-0 mt-2">
                 <span class="card-title mt-1">RTB</span>
@@ -280,7 +285,7 @@
             </a>
         </div>
         <div class="card custom-card col-4 p-2">
-            <a href="">
+            <a href="/Detail_Vendor_Venue">
                 <img src="https://nibble-images.b-cdn.net/nibble/original_images/wedding-venue-bogor-5.jpg" class="card-img-top custom-img" alt="...">
                 <div class="card-body d-flex justify-content-between p-0 mt-2">
                 <span class="card-title mt-1">RTB</span>
@@ -301,7 +306,7 @@
   </h5>
   <div class="cards row d-flex mx-4 content-  tems mb-4 justify-content-between">
     <div class="card custom-card col-4 p-2">
-        <a href="">
+        <a href="/Detail_Vendor_Cake">
             <img src="https://i.pinimg.com/564x/1d/9d/f3/1d9df31e9a4a40450195493aa8a4a551.jpg" class="card-img-top custom-img" alt="...">
             <div class="card-body d-flex justify-content-between p-0 mt-2">
             <span class="card-title mt-1">RTB</span>
@@ -315,7 +320,7 @@
         </a>
     </div>
     <div class="card custom-card col-4 p-2">
-        <a href="">
+        <a href="/Detail_Vendor_Cake">
             <img src="https://pernikahan.or.id/wp-content/uploads/2023/03/kue-pernikahan-buttercream.jpg" class="card-img-top custom-img" alt="...">
             <div class="card-body d-flex justify-content-between p-0 mt-2">
             <span class="card-title mt-1">RTB</span>
@@ -329,7 +334,7 @@
         </a>
     </div>
     <div class="card custom-card col-4 p-2">
-        <a href="">
+        <a href="/Detail_Vendor_Cake">
             <img src="https://i.pinimg.com/564x/c4/45/57/c4455712fafa76f6b776bedd51f24414.jpg" class="card-img-top custom-img" alt="...">
             <div class="card-body d-flex justify-content-between p-0 mt-2">
             <span class="card-title mt-1">RTB</span>
@@ -349,7 +354,7 @@
   </h5>
   <div class="cards row d-flex mx-4 content-  tems mb-4 justify-content-between">
     <div class="card custom-card col-4 p-2">
-        <a href="">
+        <a href="/Detail_Vendor_Food">
             <img src="https://weddingmarket.com/storage/images/artikelideacontent/new/3591abf08c5a9ed3df4cfd512531c035769527dc.webp" class="card-img-top custom-img" alt="...">
             <div class="card-body d-flex justify-content-between p-0 mt-2">
             <span class="card-title mt-1">RTB</span>
@@ -363,7 +368,7 @@
         </a>
     </div>
     <div class="card custom-card col-4 p-2">
-        <a href="">
+        <a href="/Detail_Vendor_Food">
             <img src="https://weddingmarket.com/storage/images/artikelideacontent/new/2dfdc7a628d6b72c4cb4d06c2d290fa98252f1d6.webp" class="card-img-top custom-img" alt="...">
             <div class="card-body d-flex justify-content-between p-0 mt-2">
             <span class="card-title mt-1">RTB</span>
@@ -377,7 +382,7 @@
         </a>
     </div>
     <div class="card custom-card col-4 p-2">
-        <a href="">
+        <a href="/Detail_Vendor_Food">
             <img src="https://undanganpro.wordpress.com/wp-content/uploads/2012/04/mc1.jpg" class="card-img-top custom-img" alt="...">
             <div class="card-body d-flex justify-content-between p-0 mt-2">
             <span class="card-title mt-1">RTB</span>
