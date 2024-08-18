@@ -55,7 +55,7 @@
             font-family: SourceSerif4-Light;
         }
 
-        .side-bot h2 {
+        .side-bot h2, .side-bot h4 {
             font-family: SourceSerif4-regular;
         }
 
