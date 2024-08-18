@@ -23,7 +23,7 @@
 <body>
     <section id="faq">
         <div class="container">
-            <i class="bi bi-arrow-left-short"></i>
+            <i class="bi bi-arrow-left-short" style="color: black"></i>
         </div>
 
         <h2 class="title">FAQs</h2>
