@@ -399,7 +399,7 @@
                                     class="card-img-top" alt="..." height="200" style="width: 100%;">
                                 <div class="card-body position-absolute bottom-0 start-0  w-100 text-white overflow-auto"
                                     style=" background-color: rgba(0, 0, 0, 0.5)">
-                                    <h5 class="card-title">Vendor's Name</h5>
+                                    <h5 class="card-title">Mei Convention </h5>
                                     <p class="card-text">
                                         <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street,
                                         City, Country
@@ -420,7 +420,7 @@
                                     class="card-img-top" alt="..." height="200" style="width: 100%;">
                                 <div class="card-body position-absolute bottom-0 start-0  w-100 text-white overflow-auto"
                                     style=" background-color: rgba(0, 0, 0, 0.5)">
-                                    <h5 class="card-title">Vendor's Name</h5>
+                                    <h5 class="card-title">Lele Convention</h5>
                                     <p class="card-text">
                                         <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street,
                                         City, Country
@@ -441,7 +441,7 @@
                                     class="card-img-top" alt="..." height="200" style="width: 100%;">
                                 <div class="card-body position-absolute bottom-0 start-0  w-100 text-white overflow-auto"
                                     style=" background-color: rgba(0, 0, 0, 0.5)">
-                                    <h5 class="card-title">Vendor's Name</h5>
+                                    <h5 class="card-title">Human Convetion</h5>
                                     <p class="card-text">
                                         <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street,
                                         City, Country
@@ -510,7 +510,7 @@
                                     class="card-img-top" alt="..." height="200" style="width: 100%;">
                                 <div class="card-body position-absolute bottom-0 start-0  w-100 text-white overflow-auto"
                                     style=" background-color: rgba(0, 0, 0, 0.5)">
-                                    <h5 class="card-title">Vendor's Name</h5>
+                                    <h5 class="card-title">EC Cakery</h5>
                                     <p class="card-text">
                                         <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street,
                                         City, Country
@@ -531,7 +531,7 @@
                                     class="card-img-top" alt="..." height="200" style="width: 100%;">
                                 <div class="card-body position-absolute bottom-0 start-0  w-100 text-white overflow-auto"
                                     style=" background-color: rgba(0, 0, 0, 0.5)">
-                                    <h5 class="card-title">Vendor's Name</h5>
+                                    <h5 class="card-title">Mie Cakery</h5>
                                     <p class="card-text">
                                         <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street,
                                         City, Country
@@ -553,7 +553,7 @@
                                     class="card-img-top" alt="..." height="200" style="width: 100%;">
                                 <div class="card-body position-absolute bottom-0 start-0  w-100 text-white overflow-auto"
                                     style=" background-color: rgba(0, 0, 0, 0.5)">
-                                    <h5 class="card-title">Vendor's Name</h5>
+                                    <h5 class="card-title">Boulevard Cakery</h5>
                                     <p class="card-text">
                                         <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street,
                                         City, Country
@@ -640,7 +640,7 @@
                                     class="card-img-top" alt="..." height="200" style="width: 100%;">
                                 <div class="card-body position-absolute bottom-0 start-0  w-100 text-white overflow-auto"
                                     style=" background-color: rgba(0, 0, 0, 0.5)">
-                                    <h5 class="card-title">Vendor's Name</h5>
+                                    <h5 class="card-title">Lele Catering</h5>
                                     <p class="card-text">
                                         <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street,
                                         City, Country
@@ -661,7 +661,7 @@
                                     class="card-img-top" alt="..." height="200" style="width: 100%;">
                                 <div class="card-body position-absolute bottom-0 start-0  w-100 text-white overflow-auto"
                                     style=" background-color: rgba(0, 0, 0, 0.5)">
-                                    <h5 class="card-title">Vendor's Name</h5>
+                                    <h5 class="card-title">Rounded Cakery</h5>
                                     <p class="card-text">
                                         <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street,
                                         City, Country
@@ -682,7 +682,7 @@
                                     class="card-img-top" alt="..." height="200" style="width: 100%;">
                                 <div class="card-body position-absolute bottom-0 start-0  w-100 text-white overflow-auto"
                                     style=" background-color: rgba(0, 0, 0, 0.5)">
-                                    <h5 class="card-title">Vendor's Name</h5>
+                                    <h5 class="card-title">Boulevard Catering</h5>
                                     <p class="card-text">
                                         <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street,
                                         City, Country
@@ -769,7 +769,7 @@
                                     class="card-img-top" alt="..." height="200" style="width: 100%;">
                                 <div class="card-body position-absolute bottom-0 start-0  w-100 text-white overflow-auto"
                                     style=" background-color: rgba(0, 0, 0, 0.5)">
-                                    <h5 class="card-title">Vendor's Name</h5>
+                                    <h5 class="card-title">String Organizer</h5>
                                     <p class="card-text">
                                         <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street,
                                         City, Country
@@ -790,7 +790,7 @@
                                     class="card-img-top" alt="..." height="200" style="width: 100%;">
                                 <div class="card-body position-absolute bottom-0 start-0  w-100 text-white overflow-auto"
                                     style=" background-color: rgba(0, 0, 0, 0.5)">
-                                    <h5 class="card-title">Vendor's Name</h5>
+                                    <h5 class="card-title">Stem Organizer</h5>
                                     <p class="card-text">
                                         <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street,
                                         City, Country
@@ -811,7 +811,7 @@
                                     class="card-img-top" alt="..." height="200" style="width: 100%;">
                                 <div class="card-body position-absolute bottom-0 start-0  w-100 text-white overflow-auto"
                                     style=" background-color: rgba(0, 0, 0, 0.5)">
-                                    <h5 class="card-title">Vendor's Name</h5>
+                                    <h5 class="card-title">Mara Organizer</h5>
                                     <p class="card-text">
                                         <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street,
                                         City, Country
