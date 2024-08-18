@@ -42,6 +42,10 @@ Route::get('/Detail_Vendor_Food', function () {
     return view('detail_vendor_food');
 });
 
+Route::get('/Detail_Product_Cake', function () {
+    return view('detail_product_cake');
+});
+
 Route::get('/inspiration', function () {
     return view('inspiration');
 });
