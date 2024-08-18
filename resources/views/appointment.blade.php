@@ -34,10 +34,11 @@
                 <p class="rate-review">Location</p>
             </div>
         </div>
+        <p class="title">Choose your appointment's date :</p>
         <div class="wrapper" style="background: #ffffff">
             <header style="flex-direction: column">
-                <p class="chosen" style="color: #FCB2A9">August</p>
-                <p class="chosen" style="color: #FCB2A9">Wednesday, 21</p>
+                <p class="chosen1" style="color: #FCB2A9"></p>
+                <p class="chosen2" style="color: #FCB2A9"></p>
             </header>
             <header>
                 <p class="current-date"></p>
