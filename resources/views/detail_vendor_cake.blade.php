@@ -73,11 +73,56 @@
         </div>
 
         <div class="container">
-            <div class="d-flex flex-row justify-content-between">
-                {{-- <h4 class="mt-4">EC Cakery</h4> --}}
+            {{-- <div class="d-flex flex-row justify-content-between">
+                
                 <h4 class="mt-4" style="width: 70%">EC Cakery</h4>
                 <div class="rate mt-4">
                     <i class="bi bi-star-fill" style="color: #FCB2A9"></i>
+                    <span class="text-black" style="color: #C13C2C; font-family: SourceSerif4-Light">4.9</span>
+                </div>
+            </div> --}}
+            {{-- <div class="d-flex flex-row justify-content-between">
+                <h4 class="mt-4" style="width: 70%">EC Cakery</h4>
+                <div class="rate mt-4">
+                    <i class="bi bi-bookmark mr-3" style="color: #C13C2C; margin-left: 5px;"></i>
+                    <i class="bi bi-star-fill" style="color: #FCB2A9"></i>
+                    <span class="text-black" style="color: #C13C2C; font-family: SourceSerif4-Light">4.9</span>
+                </div>
+            </div> --}}
+            <style>
+                .bookmark-hover a:hover{
+                    color: #FCB2A9;
+                    transition: 0.5s;
+                }
+            </style>
+            <div class="d-flex flex-row"  style="">
+                <div class="text-vendor-left d-flex mt-4 bookmark-hover" style=" width: 50%; ">
+                    <h4 style="  margin-right: 10px; height: min-content">EC Cakery</h4>
+                    <a href="javascript:void(0)" onclick="event.preventDefault()" style=" height: min-content">
+                        <i id="bookmark-icon" class="bi bi-bookmark m-0 p-0" style="color: #00000072; font-size: 20px"></i>
+                        
+                    </a>
+                </div>
+                <script>
+                    const bookmarkIcon = document.getElementById('bookmark-icon');
+                    let isBookmarked = false;
+
+                    bookmarkIcon.addEventListener('click', function() {
+                        if (!isBookmarked) {
+                            bookmarkIcon.classList.remove('bi-bookmark');
+                            bookmarkIcon.classList.add('bi-bookmark-fill');
+                            bookmarkIcon.style.color = '#FCB2A9';
+                            isBookmarked = true;
+                        } else {
+                            bookmarkIcon.classList.remove('bi-bookmark-fill');
+                            bookmarkIcon.classList.add('bi-bookmark');
+                            bookmarkIcon.style.color = '#00000072';
+                            isBookmarked = false;
+                        }
+                    });
+                </script>
+                <div class="rate d-flex justify-content-end mt-4" style=" width: 50%">
+                    <i class="bi bi-star-fill me-1" style="color: #FCB2A9"></i>
                     <span class="text-black" style="color: #C13C2C; font-family: SourceSerif4-Light">4.9</span>
                 </div>
             </div>
