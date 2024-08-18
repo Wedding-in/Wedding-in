@@ -115,3 +115,16 @@ Route::get('/appointment', function () {
     return view('appointment');
 });
 
+
+Route::get('/viewfolder', function () {
+    return view('viewfolder');
+});
+
+Route::get('/appointment', function () {
+    return view('appointment');
+});
+
+
+Route::get('/status', function () {
+    return view('Status/status');
+});
