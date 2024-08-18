@@ -174,9 +174,17 @@ header .icons span:last-child {
 }
 
 .appointment-button {
+    font-weight: 700;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
     padding: 1%;
-    background-color: #ff5e5e;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    background-color: #FCB2A9;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
 }
