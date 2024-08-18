@@ -200,51 +200,126 @@
                 <div class="container-fluid m-0 p-0">
                     <div class="card m-0 p-0 border-0">
                         <div class="content d-flex justify-content-between pt-3">
-                            <div class="left_content">
+                            <div class="left_content" style="width:47%">
                                 <div class="favorite"
-                                    style="height: 190px; width:190px; border: 1px solid black; border-radius: 0.25rem; overflow: hidden;">
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGzvPPPE_yYRcEO8LFzJ_LZTUvlImybCF5QbQjlkWfskfezI-P1s66TdUowV_J4LRry7o&usqp=CAU"
+                                    style="height: 190px; width:100%; border: 1px solid black; border-radius: 0.25rem; overflow: hidden;">
+                                    <img src="https://media.suara.com/pictures/653x366/2023/01/12/27038-potret-pernikahan-nex-carlos-instagramatvienesca.jpg"
                                         class="card-img-top" alt="..."
-                                        style="width: 190px; height:95px; border-radius: 0.25rem 0.25rem 0 0;">
+                                        style="width: 100%; height:50%; border-radius: 0.25rem 0.25rem 0 0;">
                                     <div class="card-body m-0 p-0">
                                         <div class="lower_content d-flex">
-                                            <img src="https://wallpapersmug.com/download/1024x768/b59983/anime-kitagawa-marin.jpg"
+                                            <img src="https://images.tokopedia.net/blog-tokopedia-com/uploads/2020/04/cincin-pernikahan.jpg"
                                                 alt=""
-                                                style="height: 95px; width:95px; border-radius: 0 0 0.25rem 0;">
-                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZy-a-t8ZTpJ9CpYWIIfxxiwvPYhDcqA3EXw&s"
+                                                style="height: 95px; width:50%; border-radius: 0 0 0.25rem 0;">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5PMvSnjsMrmXk0YwGnj9tqlXQCftXJtr_rA&s"
                                                 alt=""
-                                                style="height: 95px; width:95px; border-radius: 0 0 0 0.25rem;">
+                                                style="height: 95px; width:50%; border-radius: 0 0 0 0.25rem;">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="lower_part pt-1 d-flex justify-content-between align-items-center"
-                                    style="width:190px; position: relative;">
-                                    <span style="font-family: 'SourceSerif4', serif; font-size: 1rem;">Marin Chuan</span>
-                                    <i class="bi bi-three-dots-vertical" style="position: absolute; right: -3.5%;"></i>
+                                <div>
+                                    <div class="lower_part pt-1 d-flex justify-content-between align-items-center"
+                                        style="width:100%; position: relative;">
+                                        <span style="font-family: 'SourceSerif4', serif; font-size: 1rem;">Istri Pertamaaa</span>
+                                        <i class="bi bi-three-dots-vertical"  onclick="showPopup(event)"></i>
+                                    </div>
+                                        <div id="popup" style="display: none;">
+                                            <div class="Isian" style="background-color: #FFFEF9; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);">
+                                                <div class="Deleting p-0 m-0 d-flex align-items-center">
+                                                    <i class="bi bi-trash3 p-1 ps-2" style="color: red"></i>
+                                                    <span style="font-family: 'SourceSerif4', serif; font-size: 1rem; color: red;">Delete</span>
+                                                </div>
 
+                                                <div class="Rename p-0 m-0 d-flex align-items-center">
+                                                    <i class="bi bi-pen p-1 ps-2"></i>
+                                                    <span style="font-family: 'SourceSerif4', serif; font-size: 1rem;">Rename</span>
+                                                </div>
+                                            </div>
+                                        </div>
                                 </div>
                             </div>
-                            <div class="right_content">
+                            <div class="right_content" style="width:47%">
                                 <div class="favorite"
-                                    style="height: 190px; width:190px; border: 1px solid black; border-radius: 0.25rem; overflow: hidden;">
-                                    <img src="https://embed.pixiv.net/spotlight.php?id=9262&lang=en"
+                                    style="height: 190px; width:100%; border: 1px solid black; border-radius: 0.25rem; overflow: hidden;">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQswrUiZDW4mkAJSd3OSgDefljX6d6ZULJfww&s"
                                         class="card-img-top" alt="..."
-                                        style="width: 190px; height:95px; border-radius: 0.25rem 0.25rem 0 0;">
+                                        style="width: 100%; height:50%; border-radius: 0.25rem 0.25rem 0 0;">
                                     <div class="card-body m-0 p-0">
                                         <div class="lower_content d-flex">
-                                            <img src="https://static.zerochan.net/Furina.full.4054438.jpg"
+                                            <img src="https://v1.indonesia.travel/content/dam/indtravelrevamp/id-id/ide-liburan/lagi-cari-lokasi-pernikahan-cek-7-lokasi-pernikahan-di-indonesia-aja-ini-yuk/royal-tulip.jpeg"
                                                 alt=""
-                                                style="height: 95px; width:95px; border-radius: 0 0 0.25rem 0;">
-                                            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4d52fc21-e5cc-4b78-b4db-06f495150268/dg716p3-9aa66ba2-963a-45cd-bff3-0481e68f8866.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzRkNTJmYzIxLWU1Y2MtNGI3OC1iNGRiLTA2ZjQ5NTE1MDI2OFwvZGc3MTZwMy05YWE2NmJhMi05NjNhLTQ1Y2QtYmZmMy0wNDgxZTY4Zjg4NjYuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.l7PEcL6Jepesk4ZfMMPfdt_-UNwkGPbsCq8sY-Te73w"
+                                                style="height: 95px; width:50%; border-radius: 0 0 0.25rem 0;">
+                                            <img src="https://marketplace.canva.com/EAF5iY3yl10/1/0/1600w/canva-cokelat-minimalis-momen-indah-kolase-foto-pernikahan-kiriman-instgaram-jG4b5V-Fo8s.jpg"
                                                 alt=""
-                                                style="height: 95px; width:95px; border-radius: 0 0 0 0.25rem;">
+                                                style="height: 95px; width:50%; border-radius: 0 0 0 0.25rem;">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="lower_part pt-1 d-flex justify-content-between align-items-center"
-                                    style="width:190px;      position: relative;">
-                                    <span style="font-family: 'SourceSerif4', serif; font-size: 1rem;">Furinah</span>
-                                    <i class="bi bi-three-dots-vertical" style="position: absolute; right: -3.5%;"></i>
+                                    style="width:100%; position: relative;">
+                                    <span style="font-family: 'SourceSerif4', serif; font-size: 1rem;">ImpianKu Istri ke 2</span>
+                                    <i class="bi bi-three-dots-vertical"  onclick="showPopup2(event)"></i>
+                                    </div>
+
+                                    <div id="popup2" style="display: none;" >
+                                        <div class="Isian" style="background-color: #FFFEF9; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);">
+                                            <div class="Deleting p-0 m-0 d-flex align-items-center">
+                                                <i class="bi bi-trash3 p-1 ps-2" style="color: red"></i>
+                                                <span style="font-family: 'SourceSerif4', serif; font-size: 1rem; color: red;">Delete</span>
+                                            </div>
+
+                                            <div class="Rename p-0 m-0 d-flex align-items-center">
+                                                <i class="bi bi-pen p-1 ps-2"></i>
+                                                <span style="font-family: 'SourceSerif4', serif; font-size: 1rem;">Rename</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <script>
+                                    function showPopup2(event) {
+                                        event.stopPropagation();
+                                        var popup = document.getElementById("popup2");
+                                        popup.style.display = "block";
+                                        document.addEventListener("click", dismissPopup2);
+                                    }
+
+                                    function dismissPopup2() {
+                                        var popup = document.getElementById("popup2");
+                                        popup.style.display = "none";
+                                        document.removeEventListener("click", dismissPopup2);
+                                    }
+
+                                    function deleteItem() {
+                                        // Code to delete the item goes here
+                                    }
+
+                                    function renameItem() {
+                                        // Code to rename the item goes here
+                                    }
+                                </script>
+
+                                    <script>
+                                        function showPopup(event) {
+                                            event.stopPropagation();
+                                            var popup = document.getElementById("popup");
+                                            popup.style.display = "block";
+                                            document.addEventListener("click", dismissPopup);
+                                        }
+
+                                        function dismissPopup() {
+                                            var popup = document.getElementById("popup");
+                                            popup.style.display = "none";
+                                            document.removeEventListener("click", dismissPopup);
+                                        }
+
+                                        function deleteItem() {
+                                            // Code to delete the item goes here
+                                        }
+
+                                        function renameItem() {
+                                            // Code to rename the item goes here
+                                        }
+                                    </script>
                                 </div>
                             </div>
                         </div>
