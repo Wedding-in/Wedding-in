@@ -326,7 +326,7 @@
 
 <body style="background-color: #FFFEF9;">
     {{-- search --}}
-    <div class="container-fluid align-items-center d-flex"style="height: 11vh; background-color: #FCB2A9;">
+    <div class="container-fluid align-items-center d-flex position-fixed"style="height: 11vh; background-color: #FCB2A9;z-index:999">
         <div class="search p-0 m-0 " style="border-radius: 5px; ">
             <form action="" class="search-bar p-0 m-0" style="  width: 100%">
                 <input type="text" placeholder="Search" name='q'>
@@ -358,6 +358,7 @@
         </div> --}}
         {{-- end region --}}
     </div>
+    <div class="pembatas" style="height: 12vh"></div>
     <div class="container-fluid d-flex py-2 px-0 flex-column sub-title" style="border: solid transparent 1px;">
         <h2 class="ps-4" style="font-weight: 600">Categories</h2>
         <div class="col-md-3 d-flex justify-content-center align-items-center pt-2 " >
@@ -503,7 +504,7 @@
         <div class="tab-pane fade" id="pills-cake" role="tabpanel" aria-labelledby="pills-cake-tab">
             <div class="container">
                 <div class="row flex-column d-flex items-tabs">
-                    <a href="#" class="text-decoration-none my-2" style="color: black;  width: 100%;">
+                    <a href="/Detail_Vendor_Cake" class="text-decoration-none my-2" style="color: black;  width: 100%;">
                         <div class="col-md-4">
                             <div class="card border-0" style="width: 100%; border-radius: 0.25rem;overflow: hidden; ">
                                 <img src="https://alexandra.bridestory.com/image/upload/dpr_1.0,f_webp,fl_progressive,q_60,c_fill,g_faces,w_560,h_280/assets/upload-PhyOumJmW.webp"
@@ -524,7 +525,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="#" class="text-decoration-none my-2" style="color: black;  width: 100%;">
+                    <a href="/Detail_Vendor_Cake" class="text-decoration-none my-2" style="color: black;  width: 100%;">
                         <div class="col-md-4">
                             <div class="card border-0" style="width: 100%; border-radius: 0.25rem;overflow: hidden; ">
                                 <img src="https://alexandra.bridestory.com/image/upload/dpr_1.0,f_webp,fl_progressive,q_60,c_fill,g_faces,w_560,h_280/assets/upload-tJBn6AEX9.webp"
@@ -545,7 +546,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="#" class="text-decoration-none my-2" style="color: black;  width: 100%;">
+                    <a href="/Detail_Vendor_Cake" class="text-decoration-none my-2" style="color: black;  width: 100%;">
                         <div class="col-md-4">
                             <div class="card border-0"
                                 style="width: 100%; border-radius: 0.25rem;overflow: hidden;  ">
