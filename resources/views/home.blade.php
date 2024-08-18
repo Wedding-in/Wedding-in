@@ -114,11 +114,6 @@
             font-size: 18px;
         }
 
-        .logo {
-            background-color: white;
-            border-radius: 30px;
-        }
-
         .icon-size {
             font-size: 25px;
         }
@@ -197,7 +192,7 @@
   <nav class="navbar navbar-expand-lg mb-4">
     <div class="container-fluid">
       <a class="navbar-brand col-1" href="#">
-        <img class="logo" src="/Image/Logo_PNG.png" alt="Chat" width="40" height="40">
+        <img class="logo ms-2" src="/Image/Logo.png" alt="Chat" width="45" height="45">
       </a>
       <div class="region" style=" width: 50%; ">
         <div class="dropdown d-flex justify-content-center text-align-center" >
