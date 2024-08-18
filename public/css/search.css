@@ -16,65 +16,45 @@ body{
     height: 11vh;
 }
 
-.search-bar{
+.search-bar {
     top: 0;
     width: 100%;
-    max-width: 700px;
+    max-width: 90%; /* Kurangi ukuran maksimal agar lebih responsif */
     background: rgba(255,255,255,0.2);
     display: flex;
     align-items: center;
     border-radius: 5px;
-    padding: 2.5px 5px;
+    padding: 2% 5%;
     backdrop-filter: blur(4px) saturate(180%);
-    border: #FCB2A9 2px solid;
+    border: #FCB2A9 0.4vw solid; /* Gunakan vw untuk border */
 }
 
-.search-bar input{
+.search-bar input {
     background: transparent;
     flex: 1;
     border: 0;
     outline: none;
-    padding: 10px 10px;
-    font-size: 20px;
+    padding: 2.5% 4%; /* Gunakan persen untuk padding */
+    font-size: 4vw; /* Gunakan vw untuk ukuran font agar responsif */
     color: #cac7ff;
 }
 
-::placeholder{
-    color: #FCB2A9;
-}
-
-.search-bar button{
+.search-bar button {
     border: 0;
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 10vw; /* Gunakan vw untuk lebar lingkaran */
+    height: 10vw; /* Gunakan vw untuk tinggi lingkaran */
     background: #FCB2A9;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0; /* Pastikan tidak ada padding yang berlebihan */
+    padding: 0; /* Hilangkan padding tambahan */
 }
 
-.search-bar .icon{
-    font-size: 1.6em;
+.search-bar .icon {
+    font-size: 5vw; /* Gunakan vw untuk ukuran ikon agar responsif */
     color: white;
-}
-
-/* Responsive adjustments if needed */
-@media (max-width: 576px) {
-    .search-bar {
-        max-width: 90%; /* Kurangi ukuran maksimal pada layar kecil */
-    }
-
-    .search-bar .icon {
-        font-size: 1.4em; /* Sesuaikan ukuran ikon pada layar kecil */
-    }
-
-    .search-bar button {
-        width: 35px;
-        height: 35px;
-    }
 }
 
 
