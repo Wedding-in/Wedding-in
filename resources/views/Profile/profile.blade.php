@@ -266,7 +266,7 @@
                     </div> --}}
                 </div>
                 <div class="w-50 text-right-namaprofile" style=" padding-left: 5px">
-                    <h5>nama</h5>
+                    <h5>Alvina</h5>
                     <a style="color: #FCB2A9" href="/detailprofile"><span>Edit Profile</span></a>
                 </div>
             </div>
