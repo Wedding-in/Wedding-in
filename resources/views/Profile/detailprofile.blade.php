@@ -134,7 +134,7 @@
                     <label for="fname">
                         <h5>Nama Lengkap</h5>
                     </label>
-                    <input type="text" id="fname" name="fname" value="ayam rambo" disabled>
+                    <input type="text" id="fname" name="fname" value="Alvina Krisendi" disabled>
                     <br>
                     <br>
                     <label for="notelp" style="width: 100%" class="label-form  d-flex align-items-center" disabled>
@@ -156,7 +156,7 @@
                         <h5>Email</h5>
                         <i class="bi bi-pencil pb-1 ms-2 "></i>
                     </label>
-                    <input type="text" id="email" name="email" placeholder="@gmail.com" disabled>
+                    <input type="text" id="email" name="email" placeholder="@gmail.com" value="alvina@gmail.com" disabled>
 
                 </form>
             </div>
