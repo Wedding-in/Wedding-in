@@ -41,7 +41,7 @@
             </div>
             <div class="vendor-info">
                 <p class="vendor-name">Ec Cakery</p>
-                <p class="rate-review">Bandung</p>
+                <p class="rate-review" style="color: black">Bandung</p>
             </div>
         </div>
         <p class="title">Choose your appointment's date :</p>
