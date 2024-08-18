@@ -276,16 +276,16 @@
             style="border-bottom:1px solid black;height: 10vh; width: 80%">
             <a href="#" class=" d-flex justify-content-between"
                 style=" color: black; width: 100%;text-decoration: none;">
-                <h2>My Appoinment</h2>
-                <h2> > </h2>
+                <h4>My Appoinment</h4>
+                <h4> > </h4>
             </a>
         </div>
         <div class="col-md-2 d-flex justify-content-center align-items-center"
             style="border-bottom:1px solid black;height: 10vh; width: 80%">
             <a href="#" class=" d-flex justify-content-between"
                 style=" color: black; width: 100%;text-decoration: none;">
-                <h2>FAQ</h2>
-                <h2> > </h2>
+                <h4>FAQ</h4>
+                <h4> > </h4>
             </a>
         </div>
         <div class="col-md-2 d-flex justify-content-center align-items-center"
@@ -293,15 +293,35 @@
             <a href="#" class=" d-flex justify-content-between"
                 style=" color: black; width: 100%;text-decoration: none;" data-bs-toggle="modal"
                 data-bs-target="#changePasswordModal">
-                <h2>Change Password</h2>
-                <h2> > </h2>
+                <h4>Change Password</h4>
+                <h4> > </h4>
             </a>
         </div>
         <div class="col-md-2 my-4 d-flex justify-content-center align-items-center" style="height: 10vh; width: 80%">
             <a href="#" class=" d-flex justify-content-center"
-                style=" color: black; width: 100%;text-decoration: none;">
-                <h2 style="color: red">Logout</h2>
+                style=" color: black; width: 100%;text-decoration: none;" data-bs-toggle="modal"
+                data-bs-target="#logoutModal">
+                <h4 style="color: red">Logout</h4>
             </a>
+        </div>
+    </div>
+
+    <!-- Logout Modal -->
+    <div class="modal fade" id="logoutModal" tabindex="-1" aria-labelledby="logoutModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="logoutModalLabel">Logout Confirmation</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Are you sure you want to logout?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <a href="/logout" class="btn btn-primary" style="background-color: #FCB2A9; border: none">Logout</a>
+                </div>
+            </div>
         </div>
     </div>
 
