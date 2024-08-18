@@ -17,21 +17,21 @@
     <link rel="stylesheet" href="../../css/Detail_Vendor.css">
     <link rel="stylesheet" href="../../css/Font.css">
 
-    <title>Detail Vendor Cake</title>
+    <title>Detail Vendor Food</title>
 </head>
 
 <body>
     <div class="container">
         <div class="container panah"
             style="height: 55px; display: flex; flex-direction: column; justify-content: center">
-            <a style="text-decoration: none; color: black" href="/Detail_Vendor_Cake"><i class="bi bi-arrow-left-short"
+            <a style="text-decoration: none; color: black" href="/Detail_Vendor_Food"><i class="bi bi-arrow-left-short"
                     style="font-size: 40px; margin-left: -3%"></i></a>
         </div>
 
         <div class="container d-flex justify-content-center align-items-center mt-3 mb-3"
             style="height: 320px; width: 85%; background-color: #F4F4F4;">
             {{-- <div class="" style="width: 100%; height: 100%;"> --}}
-            <img src="/Image/Detail_Vendor_Cake/Product1.jpeg" alt="" style="height: 100%; max-width: 100%">
+            <img src="/Image/Detail_Vendor_Food/Food1.jpeg" alt="" style="height: 100%; max-width: 100%">
             {{-- </div> --}}
         </div>
 
@@ -47,7 +47,7 @@
         <div class="container">
             <div class="d-flex flex-row justify-content-between">
                 {{-- <h4 class="mt-4">EC Cakery</h4> --}}
-                <h4 class="mt-4" style="width: 70%">EC Cakery</h4>
+                <h4 class="mt-4" style="width: 70%">American Buffet</h4>
             </div>
             {{-- <h6 class="mt-1">Jl. Raya Babakan Madang No.25, Citaringgul, Kec. Babakan Madang, Kabupaten Bogor, Jawa Barat 16810</h6> --}}
             <hr style="height:2px;border-width:0;color:#C13C2C;background-color:#C13C2C">

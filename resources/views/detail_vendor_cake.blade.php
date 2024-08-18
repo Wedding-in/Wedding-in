@@ -74,7 +74,7 @@
 
         <div class="container">
             {{-- <div class="d-flex flex-row justify-content-between">
-                
+
                 <h4 class="mt-4" style="width: 70%">EC Cakery</h4>
                 <div class="rate mt-4">
                     <i class="bi bi-star-fill" style="color: #FCB2A9"></i>
@@ -89,41 +89,45 @@
                     <span class="text-black" style="color: #C13C2C; font-family: SourceSerif4-Light">4.9</span>
                 </div>
             </div> --}}
-            <style>
-                .bookmark-hover a:hover{
+            {{-- <style>
+                .bookmark-hover a:hover {
                     color: #FCB2A9;
                     transition: 0.5s;
                 }
-            </style>
-            <div class="d-flex flex-row"  style="">
-                <div class="text-vendor-left d-flex mt-4 bookmark-hover" style=" width: 50%; ">
+            </style> --}}
+            <div class="d-flex flex-row" style="">
+                <div class="text-vendor-left d-flex mt-4 bookmark-hover" style=" width: 70%; ">
                     <h4 style="  margin-right: 10px; height: min-content">EC Cakery</h4>
-                    <a href="javascript:void(0)" onclick="event.preventDefault()" style=" height: min-content">
-                        <i id="bookmark-icon" class="bi bi-bookmark m-0 p-0" style="color: #00000072; font-size: 20px"></i>
-                        
-                    </a>
-                </div>
-                <script>
-                    const bookmarkIcon = document.getElementById('bookmark-icon');
-                    let isBookmarked = false;
 
-                    bookmarkIcon.addEventListener('click', function() {
-                        if (!isBookmarked) {
-                            bookmarkIcon.classList.remove('bi-bookmark');
-                            bookmarkIcon.classList.add('bi-bookmark-fill');
-                            bookmarkIcon.style.color = '#FCB2A9';
-                            isBookmarked = true;
-                        } else {
-                            bookmarkIcon.classList.remove('bi-bookmark-fill');
-                            bookmarkIcon.classList.add('bi-bookmark');
-                            bookmarkIcon.style.color = '#00000072';
-                            isBookmarked = false;
-                        }
-                    });
-                </script>
+                </div>
+
                 <div class="rate d-flex justify-content-end mt-4" style=" width: 50%">
-                    <i class="bi bi-star-fill me-1" style="color: #FCB2A9"></i>
-                    <span class="text-black" style="color: #C13C2C; font-family: SourceSerif4-Light">4.9</span>
+                    <a href="javascript:void(0)" onclick="event.preventDefault()" style=" height: min-content">
+                        <i id="bookmark-icon" class="bi bi-bookmark m-0 p-0"
+                            style="color: #00000072; font-size: 20px"></i>
+
+                    </a>
+                    <i class="bi bi-star-fill me-1 ms-2" style="color: #FCB2A9"></i>
+                    <span class="text-black" style="color: #FCB2A9; font-family: SourceSerif4-Light">4.9</span>
+
+                    <script>
+                        const bookmarkIcon = document.getElementById('bookmark-icon');
+                        let isBookmarked = false;
+
+                        bookmarkIcon.addEventListener('click', function() {
+                            if (!isBookmarked) {
+                                bookmarkIcon.classList.remove('bi-bookmark');
+                                bookmarkIcon.classList.add('bi-bookmark-fill');
+                                bookmarkIcon.style.color = '#FCB2A9';
+                                isBookmarked = true;
+                            } else {
+                                bookmarkIcon.classList.remove('bi-bookmark-fill');
+                                bookmarkIcon.classList.add('bi-bookmark');
+                                bookmarkIcon.style.color = '#00000072';
+                                isBookmarked = false;
+                            }
+                        });
+                    </script>
                 </div>
             </div>
             <div class="d-flex flex-row gap-1">
@@ -157,96 +161,104 @@
 
             <div class="row row-cols-2 mt-1">
                 <div class="col mt-2">
-                    <div class="card" style="width: 100%; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);">
-                        <div style="height: 180px">
-                            <img src="/Image/Detail_Vendor_Cake/Product1.jpeg" class="card-img-top"
-                                style="width: 100%; height: 100%;" alt="...">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">4 Tiered Wedding Cake</h5>
-                            <p class="overflow-ellipsis">
-                                Cake Size : 20,30,40,50m
-                                Includes:
-                                - 10 cake suapan
-                                - 4 family cake-
-                                - 15 mingle cake
-                                - ceremonial knife
-                                - 1x virtual meeting
-                                - digital sketch
-                            </p>
+                    <a href="/Detail_Product_Cake">
+                        <div class="card" style="width: 100%; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);">
+                            <div style="height: 180px">
+                                <img src="/Image/Detail_Vendor_Cake/Product1.jpeg" class="card-img-top"
+                                    style="width: 100%; height: 100%;" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">4 Tiered Wedding Cake</h5>
+                                <p class="overflow-ellipsis">
+                                    Cake Size : 20,30,40,50m
+                                    Includes:
+                                    - 10 cake suapan
+                                    - 4 family cake-
+                                    - 15 mingle cake
+                                    - ceremonial knife
+                                    - 1x virtual meeting
+                                    - digital sketch
+                                </p>
 
-                            <a class="Read_more" href="/Detail_Product_Cake">Read more</a>
+                                <a class="Read_more" href="/Detail_Product_Cake">Read more</a>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col mt-2">
-                    <div class="card" style="width: 100%; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);">
-                        <div style="height: 180px">
-                            <img src="/Image/Detail_Vendor_Cake/Product2.jpeg" class="card-img-top"
-                                style="width: 100%; height: 100%;" alt="...">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">5 Tiered Wedding Cake</h5>
-                            <p class="overflow-ellipsis">
-                                Cake Size : 20,30,40,50m
-                                Includes:
-                                - 10 cake suapan
-                                - 4 family cake-
-                                - 15 mingle cake
-                                - ceremonial knife
-                                - 1x virtual meeting
-                                - digital sketch
-                            </p>
+                    <a href="/Detail_Product_Cake">
+                        <div class="card" style="width: 100%; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);">
+                            <div style="height: 180px">
+                                <img src="/Image/Detail_Vendor_Cake/Product2.jpeg" class="card-img-top"
+                                    style="width: 100%; height: 100%;" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">5 Tiered Wedding Cake</h5>
+                                <p class="overflow-ellipsis">
+                                    Cake Size : 20,30,40,50m
+                                    Includes:
+                                    - 10 cake suapan
+                                    - 4 family cake-
+                                    - 15 mingle cake
+                                    - ceremonial knife
+                                    - 1x virtual meeting
+                                    - digital sketch
+                                </p>
 
-                            <a class="Read_more" href="">Read more</a>
+                                <a class="Read_more" href="/Detail_Product_Cake">Read more</a>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col mt-2">
-                    <div class="card" style="width: 100%; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);">
-                        <div style="height: 180px">
-                            <img src="/Image/Detail_Vendor_Cake/Product3.jpeg" class="card-img-top"
-                                style="width: 100%; height: 100%;" alt="...">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">3 Tiered Wedding Cake</h5>
-                            <p class="overflow-ellipsis">
-                                Cake Size : 20,30,40,50m
-                                Includes:
-                                - 10 cake suapan
-                                - 4 family cake-
-                                - 15 mingle cake
-                                - ceremonial knife
-                                - 1x virtual meeting
-                                - digital sketch
-                            </p>
+                    <a href="/Detail_Product_Cake">
+                        <div class="card" style="width: 100%; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);">
+                            <div style="height: 180px">
+                                <img src="/Image/Detail_Vendor_Cake/Product3.jpeg" class="card-img-top"
+                                    style="width: 100%; height: 100%;" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">3 Tiered Wedding Cake</h5>
+                                <p class="overflow-ellipsis">
+                                    Cake Size : 20,30,40,50m
+                                    Includes:
+                                    - 10 cake suapan
+                                    - 4 family cake-
+                                    - 15 mingle cake
+                                    - ceremonial knife
+                                    - 1x virtual meeting
+                                    - digital sketch
+                                </p>
 
-                            <a class="Read_more" href="">Read more</a>
+                                <a class="Read_more" href="">Read more</a>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col mt-2">
-                    <div class="card" style="width: 100%; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);">
-                        <div style="height: 180px">
-                            <img src="/Image/Detail_Vendor_Cake/Product4.jpeg" class="card-img-top"
-                                style="width: 100%; height: 100%;" alt="...">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Tiered Wedding Cake</h5>
-                            <p class="overflow-ellipsis">
-                                Cake Size : 20,30,40,50m
-                                Includes:
-                                - 10 cake suapan
-                                - 4 family cake-
-                                - 15 mingle cake
-                                - ceremonial knife
-                                - 1x virtual meeting
-                                - digital sketch
-                            </p>
+                    <a href="/Detail_Product_Cake">
+                        <div class="card" style="width: 100%; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);">
+                            <div style="height: 180px">
+                                <img src="/Image/Detail_Vendor_Cake/Product4.jpeg" class="card-img-top"
+                                    style="width: 100%; height: 100%;" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Tiered Wedding Cake</h5>
+                                <p class="overflow-ellipsis">
+                                    Cake Size : 20,30,40,50m
+                                    Includes:
+                                    - 10 cake suapan
+                                    - 4 family cake-
+                                    - 15 mingle cake
+                                    - ceremonial knife
+                                    - 1x virtual meeting
+                                    - digital sketch
+                                </p>
 
-                            <a class="Read_more" href="">Read more</a>
+                                <a class="Read_more" href="/Detail_Product_Cake">Read more</a>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>

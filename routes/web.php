@@ -46,6 +46,14 @@ Route::get('/Detail_Product_Cake', function () {
     return view('detail_product_cake');
 });
 
+Route::get('/Detail_Product_Venue', function () {
+    return view('detail_product_venue');
+});
+
+Route::get('/Detail_Product_Food', function () {
+    return view('detail_product_food');
+});
+
 Route::get('/inspiration', function () {
     return view('inspiration');
 });
