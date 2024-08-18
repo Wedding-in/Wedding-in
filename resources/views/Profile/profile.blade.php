@@ -319,7 +319,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                    <a href="/logout" class="btn btn-primary" style="background-color: #FCB2A9; border: none">Logout</a>
+                    <a href="/login" class="btn btn-primary" style="background-color: #FCB2A9; border: none">Logout</a>
                 </div>
             </div>
         </div>
