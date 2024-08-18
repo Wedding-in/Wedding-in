@@ -21,91 +21,45 @@
     <title>CHAT</title>
 </head>
 <body>
-    {{-- HEADER --}}
-    <div class="header container">
-        <div class="row">
-            <div class="col-3">
-                <a style="color: black" href="/Detail_Vendor_Cake"><i class="bi bi-arrow-left-short"></i></a>
+    <div class="chat-container">
+        <div class="header">
+            <div class="back-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#ff5e5e" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5"/>
+                </svg>
             </div>
-            <div class="col-4">
-                <h2>Vendor's Name</h2>
-                <h6>Location</h6>
+            <div class="vendor-info">
+                <p class="vendor-name">Vendor's Name</p>
+                <p class="rate-review">Rate and Review</p>
             </div>
-
-            <div class="btn col-3" style="width: 36%">
-                <button type="button" class="btn" style="color: white"><h6>Appointment</h6></button>
-            </div>
+            <button class="appointment-button">Make Appointment</button>
         </div>
-        <hr style="width: 115%">
-    </div>
 
-    {{-- BODY CHAT --}}
-    <div class="chat container">
-        <div class="vendor container">
-            <div class="row">
-                <div class="col-1">
-                    <img src="../img/pp.png" alt="p" style="">
-                </div>
-                <div class="col">
-                    <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quis totam labore odio hic nisi sint illo, repellat necessitatibus nemo consequatur et. Voluptas saepe facere provident cumque vel ea dolorum.</h6>
-                </div>
+        <div class="messages">
+            <div class="message left">
+                <img src="/img/pp.png" alt="Profile Image">
+                <div class="message-bubble">sequi! Expedita, quibusdam!  architecto enim sunt mollitia, eveniet laborum eius numquam magni neque sequi. Nesciunt corporis quaerat iste sint minus est consectetur quam neque, dolore corrupti amet similique nobis suscipit, fugit odit in nulla! Repellendus libero eveniet quod commodi hic fugit in odio quasi iure est at voluptate nemo deserunt earum fuga architecto quae nesciunt, molestias quisquam laboriosam doloremque corporis amet. Minima, inventore alias.</div>
+            </div>
+            <div class="message right">
+                <div class="message-bubble">L quae incidunt, quaerat minima corrupti dolor nostrum, voluptas possimus. Provident, unde beatae atque tempore repellat eius itaque quasi consequuntur illo porro quibusdam ducimus laborum quo dolorem dolore minima perferendis.</div>
+            </div>
+            <div class="message left">
+                <img src="/img/pp.png" alt="Profile Image">
+                <div class="message-bubble">Lorem ip eveniet laborum eius numquam magni neque sequi. Nesciunt corporis quaerat iste sint minus est consectetur quam neque, dolore corrupti amet similique nobis suscipit, fugit odit in nulla! Repellendus libero eveniet quod commodi hic fugit in odio quasi iure est at voluptate nemo</div>
             </div>
         </div>
 
-        <div class="user container">
-            <div class="row">
-                <h6>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis amet atque deserunt, soluta et numquam, consequuntur earum natus ullam temporibus enim, ipsa omnis. Illo fugit soluta id omnis adipisci numquam?</h6>
-            </div>
-        </div>
-
-        <div class="user container">
-            <div class="row">
-                <h6>Facilis amet atque consequuntur earum natus ullam temporibus enim, ipsa omnis. Illo fugit soluta id omnis adipisci numquam?</h6>
-            </div>
-        </div>
-
-        <div class="vendor container">
-            <div class="row">
-                <div class="col-1">
-                    <img src="../img/pp.png" alt="p" style="">
-                </div>
-                <div class="col">
-                    <h6>Lmet consectetur adipisicing elit. Aut quis totam labore odio hic nisi sint illo, repellat necessitatibus nemo consequatur et. Voluptas saepe facere provident cumque vel ea dolorum.</h6>
-                </div>
-            </div>
-        </div>
-
-        <div class="user container">
-            <div class="row">
-                <h6>Tau ah ullam temporibus enim, ipsa omnis. Illo fugit soluta id omnis adipisci numquam?</h6>
-            </div>
-        </div>
-
-        <div class="user container">
-            <div class="row">
-                <h6>Tau ah ullam temporibus enim, ipsa omnis. Illo fugit soluta id omnis adipisci numquam?</h6>
-            </div>
-        </div>
-
-        <div class="type">
-            <div class="row">
-                <div class="col">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#fcb2a9" class="bi bi-paperclip" viewBox="0 0 16 16">
-                        <path d="M4.5 3a2.5 2.5 0 0 1 5 0v9a1.5 1.5 0 0 1-3 0V5a.5.5 0 0 1 1 0v7a.5.5 0 0 0 1 0V3a1.5 1.5 0 1 0-3 0v9a2.5 2.5 0 0 0 5 0V5a.5.5 0 0 1 1 0v7a3.5 3.5 0 1 1-7 0z"/>
-                    </svg>
-                </div>
-                <div class="col">
-                    <textarea name="" id="" cols="34" rows="1">Type a message</textarea>
-                </div>
-                <div class="col">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#fcb2a9" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
-                        <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
-                    </svg>
-                </div>
-            </div>
+        <div class="input-container">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#ff5e5e" class="bi bi-paperclip" viewBox="0 0 16 16">
+                <path d="M4.5 3a2.5 2.5 0 0 1 5 0v9a1.5 1.5 0 0 1-3 0V5a.5.5 0 0 1 1 0v7a.5.5 0 0 0 1 0V3a1.5 1.5 0 1 0-3 0v9a2.5 2.5 0 0 0 5 0V5a.5.5 0 0 1 1 0v7a3.5 3.5 0 1 1-7 0z"/>
+              </svg>
+            <input type="text" placeholder="Start typing...">
+            <button>
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
+                </svg>
+            </button>
         </div>
     </div>
-
-    {{-- NAVBAR --}}
 </body>
 </html>
