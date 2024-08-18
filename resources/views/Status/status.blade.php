@@ -263,7 +263,7 @@
                                         <p class="card-text p-0 m-0" style=" color:white;  font-size: 15px; ">
                                             <i class="bi bi-check-circle-fill" style="margin-right: 3px"></i>Accepted
                                         </p>
-                                        <a href="#" style=" color:white; font-size: 10px; padding-top: 5px; height: 4vh;">
+                                        <a href="/rate" style=" color:white; font-size: 10px; padding-top: 5px; height: 4vh;">
                                             <p>
                                                 <i class="bi bi-star text-warning" style="margin-right: 3px; color: #FCB2A9 !important"></i>Rate and Review
                                             </p>

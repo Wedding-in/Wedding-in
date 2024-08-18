@@ -76,7 +76,9 @@
 <body>
     <div class="row mx-3 mt-3 mb-4">
         <div class="col-2">
+            <a href="/status" style="color: black;">
             <i class="icon-size bi bi-arrow-left-short"></i>
+        </a>
         </div>
         <div class="heading col-6 d-flex flex-column justify-content-center">
             <h6>
@@ -129,7 +131,9 @@
     <div id="popup">
         <h2>Thank you</h2>
         <p>Your rate has been successfully sent</p>
+        <a href="/status">
         <button class="btn" onclick="toggle()">Close</button>
+    </a>
     </div>
 </body>
 <script type="text/javascript">

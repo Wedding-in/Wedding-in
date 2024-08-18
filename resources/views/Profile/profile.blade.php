@@ -276,7 +276,7 @@
     <div class="container d-flex align-items-center flex-column pt-3 side-bot" style=" height: 50vh">
         <div class="col-md-2 d-flex justify-content-center align-items-center"
             style="border-bottom:1px solid black;height: 10vh; width: 80%">
-            <a href="#" class=" d-flex justify-content-between"
+            <a href="/status" class=" d-flex justify-content-between"
                 style=" color: black; width: 100%;text-decoration: none;">
                 <h4>My Appoinment</h4>
                 <h4> > </h4>
