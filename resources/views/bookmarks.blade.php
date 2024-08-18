@@ -113,6 +113,7 @@
                         </div>
                     </div>
                     <div class="content pt-3 " style=" margin-bottom: 15vh">
+                        <a href="/detail_vendor_WO">
                         <div class="fill_content card text-dark" style="border-radius: 0.25rem;">
                             <img src="https://weddingmarket.com/storage/images/artikelidea/653336c74a1f2b9c3b1c778b297935f98f76b024.webp"
                                 class="card-img" alt="..." style="height: 200px">
@@ -139,6 +140,7 @@
                                 </div>
                             </div>
                         </div>
+                        </a>
                         <br>
                         <div class="fill_content card text-dark" style="border-radius: 0.25rem;">
                             <img src="https://weddingmarket.com/storage/images/artikelidea/653336c74a1f2b9c3b1c778b297935f98f76b024.webp"
