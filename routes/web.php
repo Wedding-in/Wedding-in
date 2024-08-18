@@ -43,3 +43,15 @@ Route::get('/profile', function () {
 Route::get('/detailprofile', function () {
     return view('Profile/detailprofile');
 });
+
+Route::get('/chat', function () {
+    return view('chat');
+});
+
+Route::get('/faq', function () {
+    return view('faq');
+});
+
+Route::get('/appointment', function () {
+    return view('appointment');
+});
