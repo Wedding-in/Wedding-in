@@ -278,7 +278,7 @@
             style="border-bottom:1px solid black;height: 10vh; width: 80%">
             <a href="/status" class=" d-flex justify-content-between"
                 style=" color: black; width: 100%;text-decoration: none;">
-                <h4>My Appoinment</h4>
+                <h4>My Appointment</h4>
                 <h4> > </h4>
             </a>
         </div>

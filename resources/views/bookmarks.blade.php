@@ -201,6 +201,7 @@
                     <div class="card m-0 p-0 border-0">
                         <div class="content d-flex justify-content-between pt-3">
                             <div class="left_content" style="width:47%">
+                                <a href="/viewfolder">
                                 <div class="favorite"
                                     style="height: 190px; width:100%; border: 1px solid black; border-radius: 0.25rem; overflow: hidden;">
                                     <img src="https://media.suara.com/pictures/653x366/2023/01/12/27038-potret-pernikahan-nex-carlos-instagramatvienesca.jpg"
@@ -217,10 +218,11 @@
                                         </div>
                                     </div>
                                 </div>
+                                </a>
                                 <div>
                                     <div class="lower_part pt-1 d-flex justify-content-between align-items-center"
                                         style="width:100%; position: relative;">
-                                        <span style="font-family: 'SourceSerif4', serif; font-size: 1rem;">Istri Pertamaaa</span>
+                                        <span style="font-family: 'SourceSerif4', serif; font-size: 1rem;">Weding</span>
                                         <i class="bi bi-three-dots-vertical"  onclick="showPopup(event)"></i>
                                     </div>
                                         <div id="popup" style="display: none;">

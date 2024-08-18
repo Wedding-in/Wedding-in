@@ -82,7 +82,7 @@
         </div>
         <div class="heading col-6 d-flex flex-column justify-content-center">
             <h6>
-                Indonesia Convention Exhibiton (ICE)
+                Lele Catering
             </h6>
             <span>
                 Rate and Review

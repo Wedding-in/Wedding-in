@@ -162,7 +162,6 @@
             </div>
         </div>
     </div>
-    @include('components.navbar')
 </body>
 <script>
     var notelp = document.getElementById('notelp');
