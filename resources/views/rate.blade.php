@@ -32,7 +32,7 @@
         height: 80%;
         width: 100%;
         background-color: #FCB2A9;
-        color: black;
+        color: white;
         font-family: SourceSerif4-SemiBold;
         border-radius: 0.25rem;
         border: none;

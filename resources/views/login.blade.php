@@ -15,6 +15,7 @@
         }
         .btn {
             background-color: #FCB2A9;
+            color: white;
             border-radius: 0.25rem;
             font-weight: 600;
         }
