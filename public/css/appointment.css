@@ -56,13 +56,19 @@ body {
     min-height: 90vh;
 }
 
+.title {
+    position: absolute;
+    left: 10%;
+    top: 15%;
+}
+
 .wrapper {
     position: absolute;
     width: 80%;
     border: 2px solid #FCB2A9;
     border-radius:20px;
     left: 9.5%;
-    top: 15%;
+    top: 20%;
     /* background-color: red; */
 }
 
@@ -73,7 +79,12 @@ body {
     padding: 10px 30px 10px;
 }
 
-header .chosen {
+header .chosen1 {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+header .chosen2 {
     font-weight: 700;
     font-size: 1.5rem;
 }
@@ -81,6 +92,7 @@ header .chosen {
 header .current-date {
     font-size: 1.45rem;
     font-weight: 500;
+    margin-top: -1%;
 }
 
 header .icons span {
@@ -124,7 +136,7 @@ header .icons span:last-child {
     /* margin-bottom: 5%; */
     z-index: 1;
     margin-top: 4%;
-    cursor: pointer;
+    cursor: none;
 }
 
 .days li.inactive {
