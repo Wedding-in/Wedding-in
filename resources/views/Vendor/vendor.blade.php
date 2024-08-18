@@ -250,7 +250,7 @@
         }
 
         .icon-size {
-            font-size: 30px;
+            font-size: 25px;
         }
 
         .option {

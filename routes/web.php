@@ -43,3 +43,7 @@ Route::get('/profile', function () {
 Route::get('/detailprofile', function () {
     return view('Profile/detailprofile');
 });
+
+Route::get('/status', function () {
+    return view('Status/status');
+});

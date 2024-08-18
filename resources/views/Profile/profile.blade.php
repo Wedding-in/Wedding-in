@@ -79,11 +79,180 @@
             font-family: SourceSerif4-SemiBold;
         }
     </style>
+    
+    {{-- select2 --}}
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    
 </head>
 
 <body>
+    <style>
+        .select2-container--default .select2-selection--single {
+            background-color: transparent;
+            border: none;
+            height: auto;
+        }
+
+        .select2-container--default .select2-selection--single .select2-selection__rendered {
+            white-space: normal;
+            text-overflow: clip;
+            /* overflow: visible; */
+            font-family: 'SourceSerif4-Regular';
+        }
+
+        .card-img-top {
+            height: 12rem;
+        }
+
+        .custom-img {
+            height: 15rem;
+            object-fit: cover;
+            border: 2px;
+            padding: 5px;
+        }
+
+        .navbar {
+            background-color: #FCB2A9;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .dropdown {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* border: 1px solid black; */
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .card-title {
+            font-family: SourceSerif4-Regular;
+        }
+
+        .star {
+            font-family: SourceSerif4-Regular;
+        }
+
+        h2 {
+            font-family: SourceSerif4-SemiBold;
+        }
+
+        .content-items a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .select2 span {
+            font-size: 18px;
+        }
+
+        .logo {
+            background-color: white;
+            border-radius: 30px;
+        }
+
+        .icon-size {
+            font-size: 25px;
+        }
+
+        .option {
+            font-family: SourceSerif4-Regular;
+        }
+
+        .select2-container .select2-selection--single {
+            font-family: SourceSerif4-Regular;
+        }
+
+        .selection {
+            color: white;
+        }
+
+        .select2-container .select2-results__option--highlighted[aria-selected] {
+            background-color: #FCB2A9;
+            /* Warna latar belakang saat di-hover */
+            color: black;
+        }
+
+        .select2-container .select2-results__option {
+            font-family: SourceSerif4-Regular;
+        }
+
+        .select2-container--default .select2-selection--single .select2-selection__arrow {
+            display: none;
+        }
+
+        .select2-container--default .select2-selection--single {
+            position: relative;
+        }
+
+
+        .select2-container--default .select2-selection--single::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            /* ngubah right 0 */
+            right: 0;
+            /* Posisi horizontal dari segitiga */
+            border-width: 6px;
+            /* Ukuran segitiga */
+            border-style: solid;
+            border-color: white transparent transparent transparent;
+            width: 0;
+            height: 0;
+        }
+
+        select.nav-link.select2 {
+            color: white;
+            background-color: transparent;
+        }
+
+        .select2-container--default .select2-selection--single {
+            background-color: transparent;
+            color: white;
+            /* border: 1px solid white; */
+        }
+
+        .select2-container--default .select2-selection--single .select2-selection__rendered {
+            color: white;
+        }
+
+        .select2-container--default .select2-results__option--highlighted {
+            background-color: grey;
+            color: white;
+        }
+    </style>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand col-1" href="#">
+                <img class="logo" src="/Image/Logo_PNG.png" alt="Chat" width="40" height="40">
+            </a>
+            <div class="region" style=" width: 50%; ">
+                <div class="dropdown d-flex justify-content-center text-align-center" >
+                    <i class="icon-size bi bi-geo-alt" style="color: white"></i>
+                    {{-- tambahan p-3 m-0 --}}
+                    <select class="nav-link select2 border-0 d-flex p-3 m-0" id="region-select"> 
+                        <option class="text-align-center"><span class="Region">Region</span></option>
+                        <option value="serang" style="color: black">Serang</option>
+                        <option value="depok" style="color: black">Jakarta</option>
+                        <option value="jambi" style="color: black">Sentul</option>
+                        <option value="bogor" style="color: black">Bangka</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-1">
+                <i class="icon-size bi bi-chat-dots-fill" style="color: white"></i>
+            </div>
+        </div>
+    </nav>
+
     <div class="container-fluid" style=" height: 30vh">
-        <div class="row" style="border: 1px solid black; height: inherit">
+        <div class="row" style="border-bottom: 1px solid black; height: inherit">
             <div class="d-flex align-items-center">
                 <div class="w-50 justify-content-center d-flex " style="position: relative">
                     <img class="border"
@@ -159,7 +328,8 @@
                             <label for="confirmPassword" class="form-label">Confirm Password</label>
                             <input type="password" class="form-control" id="confirmPassword" required>
                         </div>
-                        <button type="submit" class="btn btn-primary border-0" style="background-color: #FCB2A9">Change
+                        <button type="submit" class="btn btn-primary border-0"
+                            style="background-color: #FCB2A9">Change
                             Password</button>
                     </form>
                 </div>
@@ -175,5 +345,15 @@
 {{-- Bootstrap JS --}}
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+</script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('.select2').select2();
+    });
+</script>
 
 </html>
