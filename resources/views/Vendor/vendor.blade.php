@@ -420,7 +420,7 @@
                                     class="card-img-top" alt="..." height="200" style="width: 100%;">
                                 <div class="card-body position-absolute bottom-0 start-0  w-100 text-white overflow-auto"
                                     style=" background-color: rgba(0, 0, 0, 0.5)">
-                                    <h5 class="card-title">Lele Convention Centre (LCC)</h5>
+                                    <h5 class="card-title">Lele Convention</h5>
                                     <p class="card-text">
                                         <i class="bi-geo-alt-fill" style="margin-right: 5px"></i>123 Main Street,
                                         City, Country

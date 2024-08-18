@@ -189,7 +189,7 @@
                                 <div class="card-body position-absolute w-100 overflow-auto p-3 d-flex align-items-center"
                                     style=" background-color: rgba(0, 0, 0, 0.5); bottom:0; border: 0;">
                                     <div class="w-100" style=" width: 100%;color: white; ">
-                                        <h5 class="card-title">Lele Convention Centre (LCC)</h5>
+                                        <h5 class="card-title">Lele Convention</h5>
                                     <p class="card-text" style=" width: 100%; font-size: 12px">
                                         <i class="bi-calendar" style="margin-right: 5px"></i>12/12/2021
                                         <i class="bi-clock" style="margin-right: 5px;margin-left: 5px"></i>12:00
