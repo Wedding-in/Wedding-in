@@ -31,8 +31,8 @@
             </a>
             </div>
             <div class="vendor-info">
-                <p class="vendor-name">Vendor's Name</p>
-                <p class="rate-review">Rate and Review</p>
+                <p class="vendor-name" style="color: black">EC Cakery</p>
+                <p class="rate-review" style="color: black">Bandung</p>
             </div>
 
             <button class="appointment-button">
