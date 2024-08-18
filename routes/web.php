@@ -99,3 +99,6 @@ Route::get('/detailprofile', function () {
     return view('Profile/detailprofile');
 });
 
+Route::get('/viewfolder', function () {
+    return view('viewfolder');
+});

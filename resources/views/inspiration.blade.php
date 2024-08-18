@@ -91,14 +91,16 @@
             <div class="modal-headers">
                 <span class="close">-----------------</span>
             </div>
+            <a href="/viewfolder" style="text-decoration: none;">
             <div class="modal-bodys">
                 <img src="{{ asset('img/11.jpg') }}" alt="">
-                <p>Folder Name</p>
+                <p>Wedding</p>
                 <ion-icon name="add-circle-outline" class="icon"></ion-icon>
             </div>
+        </a>
             <div class="modal-bodys">
                 <img src="{{ asset('img/11.jpg') }}" alt="">
-                <p>Folder Name</p>
+                <p>Food</p>
                 <ion-icon name="add-circle-outline" class="icon"></ion-icon>
             </div>
             <div class="modal-footers">

@@ -20,7 +20,7 @@
             <a href="/inspiration">
                 <i class="bi bi-arrow-left-short"></i>
             </a>
-            <p>Nama Folder</p>
+            <p>Gallery</p>
         </div>
         <div class="pin_container">
             <div class="card card_small" style="background-image: url('../img/1.jpeg'); background-size: cover;">
@@ -104,14 +104,16 @@
             <div class="modal-headers">
                 <span class="close">-----------------</span>
             </div>
+            <a href="/viewfolder" style="text-decoration: none;">
+                <div class="modal-bodys">
+                    <img src="{{ asset('img/11.jpg') }}" alt="">
+                    <p>Wedding</p>
+                    <ion-icon name="add-circle-outline" class="icon"></ion-icon>
+                </div>
+            </a>
             <div class="modal-bodys">
                 <img src="{{ asset('img/1.jpeg') }}" alt="">
-                <p>Folder Name</p>
-                <ion-icon name="add-circle-outline" class="icon"></ion-icon>
-            </div>
-            <div class="modal-bodys">
-                <img src="{{ asset('img/1.jpeg') }}" alt="">
-                <p>Folder Name</p>
+                <p>Food</p>
                 <ion-icon name="add-circle-outline" class="icon"></ion-icon>
             </div>
             <div class="modal-footers">
