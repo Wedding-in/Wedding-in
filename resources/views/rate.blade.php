@@ -80,7 +80,7 @@
         </div>
         <div class="heading col-6 d-flex flex-column justify-content-center">
             <h6>
-                Vendor's name
+                Indonesia Convention Exhibiton (ICE)
             </h6>
             <span>
                 Rate and Review
@@ -100,7 +100,7 @@
         </div>
         <div class="name col-6 d-flex flex-column justify-content-center">
             <h6>
-                Product's Name
+                Shine Package
             </h6>
             <h6>
                 12 July 2024

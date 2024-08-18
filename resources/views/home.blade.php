@@ -397,6 +397,53 @@
     </div>
 </div>
 
+<h5 class="text mx-4 mb-4">
+    Our Top Wedding Organizer
+  </h5>
+  <div class="cards row d-flex mx-4 content-  tems mb-4 justify-content-between">
+    <div class="card custom-card col-4 p-2">
+        <a href="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3nKKVSpxQ7NI8ym7Yvk3nqtmLvb5Er4Yd1A&s" class="card-img-top custom-img" alt="...">
+            <div class="card-body d-flex justify-content-between p-0 mt-2">
+            <span class="card-title mt-1">RTB</span>
+            <div class="card-text">
+                <p>
+                    <i class="bi bi-star-fill" style="color: #FCB2A9"></i>
+                    <span class="star ps-2">4.7</span>
+                </p>
+            </div>
+            </div>
+        </a>
+    </div>
+    <div class="card custom-card col-4 p-2">
+        <a href="">
+            <img src="https://medinacatering.id/wp-content/uploads/2019/10/medina-catering_pernikahan-fani-hanief-di-menara-165_9.jpg" class="card-img-top custom-img" alt="...">
+            <div class="card-body d-flex justify-content-between p-0 mt-2">
+            <span class="card-title mt-1">RTB</span>
+            <div class="card-text">
+                <p>
+                    <i class="bi bi-star-fill" style="color: #FCB2A9"></i>
+                <span class="star ps-2">4.7</span>
+                </p>
+            </div>
+            </div>
+        </a>
+    </div>
+    <div class="card custom-card col-4 p-2">
+        <a href="">
+            <img src="https://redlinews.id/wp-content/uploads/2023/07/images-7.jpeg" class="card-img-top custom-img" alt="...">
+            <div class="card-body d-flex justify-content-between p-0 mt-2">
+            <span class="card-title mt-1">RTB</span>
+            <div class="card-text">
+                <p>
+                    <i class="bi bi-star-fill" style="color: #FCB2A9"></i>
+                <span class="star ps-2">4.7</span>
+                </p>
+            </div>
+            </div>
+        </a>
+    </div>
+
   @include('components.navbar')
 </body>
 <script>
