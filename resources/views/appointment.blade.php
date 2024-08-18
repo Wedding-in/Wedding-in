@@ -63,7 +63,7 @@
             </div>
         </div>
 
-        <button class="appointment-button">Make Appointment</button>
+        <button class="appointment-button">Make appointment</button>
     </div>
 </body>
 <script src="js/appointment.js" defer></script>
