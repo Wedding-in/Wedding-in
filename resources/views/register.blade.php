@@ -19,6 +19,9 @@
             border-radius: 0.25rem;
             font-weight: 600;
         }
+        .btn:hover {
+            color: white;
+        }
         .form-control {
             border-radius: 0.25rem;
         }

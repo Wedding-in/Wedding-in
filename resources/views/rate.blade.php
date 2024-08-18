@@ -31,11 +31,15 @@
     .btn {
         height: 80%;
         width: 100%;
-        background-color: #FCB2A9;
+        background-color: #FCB2A9 !important;
         color: white;
         font-family: SourceSerif4-SemiBold;
         border-radius: 0.25rem;
         border: none;
+    }
+    .btn:hover {
+        background-color: #FCB2A9;
+        color: white;
     }
     .fill-text textarea {
         border-radius: 0.25rem;
@@ -44,6 +48,30 @@
         width: 100%;
         height: 100%;
     }
+    #popup {
+        position: fixed;
+
+        top: 30%;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 998;
+        width: 40vh;
+        padding: 50px;
+        box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
+        background: #fff;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s;
+    }
+
+    #popup.active {
+        top: 30%;
+        z-index: 999;
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s;
+    }
+
 </style>
 <body>
     <div class="row mx-3 mt-3 mb-4">
@@ -59,7 +87,7 @@
             </span>
         </div>
         <div class="col-4 d-flex flex-column justify-content-center">
-            <button type="button" class="btn btn-primary"
+            <button type="button" onclick="toggle()" class="btn btn-primary"
                     style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
             Submit
             </button>
@@ -97,5 +125,19 @@
     <div class="fill-text row mx-3 mt-4">
         <textarea name="" id="" cols="30" rows="5" placeholder="Give a review about your experience (optional)"></textarea>
     </div>
+
+    <div id="popup">
+        <h2>Thank you</h2>
+        <p>Your rate has been successfully sent</p>
+        <button class="btn" onclick="toggle()">Close</button>
+    </div>
 </body>
+<script type="text/javascript">
+    function toggle() {
+        var popup = document.getElementById('popup');
+        popup.classList.toggle('active');
+        var blur = document.getElementById('blur');
+        blur.classList.toggle('active');
+    }
+</script>
 </html>
