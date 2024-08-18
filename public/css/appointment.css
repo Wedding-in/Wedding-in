@@ -190,32 +190,30 @@ header .icons span:last-child {
 }
 
 .chat-container#blur.active {
-    /* filter: blur(5px); */
-    /* background-color: solid blue; */
+    filter: blur(5px);
     pointer-events: none;
-    z-index: -998;
+    z-index: -111; /* Pastikan z-index blur lebih rendah */
 }
 
 #popup {
     position: fixed;
-
     top: 30%;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 998;
+    z-index: 999; /* Pastikan z-index lebih tinggi dari blur */
     width: 40vh;
     padding: 50px;
     box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
     background: #fff;
     visibility: hidden;
     opacity: 0;
-    transition: 0.5s;
+    transition: visibility 0s, opacity 0.5s linear;
 }
 
 #popup.active {
-    top: 30%;
-    z-index: 999;
     visibility: visible;
     opacity: 1;
-    transition: 0.5s;
+    z-index: 1000; /* Pastikan z-index tetap lebih tinggi */
 }
+
+
