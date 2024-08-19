@@ -46,6 +46,10 @@ body{
     font-family:  SourceSerif4-Regular;
             font-size: 20px;
 }
+::placeholder, .search-bar::placeholder {
+    color: #FCB2A9;
+    font-family:  SourceSerif4-Regular;
+}
 
 .search-bar button{
     border: 0;
